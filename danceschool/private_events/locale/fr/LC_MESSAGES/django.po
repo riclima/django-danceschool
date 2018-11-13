@@ -1,0 +1,454 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:08-0500\n"
+"PO-Revision-Date: 2018-12-09 22:29-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:60
+#, python-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: apps.py:9
+msgid "Private Events Functions"
+msgstr "Fonctions d'événements privés"
+
+#: cms_toolbars.py:14
+msgid "Events"
+msgstr "Évènements"
+
+#: cms_toolbars.py:18
+msgid "School Calendar"
+msgstr "Calendrier scolaire"
+
+#: cms_toolbars.py:21
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: cms_toolbars.py:22
+msgid "Private Event Categories"
+msgstr "Catégories d'événements privés"
+
+#: feeds.py:62
+#, python-format
+msgid "Calendar for %s"
+msgstr "Calendrier pour %s"
+
+#: feeds.py:83
+#, python-format
+msgid "%s Events Calendar"
+msgstr "%s Calendrier des événements"
+
+#: feeds.py:84
+#, python-format
+msgid "%s Staff Calendar for %s"
+msgstr "% s Calendrier du personnel pour% s"
+
+#: forms.py:21
+msgid "Hour"
+msgstr "Heure"
+
+#: forms.py:22
+msgid "Day"
+msgstr "Jour"
+
+#: forms.py:23
+msgid "Week"
+msgstr "Semaine"
+
+#: forms.py:24
+msgid "Month"
+msgstr "Mois"
+
+#: forms.py:25
+msgid "Year"
+msgstr "Année"
+
+#: forms.py:29 forms.py:37
+msgid "All Staff"
+msgstr "Tout le personnel"
+
+#: forms.py:30 forms.py:38
+msgid "Only To Me"
+msgstr "Seulement pour moi"
+
+#: forms.py:31 forms.py:39
+msgid "Select User Group"
+msgstr "Sélectionner un groupe d'utilisateurs"
+
+#: forms.py:32 forms.py:40
+msgid "Select Users"
+msgstr "Sélectionner les utilisateurs"
+
+#: forms.py:36
+msgid "No One"
+msgstr "Personne"
+
+#: forms.py:44
+msgid "0 minutes"
+msgstr "0 minutes"
+
+#: forms.py:45
+msgid "30 minutes"
+msgstr "30 minutes"
+
+#: forms.py:46
+msgid "1 hour"
+msgstr "1 heure"
+
+#: forms.py:47
+msgid "12 hours"
+msgstr "12 heures"
+
+#: forms.py:48
+msgid "3 days"
+msgstr "3 jours"
+
+#: forms.py:54
+msgid "Make this event visible to:"
+msgstr "Rendre cet événement visible à:"
+
+#: forms.py:83
+msgid "Add A Description"
+msgstr "Ajouter une description"
+
+#: forms.py:84
+msgid "Add A Location"
+msgstr "Ajouter un emplacement"
+
+#: forms.py:85
+msgid "Add a Link"
+msgstr "Ajouter un lien"
+
+#: forms.py:119
+msgid "All Day"
+msgstr "Toute la journée"
+
+#: forms.py:129
+msgid "End time cannot be before start time."
+msgstr "L'heure de fin ne peut pas être avant l'heure de début."
+
+#: forms.py:171
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: forms.py:172
+msgid "End Time"
+msgstr "Heure de fin"
+
+#: forms.py:173
+msgid "Repeat __ times:"
+msgstr "Répétez __ fois:"
+
+#: forms.py:174
+msgid "Every:"
+msgstr "Chaque:"
+
+#: forms.py:175
+msgid "Send A Reminder To:"
+msgstr "Envoyer un rappel à:"
+
+#: forms.py:176
+msgid "Before:"
+msgstr "Avant:"
+
+#: forms.py:177
+msgid "Ahead Of:"
+msgstr "En avant de:"
+
+#: forms.py:177
+msgid "All Occurrences"
+msgstr "Toutes les occurrences"
+
+#: forms.py:177
+msgid "First Occurrence Only"
+msgstr "Première occurrence seulement"
+
+#: forms.py:178
+msgid "Remind Group:"
+msgstr "Rappelez le groupe:"
+
+#: forms.py:179
+msgid "Remind Users:"
+msgstr "Rappelez aux utilisateurs:"
+
+#: models.py:16
+msgid "Group required to add events to this category."
+msgstr "Groupe requis pour ajouter des événements à cette catégorie."
+
+#: models.py:17
+msgid "Calendar display color"
+msgstr "Couleur d'affichage du calendrier"
+
+#: models.py:20
+msgid "Private events category"
+msgstr "Catégorie d'événements privés"
+
+#: models.py:21
+msgid "Private events categories"
+msgstr "Catégories d'événements privés"
+
+#: models.py:29
+msgid "Title"
+msgstr "Titre"
+
+#: models.py:29
+msgid "Give the event a title"
+msgstr "Donner un titre à l'événement"
+
+#: models.py:30 templates/private_events/reminder_emails.html:12
+msgid "Category"
+msgstr "Catégorie"
+
+#: models.py:39 models.py:47 templates/private_events/reminder_emails.html:10
+msgid "Description"
+msgstr "Description"
+
+#: models.py:50
+msgid "Other location"
+msgstr "autres endroits"
+
+#: models.py:50
+msgid "If this event is not at a public event location, then enter it here."
+msgstr ""
+"Si cet événement n'est pas sur un lieu d'événement public, entrez-le ici."
+
+#: models.py:51
+msgid "Optional link"
+msgstr "Lien optionnel"
+
+#: models.py:51
+msgid ""
+"Optionally include the URL to anything that may be relevant for this event."
+msgstr ""
+"En option, incluez l'URL de tout ce qui peut être pertinent pour cet "
+"événement."
+
+#: models.py:53
+msgid "Display to group"
+msgstr "Afficher au groupe"
+
+#: models.py:53
+msgid ""
+"If this is set, then only these users will see this event on their calendar."
+msgstr ""
+"Si cela est défini, seuls ces utilisateurs verront cet événement sur leur "
+"calendrier."
+
+#: models.py:54
+msgid "Display to users"
+msgstr "Afficher aux utilisateurs"
+
+#: models.py:54
+msgid ""
+"If this is set, then only chosen users will see this event on their calendar."
+msgstr ""
+"Si cela est défini, seuls les utilisateurs sélectionnés verront cet "
+"événement sur leur calendrier."
+
+#: models.py:70
+msgid "Private event/calendar item"
+msgstr "Événement privé / élément de calendrier"
+
+#: models.py:71
+msgid "Private events/calendar items"
+msgstr "Événements privés / éléments de calendrier"
+
+#: models.py:75
+msgid "Event"
+msgstr "Événement"
+
+#: models.py:76
+msgid "Event Occurrence"
+msgstr "Occurrence d'événement"
+
+#: models.py:78
+msgid "Date/Time"
+msgstr "Date / heure"
+
+#: models.py:80
+msgid "Notification List"
+msgstr "Liste de notification"
+
+#: models.py:81
+msgid "Completed"
+msgstr "Terminé"
+
+#: models.py:81
+msgid "This will be set to true once the reminder has been sent."
+msgstr "Ce paramètre sera défini sur true une fois le rappel envoyé."
+
+#: models.py:89
+msgid "Event and EventOccurrence must match!"
+msgstr "L'événement et l'occurrence de l'événement doivent correspondre!"
+
+#: models.py:93
+msgid "Reminder for "
+msgstr "Rappel pour"
+
+#: models.py:97
+msgid "Event reminder"
+msgstr "Rappel d'événement"
+
+#: models.py:98
+msgid "Event reminders"
+msgstr "Rappels d'événements"
+
+#: tasks.py:45
+msgid "REMINDER: "
+msgstr "RAPPEL:"
+
+#: templates/private_events/add_private_event_form.html:7
+msgid "Add an Event or Reminder (non-Public)"
+msgstr "Ajouter un événement ou un rappel (non public)"
+
+#: templates/private_events/add_private_event_form.html:10
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: templates/private_events/private_fullcalendar.html:7
+msgid "School Calendars"
+msgstr "Calendriers scolaires"
+
+#: templates/private_events/private_fullcalendar.html:10
+msgid "Links To Calendar Feeds"
+msgstr "Liens vers les flux de calendrier"
+
+#: templates/private_events/private_fullcalendar.html:13
+msgid "Your Classes &amp; Events"
+msgstr "Vos cours & amp; Événements"
+
+#: templates/private_events/private_fullcalendar.html:16
+msgid "Private Events &amp; Reminders"
+msgstr "Événements privés & amp; Rappels"
+
+#: templates/private_events/private_fullcalendar.html:19
+msgid "Public Calendar Feed"
+msgstr "Flux du calendrier public"
+
+#: templates/private_events/private_fullcalendar.html:20
+msgid "copy and paste these URLs to add them to Google Calendar, etc."
+msgstr "copiez et collez ces URL pour les ajouter à Google Calendar, etc."
+
+#: templates/private_events/private_fullcalendar.html:24
+msgid "Select Calendar Options"
+msgstr "Sélectionnez les options du calendrier"
+
+#: templates/private_events/private_fullcalendar.html:30
+msgid "All Events and Reminders"
+msgstr "Tous les événements et rappels"
+
+#: templates/private_events/private_fullcalendar.html:31
+msgid "Only Public Events"
+msgstr "Seuls les événements publics"
+
+#: templates/private_events/private_fullcalendar.html:32
+msgid "Only My Events"
+msgstr "Seulement mes événements"
+
+#: templates/private_events/private_fullcalendar.html:34
+#: templates/private_events/reminder_emails.html:11
+msgid "Location"
+msgstr "Emplacement"
+
+#: templates/private_events/private_fullcalendar.html:37
+msgid "Room"
+msgstr "Pièce"
+
+#: templates/private_events/private_fullcalendar.html:48
+msgid "Note"
+msgstr "Note"
+
+#: templates/private_events/private_fullcalendar.html:48
+msgid ""
+"For all calendar options, private reminders and private lessons displayed "
+"include only those events that are visible to your user account."
+msgstr ""
+"Pour toutes les options d'agenda, les rappels privés et les leçons privées "
+"affichées incluent” “uniquement les événements visibles par votre compte "
+"d'utilisateur."
+
+#: templates/private_events/private_fullcalendar.html:52
+msgid "Event Details"
+msgstr "Détails de l'évènement"
+
+#: templates/private_events/private_fullcalendar.html:55
+#: templates/private_events/private_fullcalendar.html:71
+#: templates/private_events/private_fullcalendar.html:80
+#: templates/private_events/private_fullcalendar.html:97
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/private_events/private_fullcalendar.html:62
+msgid "Start"
+msgstr "Début"
+
+#: templates/private_events/private_fullcalendar.html:64
+msgid "End"
+msgstr "Fin"
+
+#: templates/private_events/private_fullcalendar.html:71
+msgid "Edit Details"
+msgstr "Modifier les détails"
+
+#: templates/private_events/private_fullcalendar.html:71
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: templates/private_events/private_fullcalendar.html:77
+msgid "Add Event"
+msgstr "Ajouter un évènement"
+
+#: templates/private_events/private_fullcalendar.html:89
+msgid "Add A Class"
+msgstr "Ajouter un cours"
+
+#: templates/private_events/private_fullcalendar.html:90
+msgid "Add A Public Event"
+msgstr "Ajouter un événement public"
+
+#: templates/private_events/private_fullcalendar.html:91
+msgid "Add A Private Event/Reminder"
+msgstr "Ajouter un événement / rappel privé"
+
+#: templates/private_events/private_fullcalendar.html:204
+msgid "Currently scheduled"
+msgstr "Actuellement prévu"
+
+#: templates/private_events/private_fullcalendar.html:213
+msgid "No currently scheduled events."
+msgstr "Aucun événement actuellement planifié."
+
+#: templates/private_events/reminder_emails.html:2
+#, python-format
+msgid "Dear %(name)s,"
+msgstr ""
+
+#: templates/private_events/reminder_emails.html:4
+msgid ""
+"This is an automatically generated email is to remind you of the following "
+"event/task"
+msgstr ""
+"Ceci est un email généré automatiquement pour vous rappeler l'événement / "
+"tâche suivant"
+
+#: templates/private_events/reminder_emails.html:8
+msgid "to"
+msgstr "à"
+
+#: templates/private_events/reminder_emails.html:14
+msgid "Thanks!"
+msgstr "Merci!"

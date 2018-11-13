@@ -1,0 +1,374 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:08-0500\n"
+"PO-Revision-Date: 2018-12-09 22:30-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: apps.py:8
+msgid "Stats Functions"
+msgstr "Fonctions statistiques"
+
+#: cms_apps.py:7
+msgid "Stats Apphook"
+msgstr "Statistiques Apphook"
+
+#: cms_plugins.py:17
+msgid "School Performance Graph"
+msgstr "Graphique de performance scolaire"
+
+#: cms_plugins.py:21
+msgid "Stats"
+msgstr "Statistiques"
+
+#: cms_plugins.py:60 templates/stats/schoolstats_timeseriesbymonth.html:14
+msgid "Students By Month of the Year"
+msgstr "Étudiants par mois de l'année"
+
+#: cms_plugins.py:67
+msgid "Performance By Class Type"
+msgstr "Performance par type de cours"
+
+#: cms_plugins.py:74
+msgid "Performance By Class Type and Month of the Year"
+msgstr "Performance par type de cours et par mois de l'année"
+
+#: cms_plugins.py:81 templates/stats/schoolstats_cohortretention.html:7
+msgid "Number of Classes Taken By Starting Cohort"
+msgstr "Nombre de cours pris en commençant par la cohorte"
+
+#: cms_plugins.py:88 templates/stats/schoolstats_averagesbylocation.html:7
+msgid "Performance By Location"
+msgstr "Performance par emplacement"
+
+#: cms_plugins.py:95
+msgid "Advance Registration Time"
+msgstr "Temps d'inscription anticipé"
+
+#: cms_plugins.py:102
+msgid "Multi-Series Registration Stats"
+msgstr "Statistiques d'inscription multi-séries"
+
+#: cms_plugins.py:109
+msgid "Student Discounts and At-The-Door Registrations"
+msgstr "Rabais pour étudiants et inscriptions à la porte"
+
+#: cms_plugins.py:116
+msgid "Tracked Advertising Referrals"
+msgstr "Références publicitaires suivies"
+
+#: cms_plugins.py:123
+msgid "Best Customers and Most Active Teachers"
+msgstr "Meilleurs clients et enseignants les plus actifs"
+
+#: cms_toolbars.py:21
+msgid "Events"
+msgstr "Évènements"
+
+#: cms_toolbars.py:24
+msgid "View School Performance Stats"
+msgstr "Voir les statistiques de performance de l'école"
+
+#: models.py:13
+msgid "Template"
+msgstr "Modèle"
+
+#: stats.py:60 stats.py:75 stats.py:94 stats.py:125
+msgid "Registrations"
+msgstr ""
+
+#: stats.py:64 stats.py:78 stats.py:116 stats.py:130
+#, python-format
+msgid "Total %s"
+msgstr "Total %s"
+
+#: stats.py:70 stats.py:73 stats.py:75 stats.py:78 stats.py:94 stats.py:95
+#: stats.py:124
+msgid "Series"
+msgstr "Séries"
+
+#: stats.py:75 stats.py:126
+msgid "Average Registrations"
+msgstr "Moyenne d'inscriptions"
+
+#: stats.py:78 stats.py:131
+#, python-format
+msgid "Average %s"
+msgstr "Moyenne% s"
+
+#: stats.py:112
+msgid "Average "
+msgstr "Moyenne"
+
+#: stats.py:114
+msgid "Class Type"
+msgstr "Type de cours"
+
+#: stats.py:114
+msgid "Total Classes"
+msgstr "Total des cours"
+
+#: stats.py:114
+msgid "Total Students"
+msgstr ""
+
+#: stats.py:114
+msgid "Avg. Students/Class"
+msgstr "Moy. Étudiants / Cours"
+
+#: stats.py:116
+#, python-format
+msgid "Avg. %s/Class"
+msgstr "Moy. % s / Cours"
+
+#: stats.py:299
+#, python-format
+msgid "%s or more"
+msgstr "% s ou plus"
+
+#: stats.py:313
+msgid "# Students"
+msgstr "# Étudiants"
+
+#: stats.py:314
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: stats.py:637
+msgid "None"
+msgstr "Aucun"
+
+#: templates/stats/schoolstats.html:6
+msgid "School Performance Statistics"
+msgstr "Statistiques sur le rendement scolaire"
+
+#: templates/stats/schoolstats.html:11
+msgid "Total # Students"
+msgstr "Nombre total d'étudiants"
+
+#: templates/stats/schoolstats.html:14
+msgid "Total # Series Taught"
+msgstr "Nombre Total de série enseigné"
+
+#: templates/stats/schoolstats.html:17
+msgid "Total # Series Registrations"
+msgstr "Nombre total d'inscriptions en série"
+
+#: templates/stats/schoolstats.html:20
+msgid "Total Time Studio in Existence"
+msgstr "Temps total existant au Studio"
+
+#: templates/stats/schoolstats_advanceregistration.html:7
+msgid "Advance Registration"
+msgstr "Inscription anticipée"
+
+#: templates/stats/schoolstats_advanceregistration.html:9
+msgid ""
+"This graph shows how far in advance students register, relative to the start "
+"date of the first class they registered for."
+msgstr ""
+"Ce graphique montre jusqu'où les élèves s'inscrivent à l'avance, par rapport "
+"à la date de début” “de la première classe pour laquelle ils se sont "
+"inscrits."
+
+#: templates/stats/schoolstats_advanceregistration.html:16
+#: templates/stats/schoolstats_multiregistrations.html:14
+#: templates/stats/schoolstats_referralcounts.html:17
+msgid "Last Month"
+msgstr "Le mois dernier"
+
+#: templates/stats/schoolstats_advanceregistration.html:19
+#: templates/stats/schoolstats_multiregistrations.html:17
+#: templates/stats/schoolstats_referralcounts.html:20
+msgid "Last 3 Months"
+msgstr "3 derniers mois"
+
+#: templates/stats/schoolstats_advanceregistration.html:22
+#: templates/stats/schoolstats_multiregistrations.html:20
+#: templates/stats/schoolstats_referralcounts.html:23
+msgid "Last 6 Months"
+msgstr "6 derniers mois"
+
+#: templates/stats/schoolstats_advanceregistration.html:25
+#: templates/stats/schoolstats_averagebyclasstype.html:18
+#: templates/stats/schoolstats_averagesbylocation.html:16
+#: templates/stats/schoolstats_multiregistrations.html:23
+#: templates/stats/schoolstats_referralcounts.html:26
+msgid "Last 12 Months"
+msgstr "12 derniers mois"
+
+#: templates/stats/schoolstats_advanceregistration.html:28
+#: templates/stats/schoolstats_averagebyclasstype.html:21
+#: templates/stats/schoolstats_averagesbylocation.html:19
+#: templates/stats/schoolstats_multiregistrations.html:26
+#: templates/stats/schoolstats_referralcounts.html:29
+msgid "All Time"
+msgstr "Tout le temps"
+
+#: templates/stats/schoolstats_averagebyclasstype.html:8
+msgid "Performance by Class Type"
+msgstr ""
+
+#: templates/stats/schoolstats_averagebyclasstype.html:9
+#: templates/stats/schoolstats_averagesbylocation.html:8
+#: templates/stats/schoolstats_timeseriesbymonth.html:15
+msgid "Download Data"
+msgstr "Télécharger les données"
+
+#: templates/stats/schoolstats_averagebyclasstypemonth.html:8
+msgid "Performance by Class Type and Month (Student-Hours)"
+msgstr "Rendement par type de cours et par mois (heures-étudiants)"
+
+#: templates/stats/schoolstats_averagesbylocation.html:57
+msgid "# Series"
+msgstr "# Séries"
+
+#: templates/stats/schoolstats_averagesbylocation.html:58
+msgid "# Registrations"
+msgstr "# Inscriptions"
+
+#: templates/stats/schoolstats_bestcustomers.html:3
+msgid "Top Students and Teachers"
+msgstr "Meilleurs étudiants et enseignants"
+
+#: templates/stats/schoolstats_bestcustomers.html:9
+msgid "Top Customers"
+msgstr "Meilleurs clients"
+
+#: templates/stats/schoolstats_bestcustomers.html:12
+#: templates/stats/schoolstats_bestcustomers.html:36
+msgid "All-Time Top Customers"
+msgstr "Les meilleurs clients de tous les temps"
+
+#: templates/stats/schoolstats_bestcustomers.html:15
+msgid "Most Active Teachers"
+msgstr "Les enseignants les plus actifs"
+
+#: templates/stats/schoolstats_bestcustomers.html:23
+msgid "Top Customers of the Last Twelve Months"
+msgstr "Principaux clients des douze derniers mois"
+
+#: templates/stats/schoolstats_bestcustomers.html:27
+#: templates/stats/schoolstats_bestcustomers.html:40
+#: templates/stats/schoolstats_bestcustomers.html:53
+msgid "Name"
+msgstr "Nom"
+
+#: templates/stats/schoolstats_bestcustomers.html:27
+#: templates/stats/schoolstats_bestcustomers.html:40
+msgid "# Classes Taken"
+msgstr ""
+
+#: templates/stats/schoolstats_bestcustomers.html:49
+msgid "Most Active Teachers of This Calendar Year"
+msgstr ""
+
+#: templates/stats/schoolstats_bestcustomers.html:53
+msgid "# Classes Taught"
+msgstr "# Cours enseignés"
+
+#: templates/stats/schoolstats_cohortretention.html:9
+msgid ""
+"How many people decide to progress beyond beginner and how many students "
+"stick with us a while?\n"
+"Note that a student who has taken classes in multiple roles will show up in "
+"each role's data series depending on the number of series they've taken in "
+"each."
+msgstr ""
+"Combien de personnes décident de progresser au-delà du niveau débutant et "
+"combien” “d'étudiants restent avec nous pendant un certain temps? \n"
+" Notez qu'un étudiant qui a pris des” “cours dans plusieurs rôles apparaîtra "
+"dans les séries de données de chaque rôle en fonction” “du nombre de séries "
+"dans chaque."
+
+#: templates/stats/schoolstats_cohortretention.html:17
+msgid "All Students"
+msgstr "Tous les étudiants"
+
+#: templates/stats/schoolstats_cohortretention.html:21
+msgid "Cohort"
+msgstr "Cohorte"
+
+#: templates/stats/schoolstats_multiregistrations.html:7
+msgid "Multi-Series Registrations and Hours Registered"
+msgstr "Inscriptions multi-séries et heures d'inscriptions"
+
+#: templates/stats/schoolstats_multiregistrations.html:32
+msgid "Number of Series Registered"
+msgstr "Nombre de séries inscrites"
+
+#: templates/stats/schoolstats_multiregistrations.html:36
+msgid "Hours of Class Registered"
+msgstr "Heures de cours inscrits"
+
+#: templates/stats/schoolstats_referralcounts.html:7
+msgid "Website Referrals"
+msgstr "Références de sites Web"
+
+#: templates/stats/schoolstats_referralcounts.html:9
+msgid ""
+"When a customer clicks on a Facebook link, a mailing list link, etc., we can "
+"send them to a special URL that allows us to track where they came from.  "
+"When those customers register for classes, that referral information gets "
+"attached to their registration.  This graph shows how many\n"
+"registrations have used each referral code (i.e. how many students are "
+"registering by clicking on Facebook pages, etc.)"
+msgstr ""
+"Lorsqu'un client clique sur un lien Facebook, un lien de liste de diffusion, "
+"etc., nous pouvons” “les envoyer à une URL spéciale qui nous permet de "
+"suivre d'où ils viennent.Lorsque ces” “clients s'inscrivent à des cours, ces "
+"informations de référence sont attachées à leur Ce” “graphique montre "
+"combien de \\ n enregistrements ont utilisé chaque code de référence” "
+"“(c'est-à-dire combien d'étudiants s'inscrivent en cliquant sur les pages "
+"Facebook, etc.) "
+
+#: templates/stats/schoolstats_registrationtypes.html:7
+msgid "Characteristics of Series Registrations"
+msgstr "Caractéristiques des inscriptions en série"
+
+#: templates/stats/schoolstats_registrationtypes.html:9
+msgid ""
+"This chart indicates the proportion of series registrations that receive the "
+"student discount, the proportion of series registrations that are paid for "
+"at the door, etc."
+msgstr ""
+
+#: templates/stats/schoolstats_timeseriesbymonth.html:18
+msgid ""
+"Which months of the year are the most successful?  Click the legend at the "
+"bottom to show/hide previous years."
+msgstr ""
+"Quels mois de l'année sont les plus réussis? Cliquez sur la légende en bas "
+"pour afficher / masquer les années précédentes."
+
+#: templates/stats/schoolstats_timeseriesbymonth.html:25
+msgid "Total Series Registrations"
+msgstr "Total des inscriptions de la série"
+
+#: templates/stats/schoolstats_timeseriesbymonth.html:28
+msgid "Total Registrations (unique students)"
+msgstr "Total des inscriptions (étudiants uniques)"
+
+#: templates/stats/schoolstats_timeseriesbymonth.html:31
+msgid "Total Hours of Class"
+msgstr "Heures totales de cours"
+
+#: templates/stats/schoolstats_timeseriesbymonth.html:34
+msgid "Total Student-Hours"
+msgstr "Nombre total d'heures-étudiants"
+
+#: templates/stats/schoolstats_timeseriesbymonth.html:37
+msgid "Avg. Students/Hour"
+msgstr "Moy. Étudiants / heure"

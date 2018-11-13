@@ -1,0 +1,566 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:08-0500\n"
+"PO-Revision-Date: 2018-12-09 22:14-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:40 forms.py:49 models.py:217
+msgid "Instructor"
+msgstr "Instructeur"
+
+#: admin.py:114
+msgid "Instructors"
+msgstr "Instructeurs"
+
+#: admin.py:118 models.py:131
+msgid "Customers"
+msgstr "Clients"
+
+#: apps.py:8
+msgid "Private Lessons Functions"
+msgstr "Fonctions de leçons privées"
+
+#: cms_toolbars.py:14
+msgid "Staff"
+msgstr "Personnel"
+
+#: cms_toolbars.py:15
+msgid "Your Stats"
+msgstr "Vos statistiques"
+
+#: cms_toolbars.py:17 templates/private_lessons/get_student_info.html:4
+#: templates/private_lessons/private_lesson_fullcalendar.html:13
+msgid "Schedule a Private Lesson"
+msgstr "Programmer une leçon privée"
+
+#: cms_toolbars.py:23
+msgid "Private Lesson Availability"
+msgstr "Disponibilité de la leçon privée"
+
+#: dynamic_preferences_registry.py:16
+msgid "Private Lessons"
+msgstr "Leçons privées"
+
+#: dynamic_preferences_registry.py:26
+msgid "Allow non-staff to book private lessons for themselves."
+msgstr ""
+"Permettre aux non-membres du personnel de réserver des leçons privées pour” "
+"“eux-mêmes."
+
+#: dynamic_preferences_registry.py:27
+msgid ""
+"The private lesson booking functions will only be available to individuals "
+"with permissions unless this box is checked."
+msgstr ""
+"Les fonctions de réservation de leçons privées ne seront disponibles que "
+"pour les personnes” “ayant des permissions, sauf si cette case est cochée."
+
+#: dynamic_preferences_registry.py:35
+msgid "Allow payment for private lessons through the registration system."
+msgstr ""
+"Autoriser le paiement pour les leçons privées à travers le système "
+"d'inscription."
+
+#: dynamic_preferences_registry.py:36
+msgid ""
+"If the studio handles payment for private lessons, then checking this box "
+"allows users to process payment through the regular online registration "
+"system.  If the studio only handles booking for private lessons, but not "
+"payment, then this box should not be checked."
+msgstr ""
+
+#: dynamic_preferences_registry.py:44
+msgid "Notify instructor when a private lesson is booked"
+msgstr "Avertir l'instructeur lorsqu'une leçon privée est réservée"
+
+#: dynamic_preferences_registry.py:45
+msgid ""
+"If checked, then instructors will receive a notification email whenever a "
+"private lesson is scheduled with them."
+msgstr ""
+"Si cochée, les instructeurs recevront un e-mail de notification chaque fois "
+"qu'une leçon privée” “est programmée avec eux."
+
+#: dynamic_preferences_registry.py:53
+msgid "Open private lesson booking days in advance"
+msgstr "Ouvrir des jours de réservation de leçons privées à l'avance"
+
+#: dynamic_preferences_registry.py:54
+msgid ""
+"If instructor availability has been configured, permitted users will be able "
+"to book private lessons beginning this many days in advance.  Enter 0 for no "
+"restiction."
+msgstr ""
+
+#: dynamic_preferences_registry.py:62
+msgid "Close private lesson booking days in advance"
+msgstr "Fermer les leçons privées de réservation à l'avance"
+
+#: dynamic_preferences_registry.py:63
+msgid "Enter 0 to allow booking up to the start time of the lesson."
+msgstr ""
+"Entrez 0 pour autoriser la réservation jusqu'à l'heure de début de la leçon."
+
+#: dynamic_preferences_registry.py:71
+msgid "Default lesson booking length (minutes)"
+msgstr "Durée de réservation de leçon par défaut (minutes)"
+
+#: dynamic_preferences_registry.py:79
+msgid "Interval in which lesson lengths can be changed (minutes)"
+msgstr ""
+"Intervalle dans lequel la durée des leçons peuvent être modifiées (minutes)"
+
+#: dynamic_preferences_registry.py:87
+msgid "Minimum lesson booking length (minutes)"
+msgstr "Durée minimale de réservation de leçon (minutes)"
+
+#: dynamic_preferences_registry.py:88 dynamic_preferences_registry.py:97
+msgid "Enter 0 for no limit"
+msgstr "Entrez 0 pour aucune limite"
+
+#: dynamic_preferences_registry.py:96
+msgid "Maximum lesson booking length (minutes)"
+msgstr "Durée maximale de réservation de leçon (minutes)"
+
+#: dynamic_preferences_registry.py:105
+msgid "Private Lesson Event Staff Category"
+msgstr "Catégorie de personnel de l'événement de leçon privée"
+
+#: dynamic_preferences_registry.py:110
+msgid "Private Lesson Instruction"
+msgstr "Instruction de leçon privée"
+
+#: dynamic_preferences_registry.py:117
+msgid "Email template used to notify customers that their lesson is scheduled"
+msgstr ""
+"Modèle de courriel utilisé pour informer les clients que leur leçon est "
+"planifiée"
+
+#: dynamic_preferences_registry.py:118
+msgid ""
+"This email template will only be used for lesson bookings that do not go "
+"through the full online registration and payment system."
+msgstr ""
+"Ce modèle d'e-mail ne sera utilisé que pour les réservations de cours qui ne "
+"passent pas par” “le système complet d'inscription et de paiement en ligne."
+
+#: dynamic_preferences_registry.py:130
+msgid "Private Lesson Booking Confirmation Email"
+msgstr "Courriel de Confirmation de la réservation de leçon privée"
+
+#: dynamic_preferences_registry.py:132
+msgid "Confirmation of Scheduled Private Lesson"
+msgstr "Confirmation de la leçon privée planifiée"
+
+#: dynamic_preferences_registry.py:146
+msgid ""
+"Email template used to notify instructors that a lesson has been scheduled"
+msgstr ""
+"Modèle de courriel utilisé pour informer les instructeurs qu'une leçon a été "
+"programmée"
+
+#: dynamic_preferences_registry.py:158
+msgid "Private Lesson Booking Instructor Notification"
+msgstr "Notification à l'instructeur de réservation de leçon privée"
+
+#: dynamic_preferences_registry.py:160
+msgid "Notification of Private Lesson Scheduling"
+msgstr "Notification de la planification de leçons privées"
+
+#: forms.py:32
+msgid "Duration"
+msgstr "Durée"
+
+#: forms.py:33
+msgid "Dance role"
+msgstr "Rôle de danse"
+
+#: forms.py:34
+msgid "Expected # Participants"
+msgstr "Nombre attendu de participants"
+
+#: forms.py:34
+msgid "Be advised that group lessons may be charged a different rate."
+msgstr ""
+"Sachez que les leçons de groupe peuvent être facturées à un taux différent."
+
+#: forms.py:35 models.py:45
+msgid "Comments/Notes"
+msgstr "Commentaires/Notes"
+
+#: forms.py:35
+msgid ""
+"Please enter any comments or notes that you would like to be provided to the "
+"instructor before the lesson, such as the topics on which you may want to "
+"focus."
+msgstr ""
+"Veuillez entrer les commentaires ou les notes que vous aimeriez recevoir "
+"avant la leçon, par” “exemple les sujets sur lesquels vous souhaitez vous "
+"concentrer."
+
+#: forms.py:45
+msgid "Door/Invoice Registration"
+msgstr "Facture / Inscription à la porte"
+
+#: forms.py:51
+msgid "Start date"
+msgstr "Date de début"
+
+#: forms.py:52
+msgid "End date"
+msgstr "Date de fin"
+
+#: forms.py:54 models.py:221
+msgid "Start time"
+msgstr "Heure de début"
+
+#: forms.py:58
+msgid "End time"
+msgstr "Heure de fin"
+
+#: forms.py:62 models.py:224
+msgid "Location"
+msgstr "Emplacement"
+
+#: forms.py:63 forms.py:102 models.py:227
+msgid "Room"
+msgstr "Pièce"
+
+#: forms.py:65 models.py:42 models.py:219
+msgid "Pricing Tier"
+msgstr "Niveau de prix"
+
+#: forms.py:66 forms.py:105
+msgid ""
+"A pricing tier is required for online registration and payment. If your "
+"school handles scheduling, but not payment for lessons, then leave this "
+"blank."
+msgstr ""
+
+#: forms.py:68
+msgid "Initial Status"
+msgstr "Statut initial"
+
+#: forms.py:94
+msgid "Newly created slots cannot overlap existing slots for this instructor."
+msgstr ""
+"Les emplacements nouvellement créés ne peuvent pas chevaucher les "
+"emplacements” “existants pour cet instructeur."
+
+#: forms.py:100
+msgid "Update Status"
+msgstr "Mettre à jour le statut"
+
+#: forms.py:101
+msgid "Update Location"
+msgstr "Mettre à jour l'emplacement"
+
+#: forms.py:104
+msgid "Update pricing"
+msgstr "Mettre à jour le prix"
+
+#: forms.py:107
+msgid "Delete slot"
+msgstr "Supprimer l’emplacement"
+
+#: forms.py:107
+msgid ""
+"Note that only slots with no current bookings may be deleted at this time."
+msgstr ""
+"Notez que seuls les emplacements sans réservation en cours peuvent être "
+"supprimés pour le” “moment."
+
+#: forms.py:116
+msgid "First Name"
+msgstr "Prénom"
+
+#: forms.py:117
+msgid "Last Name"
+msgstr "Nom"
+
+#: forms.py:119
+msgid "Telephone (optional)"
+msgstr "Téléphone (facultatifl)"
+
+#: forms.py:119
+msgid "We may use this to notify you in event of a cancellation."
+msgstr "Nous pourrions utiliser ceci pour vous informer en cas d'annulation."
+
+#: forms.py:120
+msgid "<strong>I agree to all policies (required)</strong>"
+msgstr "<strong>J'accepte toutes les politiques (requis)</strong>"
+
+#: forms.py:120
+msgid "By checking, you agree to abide by all policies."
+msgstr "En cochant, vous acceptez de respecter toutes les politiques."
+
+#: forms.py:144
+msgid "Complete Registration"
+msgstr "Inscription complète"
+
+#: models.py:19
+msgid "Default Pricing Tier"
+msgstr "Niveau de tarification par défaut"
+
+#: models.py:23
+msgid "Private lessons for couples"
+msgstr "Cours privés pour les couples"
+
+#: models.py:24
+msgid "Private lessons for small groups"
+msgstr "Cours privés pour petits groupes"
+
+#: models.py:27
+#, python-format
+msgid "Instructor Private lesson details for %s"
+msgstr "Détails de la leçon privée de l'instructeur pour% s"
+
+#: models.py:31
+msgid "Instructor private lesson details"
+msgstr "Détails de la leçon privée de l'instructeur"
+
+#: models.py:32
+msgid "Instructors' private lesson details"
+msgstr "Détails de la leçon privée de l'instructeur"
+
+#: models.py:43
+msgid "Expected # of Participants"
+msgstr "Nombre prévu de participants"
+
+#: models.py:45
+msgid "For internal use and recordkeeping."
+msgstr "Pour usage interne et archivage."
+
+#: models.py:159
+msgid "Private Lesson"
+msgstr "Leçon privée"
+
+#: models.py:163
+msgid " for "
+msgstr "pour"
+
+#: models.py:161
+#, python-format
+msgid "Private Lesson: %s%s%s%s"
+msgstr "Leçon privée:% s% s% s% s"
+
+#: models.py:183
+msgid "Can view scheduled private lessons for all instructors"
+msgstr ""
+"Peut afficher des leçons privées programmées pour tous les instructeurs"
+
+#: models.py:186
+msgid "Private lesson"
+msgstr "Leçon privée"
+
+#: models.py:187
+msgid "Private lessons"
+msgstr "Leçons privées"
+
+#: models.py:197
+msgid "Customer"
+msgstr "Client"
+
+#: models.py:198
+msgid "Lesson"
+msgstr "Leçon"
+
+#: models.py:201
+#, python-format
+msgid "Private lesson customer: %s for lesson #%s"
+msgstr "Client de cours privé:% s pour la leçon #% s"
+
+#: models.py:205
+msgid "Private lesson customer"
+msgstr "Client du Cours privé"
+
+#: models.py:206
+msgid "Private lesson customers"
+msgstr "Clients du Cours privé"
+
+#: models.py:212 models.py:316
+msgid "Available"
+msgstr "Disponible"
+
+#: models.py:213
+msgid "Booked"
+msgstr "Réservé"
+
+#: models.py:214
+msgid "Tentative Booking"
+msgstr "Réservation provisoire"
+
+#: models.py:215
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#: models.py:222
+msgid "Slot duration (minutes)"
+msgstr "Durée de l'emplacement (minutes)"
+
+#: models.py:236
+msgid "Scheduled lesson"
+msgstr "Cours prévu"
+
+#: models.py:240
+msgid "Temporary event registration"
+msgstr "Inscription d'événement temporaire"
+
+#: models.py:244
+msgid "Final event registration"
+msgstr "Inscription final de l'événement"
+
+#: models.py:320
+#, python-format
+msgid "%s: %s at %s"
+msgstr "%s: %s à %s"
+
+#: models.py:327
+msgid "Private lesson availability slot"
+msgstr "Emplacement de disponibilité de leçon privée"
+
+#: models.py:328
+msgid "Private lesson availability slots"
+msgstr "Emplacements de disponibilité de leçon privée"
+
+#: models.py:331
+msgid "Can edit one's own private lesson availability."
+msgstr "Peut modifier sa propre disponibilité de cours privés."
+
+#: models.py:332
+msgid "Can edit other instructors' private lesson availability."
+msgstr ""
+"Peut modifier la disponibilité des leçons privées d'autres instructeurs."
+
+#: templates/private_lessons/get_student_info.html:15
+msgid "You've selected:"
+msgstr "Vous avez sélectionné:"
+
+#: templates/private_lessons/get_student_info.html:21
+#, python-format
+msgid "Private lesson with %(lesson_teachers)s at %(location)s"
+msgstr ""
+
+#: templates/private_lessons/get_student_info.html:38
+msgid "Step 2: Provide Your Student Information"
+msgstr "Étape 2: Fournissez les informations sur vos étudiants"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:11
+msgid "Manage Private Lesson Availability"
+msgstr "Gérer la disponibilité des cours privés"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:16
+#: templates/private_lessons/private_lesson_fullcalendar.html:23
+msgid "Choose an Instructor"
+msgstr "Choisissez un instructeur"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:23
+#: templates/private_lessons/private_lesson_fullcalendar.html:30
+msgid "Select instructor"
+msgstr "Sélectionner un instructeur"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:51
+#: templates/private_lessons/instructor_availability_fullcalendar.html:72
+#: templates/private_lessons/private_lesson_fullcalendar.html:71
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:52
+#: templates/private_lessons/instructor_availability_fullcalendar.html:73
+msgid "Update Availability"
+msgstr "Mettre à jour la Disponibilité"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:64
+msgid "Add Private Lesson Availability Slots"
+msgstr "Ajouter des emplacements de disponibilité de cours privés"
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:83
+msgid ""
+"<strong>Note:</strong> Click and drag to add multiple slots at one time.  "
+"<em>Ctrl+click</em> to select and update/delete multiple slots at one time."
+msgstr ""
+"<strong> Remarque: </ strong> Cliquez et faites glisser pour ajouter "
+"plusieurs emplacements “à la fois.<em> Ctrl + clic </ em> pour sélectionner "
+"et mettre à jour / supprimer plusieurs emplacements” “à la fois."
+
+#: templates/private_lessons/instructor_availability_fullcalendar.html:345
+#: templates/private_lessons/private_lesson_fullcalendar.html:200
+msgid "<strong>ERROR:</strong> Instructor availability did not load.</div>"
+msgstr ""
+"<strong> ERREUR: </ strong> la disponibilité de l'instructeur n'a pas été "
+"chargée. </ div>"
+
+#: templates/private_lessons/private_lesson_fullcalendar.html:16
+msgid "<strong>ERROR:</strong> Booking was unsuccessful."
+msgstr "<strong> ERREUR: </ strong> La réservation a échoué."
+
+#: templates/private_lessons/private_lesson_fullcalendar.html:46
+msgid "For students in roles"
+msgstr "Pour les étudiants dans les rôles"
+
+#: templates/private_lessons/private_lesson_fullcalendar.html:47
+msgid "Lessons for couples"
+msgstr "Leçons pour les couples"
+
+#: templates/private_lessons/private_lesson_fullcalendar.html:48
+msgid "Lessons for small groups"
+msgstr "Leçons pour petits groupes"
+
+#: templates/private_lessons/private_lesson_fullcalendar.html:72
+msgid "Schedule This Lesson"
+msgstr "Programmer cette leçon"
+
+#: templates/private_lessons/private_lesson_fullcalendar.html:134
+msgid ""
+"Online payment is not enabled for this lesson slot. Your lesson will be "
+"scheduled, but you will not be able to pay online in advance."
+msgstr ""
+"Le paiement en ligne n'est pas activé pour ce cours, votre cours sera "
+"programmé, mais vous” “ne pourrez pas payer en ligne à l'avance."
+
+#: views.py:154
+msgid "Invalid duration."
+msgstr "Durée non valide"
+
+#: views.py:166
+msgid "Invalid slot ID."
+msgstr "ID d'emplacement incorrecte."
+
+#: views.py:175
+msgid "Invalid dance role."
+msgstr "Rôle de danse invalide."
+
+#: views.py:205
+msgid ""
+"Some or all of your requested lesson time is currently in the process of "
+"registration. Please select a new slot or try again later."
+msgstr ""
+"Une partie ou la totalité de votre temps de cours demandé est actuellement "
+"en cours” “d'enregistrement. Veuillez sélectionner un nouvel emplacement ou "
+"réessayer plus tard."
+
+#: views.py:318
+msgid "Invalid lesson identifier passed to sign-up form."
+msgstr ""
+"Identificateur de leçon non valide transmis au formulaire d'inscription."
+
+#: views.py:323
+msgid "Your registration session has expired. Please try again."
+msgstr "Votre séance d'inscription est expirée. Veuillez réessayer."
+
+#: views.py:360
+msgid "Your private lesson has been scheduled successfully."
+msgstr "Votre cours privé a été planifié avec succès."

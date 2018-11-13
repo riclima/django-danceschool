@@ -1,0 +1,214 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:06-0500\n"
+"PO-Revision-Date: 2018-12-09 22:22-0500\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:26
+msgid "Apply to categories"
+msgstr ""
+
+#: admin.py:30
+msgid "Apply to sessions"
+msgstr ""
+
+#: admin.py:34
+msgid "Apply to individual series/events"
+msgstr ""
+
+#: apps.py:7 cms_toolbars.py:21
+msgid "Guest Lists"
+msgstr ""
+
+#: cms_toolbars.py:16
+msgid "Events"
+msgstr "Évènements"
+
+#: cms_toolbars.py:32
+msgid "Manage Guest Lists"
+msgstr ""
+
+#: constants.py:5
+msgid "Always added to guest list"
+msgstr ""
+
+#: constants.py:6
+msgid "Add if the person is a staff member for this event"
+msgstr ""
+
+#: constants.py:7
+msgid "Add if the person is a staff member on that day"
+msgstr ""
+
+#: constants.py:8
+msgid "Add if the person is a staff member in that week"
+msgstr ""
+
+#: constants.py:9
+msgid "Add if the person is a staff member in that month"
+msgstr ""
+
+#: constants.py:10
+msgid "Add if the person is a staff member in that year"
+msgstr ""
+
+#: constants.py:15
+msgid "Last name (default)"
+msgstr ""
+
+#: constants.py:16 models.py:207
+msgid "First name"
+msgstr ""
+
+#: constants.py:17
+msgid "Admission type (e.g. staff, registrant, other"
+msgstr ""
+
+#: models.py:20 models.py:215 templates/guestlist/guestlist.html:28
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:21
+msgid "Sort order"
+msgstr ""
+
+#: models.py:24
+msgid "Series categories"
+msgstr "Catégories des séries"
+
+#: models.py:25
+msgid "Public event categories"
+msgstr ""
+
+#: models.py:26
+msgid "Event sessions"
+msgstr "Décrivez l'événement pour la page de l'événement."
+
+#: models.py:27
+msgid "Individual events"
+msgstr ""
+
+#: models.py:29
+msgid "Include all scheduled event staff"
+msgstr ""
+
+#: models.py:30
+msgid "Include event registrants"
+msgstr ""
+
+#: models.py:100
+msgid "Must provide either an event or a datetime to get interval queries."
+msgstr ""
+
+#: models.py:157
+msgid "Manually Added"
+msgstr ""
+
+#: models.py:182
+msgid "Other Staff"
+msgstr "Personnel autre"
+
+#: models.py:189
+msgid "Registered"
+msgstr ""
+
+#: models.py:195 models.py:199
+msgid "Guest list"
+msgstr ""
+
+#: models.py:200
+msgid "Guest lists"
+msgstr ""
+
+#: models.py:208
+msgid "Last name"
+msgstr ""
+
+#: models.py:210
+msgid "Notes (optional)"
+msgstr ""
+
+#: models.py:210
+msgid "These will be included on the list for reference."
+msgstr ""
+
+#: models.py:218
+msgid "Guest"
+msgstr ""
+
+#: models.py:222
+msgid "Manually-added guest"
+msgstr ""
+
+#: models.py:223
+msgid "Manually added guests"
+msgstr ""
+
+#: models.py:225
+msgid "Can view guest lists"
+msgstr ""
+
+#: models.py:232
+msgid "Category of staff members"
+msgstr ""
+
+#: models.py:233
+msgid "Individual staff member"
+msgstr ""
+
+#: models.py:235
+msgid "Event admission rule"
+msgstr ""
+
+#: models.py:240
+msgid "Either staff category or staff member must be specified."
+msgstr ""
+
+#: models.py:242
+msgid "Specify either a staff category or a staff member, not both."
+msgstr ""
+
+#: models.py:246
+msgid "Guest list component"
+msgstr ""
+
+#: models.py:247
+msgid "Guest list components"
+msgstr ""
+
+#: templates/guestlist/guestlist.html:6
+msgid "Guest List:"
+msgstr ""
+
+#: templates/guestlist/guestlist.html:7
+msgid "This version:"
+msgstr "Cette version:"
+
+#: templates/guestlist/guestlist.html:10
+msgid "Edit Guest List"
+msgstr ""
+
+#: templates/guestlist/guestlist.html:14
+msgid "Select an Event:"
+msgstr ""
+
+#: templates/guestlist/guestlist.html:29
+msgid "Guest Type"
+msgstr ""
+
+#: views.py:27
+msgid "Invalid event."
+msgstr ""

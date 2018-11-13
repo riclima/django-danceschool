@@ -1,0 +1,4476 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:04-0500\n"
+"PO-Revision-Date: 2018-12-09 22:18-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:32
+msgid "Duplicate selected events"
+msgstr "Dupliquer les événements sélectionnés"
+
+#: admin.py:44
+msgid "Event-specific dance role"
+msgstr "Rôle de danse spécifique à l'événement"
+
+#: admin.py:45
+msgid "Event-specific dance roles (override default)"
+msgstr "Rôle de danse spécifique à l'événement (annuler par défaut)"
+
+#: admin.py:56
+msgid "Enter a staff member name"
+msgstr "Entrez un nom de membre du personnel"
+
+#: admin.py:72 admin.py:112 models.py:267
+msgid "Instructor"
+msgstr "Instructeur"
+
+#: admin.py:210
+msgid "Start Date/Time"
+msgstr "Date/Heure Début"
+
+#: admin.py:211
+msgid "End Date/Time"
+msgstr "Date/Heure Fin"
+
+#: admin.py:267
+msgid "Send email notifications for selected invoices"
+msgstr "Envoyer des notifications par courriel pour les factures sélectionnées"
+
+#: admin.py:276 templates/core/invoice.html:13
+#: templates/core/invoice_notification.html:20
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: admin.py:283 models.py:2890 models.py:2911 models.py:2962
+#: templates/core/view_eventregistrations.html:127
+msgid "Invoice"
+msgstr "Facture"
+
+#: admin.py:290
+msgid "Invoice notification"
+msgstr "Avis de facture"
+
+#: admin.py:297
+msgid "Final registration"
+msgstr "Inscription définitive"
+
+#: admin.py:304 models.py:2025 models.py:2472
+msgid "Temporary registration"
+msgstr "Inscription temporaire"
+
+#: admin.py:314 templates/core/invoice.html:77
+#: templates/core/invoice_notification.html:23
+#: templates/core/invoice_notification.html:63
+#: templates/core/view_eventregistrations.html:33
+msgid "Links"
+msgstr "Liens"
+
+#: admin.py:342
+msgid "Financial Details"
+msgstr "Détails Financiers"
+
+#: admin.py:346 templates/core/process_refund.html:88
+msgid "Dates"
+msgstr "Dates"
+
+#: admin.py:350 admin.py:360 models.py:1695 models.py:1830 models.py:2053
+#: models.py:2274 models.py:2369 models.py:2498
+msgid "Additional data"
+msgstr "Données additionelles"
+
+#: admin.py:382 models.py:1803 models.py:2036 models.py:2263
+#: templates/core/account_profile.html:78
+msgid "Customer"
+msgstr "Client"
+
+#: admin.py:442 dynamic_preferences_registry.py:22 models.py:2236
+#: models.py:2238 models.py:2242 models.py:2261 models.py:2475
+msgid "Registration"
+msgstr "Inscription"
+
+#: admin.py:454
+msgid "CANCELLED:"
+msgstr "ANNULÉ"
+
+#: admin.py:456
+msgid "DROP-IN:"
+msgstr "OUVERT À TOUS"
+
+#: admin.py:463
+msgid "Event Registrations"
+msgstr "Inscriptions Événements"
+
+#: admin.py:485
+msgid "Groups"
+msgstr "Groupes"
+
+#: admin.py:488
+msgid "Additional Customer Data"
+msgstr "Données Supplémentaires sur Clients"
+
+#: admin.py:498
+msgid "Email selected customers"
+msgstr "Envoyer courriel aux clients sélectionnés"
+
+#: admin.py:512
+msgid "Enter a customer name"
+msgstr "Entrez un nom de client"
+
+#: admin.py:549
+msgid "Email selected customer groups"
+msgstr "Envoyer courriel aux clients sélectionnés"
+
+#: admin.py:697
+msgid "Plain text content"
+msgstr "Contenu en texte brut"
+
+#: admin.py:700
+msgid "Rich text HTML content"
+msgstr "Contenu HTML enrichi"
+
+#: admin.py:736
+msgid "Contact"
+msgstr "Contact"
+
+#: admin.py:739
+msgid "Bio/Photo"
+msgstr "Bio/Photo"
+
+#: admin.py:746 models.py:230
+msgid "Instructor status"
+msgstr "Statut d'instructeur"
+
+#: admin.py:750 models.py:231
+msgid "Available for private lessons"
+msgstr "Disponible pour des leçons privées"
+
+#: admin.py:754 templates/core/staff_directory.html:17
+#: templates/core/staff_directory.html:58
+#: templates/core/staff_directory.html:99
+#: templates/core/staff_directory.html:140
+msgid "Staff categories"
+msgstr "Catégories du personnel de l'événement"
+
+#: admin.py:778
+msgid "Direct Registration Link"
+msgstr "Lien d'inscription directe"
+
+#: admin.py:851
+msgid "# Registered Students"
+msgstr "# d’Étudiants Inscrits"
+
+#: admin.py:863
+msgid "Override Display/Registration/Capacity"
+msgstr "Remplacer Affichage / Inscription / Capacité"
+
+#: admin.py:934
+msgid "Registration/Visibility"
+msgstr "Inscription / Visibilité"
+
+#: admin.py:937
+msgid "Description/Link"
+msgstr "Description / Lien"
+
+#: ajax.py:91
+msgid "Error at start."
+msgstr "Erreur au démarrage"
+
+#: ajax.py:111
+msgid "Error, no POST data."
+msgstr "Erreur, pas de données POST."
+
+#: ajax.py:114
+msgid "Error, not authenticated."
+msgstr "Erreur, non authentifié."
+
+#: ajax.py:119
+msgid "Error, no template ID provided."
+msgstr "Erreur, aucun modèle d'Identification fourni."
+
+#: ajax.py:124
+msgid "Error getting template."
+msgstr "Erreur lors de l'obtention du modèle."
+
+#: ajax.py:127 ajax.py:129
+msgid "Error, no permission to access this template."
+msgstr "Erreur, aucune autorisation pour accéder à ce modèle."
+
+#: apps.py:9
+msgid "Core School Functions"
+msgstr "Fonctions de base de l'école"
+
+#: classreg.py:115
+msgid "Invalid event information passed."
+msgstr "Information d'événement non valide transmise."
+
+#: classreg.py:154
+#, python-format
+msgid ""
+"Registration for '%s' is sold out. Based on your user permission level, "
+msgstr ""
+"L'inscription pour '% s' est épuisé, en fonction de votre niveau "
+"d'autorisation d'utilisateur"
+
+#: classreg.py:161
+#, python-format
+msgid ""
+"Registration for \"%s\" is tentatively sold out while others complete their "
+"registration.  Please try again later."
+msgstr ""
+"Enregistrement pour \\”% s\\” est provisoirement épuisé tandis que d'autres "
+"complètent leurinscription. Veuillez réessayer plus tard."
+
+#: classreg.py:304
+msgid "Invalid registration identifier passed to summary view."
+msgstr ""
+"Identificateur d'inscription invalide transmis à la vue récapitulative."
+
+#: classreg.py:311 classreg.py:549
+msgid "Your registration session has expired. Please try again."
+msgstr "Votre séance d'inscription est expirée. Veuillez réessayer."
+
+#: classreg.py:542
+msgid "Invalid registration identifier passed to sign-up form."
+msgstr ""
+"Identificateur d'inscription invalide transmis au formulaire d'inscription."
+
+#: cms_apps.py:7
+msgid "Registration Apphook"
+msgstr "Inscription Apphook"
+
+#: cms_plugins.py:17
+msgid "Set of Staff Images or Bios"
+msgstr "Ensemble d'images d'instructeur ou bios"
+
+#: cms_plugins.py:20 cms_toolbars.py:135 cms_toolbars.py:138
+#: cms_toolbars.py:142 cms_toolbars.py:149 cms_toolbars.py:154
+#: cms_toolbars.py:162
+msgid "Staff"
+msgstr "Personnel"
+
+#: cms_plugins.py:67
+msgid "Information on All Public Locations"
+msgstr "Informations sur tous les emplacements publics"
+
+#: cms_plugins.py:69 cms_plugins.py:83 cms_toolbars.py:118 models.py:375
+msgid "Locations"
+msgstr "Emplacements"
+
+#: cms_plugins.py:80
+msgid "Individual Location Information"
+msgstr "Informations sur l'emplacement individuel"
+
+#: cms_plugins.py:94
+msgid "List of Events"
+msgstr "Liste des événements"
+
+#: cms_plugins.py:96 cms_plugins.py:186 cms_toolbars.py:62
+#: templates/core/events_grouped_list.html:9
+msgid "Events"
+msgstr "Évènements"
+
+#: cms_plugins.py:103
+msgid "Limit Start Date"
+msgstr "Date de début de la limite"
+
+#: cms_plugins.py:106
+msgid "Limit End Date"
+msgstr "Date de fin de la limite"
+
+#: cms_plugins.py:109
+msgid "Limit Number"
+msgstr ""
+"Il s'agit généralement d'un paramètre spécifique à l'emplacement ou d'un "
+"paramètre spécifique à l'événement.Cependant, si une limite n'est pas "
+"fournie autrement, cela limitera lenombre d'inscriptions autorisées."
+
+#: cms_plugins.py:113
+msgid "Limit Categories/Levels"
+msgstr "Niveaux du type de danse"
+
+#: cms_plugins.py:117
+msgid "Other Restrictions"
+msgstr "Restrictions"
+
+#: cms_plugins.py:183
+msgid "Public Calendar"
+msgstr "Autres restrictions"
+
+#: cms_plugins.py:200
+msgid "Staff Images"
+msgstr "Membres du personnel"
+
+#: cms_plugins.py:207
+msgid "Staff Bios with Images"
+msgstr "Bios d'instructeur avec images"
+
+#: cms_plugins.py:214
+msgid "Directions for Each Location"
+msgstr "Directions pour chaque emplacement"
+
+#: cms_plugins.py:221
+msgid "Directions for This Location"
+msgstr "Directions pour cet emplacement"
+
+#: cms_plugins.py:228
+msgid "Default Grouped List of Events"
+msgstr "Liste par défaut des événements par mois"
+
+#: cms_toolbars.py:25
+msgid "Apps"
+msgstr "Apps"
+
+#: cms_toolbars.py:28 cms_toolbars.py:52
+msgid "Global Settings"
+msgstr "Paramètres globaux"
+
+#: cms_toolbars.py:65 cms_toolbars.py:67 templates/core/account_profile.html:16
+#: templates/core/base/base_individual_class.html:62
+#: templates/core/base/base_individual_event.html:42
+#: templates/core/registration/single_event_registration.html:29
+msgid "View Registrations"
+msgstr "Voir les inscriptions"
+
+#: cms_toolbars.py:69
+msgid "Registration Page"
+msgstr "Page d'inscription"
+
+#: cms_toolbars.py:78
+msgid "Add a Class Series"
+msgstr "Ajouter une série de cours"
+
+#: cms_toolbars.py:80
+msgid "Add a Public Event"
+msgstr "Ajouter un événement public"
+
+#: cms_toolbars.py:82
+msgid "Edit Existing Series"
+msgstr "Modifier une série existante"
+
+#: cms_toolbars.py:84
+msgid "Edit Existing Events"
+msgstr "Modifier les événements existants"
+
+#: cms_toolbars.py:93 cms_toolbars.py:97 cms_toolbars.py:101
+#: cms_toolbars.py:105 cms_toolbars.py:109 cms_toolbars.py:113
+#: cms_toolbars.py:117 cms_toolbars.py:121 cms_toolbars.py:125
+#: cms_toolbars.py:211
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: cms_toolbars.py:94
+msgid "Class Descriptions"
+msgstr "Descriptions des cours"
+
+#: cms_toolbars.py:98 models.py:1804
+msgid "Customers"
+msgstr "Clients"
+
+#: cms_toolbars.py:102
+msgid "Customer Groups"
+msgstr "Client"
+
+#: cms_toolbars.py:106
+msgid "Dance Roles"
+msgstr "Rôles de danse"
+
+#: cms_toolbars.py:110
+msgid "Dance Types/Levels"
+msgstr "Types de danse / niveaux"
+
+#: cms_toolbars.py:114
+msgid "Event Staff Categories"
+msgstr "Catégories de personnel de l'événement"
+
+#: cms_toolbars.py:122
+msgid "Pricing Tiers"
+msgstr "Niveaux de tarification"
+
+#: cms_toolbars.py:126
+msgid "Public Event Categories"
+msgstr "Catégories d'événements publics"
+
+#: cms_toolbars.py:136
+msgid "Your Stats"
+msgstr "Vos statistiques"
+
+#: cms_toolbars.py:139 templates/core/account_profile.html:29
+msgid "Update Your Contact Info"
+msgstr "Mettez à jour vos informations de contact"
+
+#: cms_toolbars.py:143
+msgid "Instructor/Staff Directory"
+msgstr "Répertoire d'instructeur / personnel"
+
+#: cms_toolbars.py:150 views.py:635
+msgid "Email Students"
+msgstr "Courriel des étudiants"
+
+#: cms_toolbars.py:155 views.py:999
+msgid "Report Substitute Teaching"
+msgstr "Signaler un remplacement d'enseignement"
+
+#: cms_toolbars.py:163
+msgid "Manage Staff/Instructors"
+msgstr "Gérer les instructeurs"
+
+#: cms_toolbars.py:175
+msgid "Content"
+msgstr "Contenu"
+
+#: cms_toolbars.py:178
+msgid "Manage Uploaded Files"
+msgstr "Gérer les fichiers téléchargés"
+
+#: cms_toolbars.py:181
+msgid "Manage Email Templates"
+msgstr "Gérer les modèles de courriel"
+
+#: cms_toolbars.py:184
+msgid "View/Export Survey Responses"
+msgstr "Afficher / exporter les réponses à l'enquête"
+
+#: cms_toolbars.py:195
+msgid "Finances"
+msgstr "Finances"
+
+#: cms_toolbars.py:198
+msgid "Create an Invoice"
+msgstr "Créer une facture"
+
+#: cms_toolbars.py:212 models.py:2891
+msgid "Invoices"
+msgstr "Factures"
+
+#: constants.py:55
+msgid "I've Taken Classes Before"
+msgstr "J'ai pris des cours avant"
+
+#: constants.py:56
+msgid "Facebook"
+msgstr "Facebook"
+
+#: constants.py:57
+msgid "Flyers/Cards"
+msgstr "Dépliants / Cartes"
+
+#: constants.py:58
+msgid "Another Student"
+msgstr "Un autre étudiant"
+
+#: constants.py:59 models.py:663 models.py:664
+msgid "Other"
+msgstr "Autre"
+
+#: dynamic_preferences_registry.py:20
+msgid "General Settings"
+msgstr "Réglages Généraux"
+
+#: dynamic_preferences_registry.py:21
+msgid "Contact Info"
+msgstr "Informations de contact"
+
+#: dynamic_preferences_registry.py:23
+msgid "Email"
+msgstr "Courriel"
+
+#: dynamic_preferences_registry.py:24
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: dynamic_preferences_registry.py:34
+msgid "Currency Code"
+msgstr "Code de devise"
+
+#: dynamic_preferences_registry.py:35
+msgid "Use a three-letter currency code for compatibility with payment systems"
+msgstr ""
+"Utilisez un code de devise à trois lettres pour la compatibilité avec les "
+"systèmes de paiement"
+
+#: dynamic_preferences_registry.py:43
+msgid "Currency Symbol"
+msgstr "Symbole de devise"
+
+#: dynamic_preferences_registry.py:44
+msgid ""
+"Enter a symbol to use on the website representing the currency used (e.g. $)"
+msgstr ""
+"Entrez un symbole à utiliser sur le site Web représentant la devise utilisée "
+"(par exemple $)"
+
+#: dynamic_preferences_registry.py:54
+msgid "Staff Photos Folder"
+msgstr "Dossier photos du personnel"
+
+#: dynamic_preferences_registry.py:56
+msgid ""
+"The folder used to store profile photos of staff members. Note that if this "
+"is changed, existing profile photos linked to staff members will not be "
+"moved."
+msgstr ""
+"Le dossier utilisé pour stocker les photos de profil des membres du "
+"personnel. Notez que s'ilest changé, les photos de profil existantes liées "
+"aux membres du personnel ne seront pasdéplacé."
+
+#: dynamic_preferences_registry.py:66
+msgid "Default Admin Form Success Page"
+msgstr "Page Succès du formulaire d'administration par défaut"
+
+#: dynamic_preferences_registry.py:67
+msgid ""
+"The page to which a staff user is redirected after successfully submitting "
+"an admin form."
+msgstr ""
+"La page vers laquelle un membre du personnel est redirigé après l'envoi "
+"réussid’un formulaire d'admin."
+
+#: dynamic_preferences_registry.py:81
+msgid "Enable Periodic (Cron) Tasks"
+msgstr "Activer les tâches périodiques (Cron)"
+
+#: dynamic_preferences_registry.py:83
+msgid ""
+"Uncheck this if you will be using crontab, a scheduling service such as "
+"Heroku, or if you otherwise do not wish to permit automatic generation of "
+"expenses, closing of class registration, etc."
+msgstr ""
+"Décochez cette case si vous utilisez crontab, un service de planification "
+"tel queHeroku, ou si vous ne voulez pas autoriser la génération automatique "
+"dedépenses, fermeture de l'inscription de cours, etc."
+
+#: dynamic_preferences_registry.py:94
+msgid "Instructor Event Staff Category"
+msgstr "Catégorie du personnel de l'évènement de l'instructeur"
+
+#: dynamic_preferences_registry.py:100
+msgid "Class Instruction"
+msgstr "Instruction de classe"
+
+#: dynamic_preferences_registry.py:107
+msgid "Assistant Instructor Event Staff Category"
+msgstr "Catégorie du personnel de l'évènement de l'assistant instructeur"
+
+#: dynamic_preferences_registry.py:113
+msgid "Assistant Class Instruction"
+msgstr "Instruction de cours Assistant"
+
+#: dynamic_preferences_registry.py:120
+msgid "Substitute Teacher Event Staff Category"
+msgstr "Catégorie du personnel de l'évènement du remplaçant instructeur"
+
+#: dynamic_preferences_registry.py:126
+msgid "Substitute Teaching"
+msgstr "Enseignement Suppléant"
+
+#: dynamic_preferences_registry.py:133
+msgid "DJ Event Staff Category"
+msgstr "Catégorie du personnel de l'évènement de l'instructeur"
+
+#: dynamic_preferences_registry.py:139
+msgid "DJ"
+msgstr ""
+
+#: dynamic_preferences_registry.py:146
+msgid "Other Staff Event Staff Category"
+msgstr "Catégorie du personnel de l'évènement autre"
+
+#: dynamic_preferences_registry.py:152 templates/core/account_profile.html:46
+#: templates/core/staff_directory.html:131
+msgid "Other Staff"
+msgstr "Personnel autre"
+
+#: dynamic_preferences_registry.py:162
+msgid "Business Name"
+msgstr "Nom de l'entreprise"
+
+#: dynamic_preferences_registry.py:163
+msgid "For invoices and template use"
+msgstr "Pour les factures et l'utilisation du modèle"
+
+#: dynamic_preferences_registry.py:171
+msgid "Business phone number"
+msgstr "Numéro de téléphone de l’entreprise"
+
+#: dynamic_preferences_registry.py:184
+msgid "Business email address"
+msgstr "Adresse courriel professionnelle"
+
+#: dynamic_preferences_registry.py:193
+msgid "Business street/mailing address (Line 1)"
+msgstr "Rue / adresse postale de l’entreprise (ligne 1)"
+
+#: dynamic_preferences_registry.py:206
+msgid "Business Address Line 2"
+msgstr "Adresse de l’entreprise Ligne 2"
+
+#: dynamic_preferences_registry.py:220 models.py:344
+msgid "City"
+msgstr "Ville"
+
+#: dynamic_preferences_registry.py:233
+msgid "State"
+msgstr "État / Province"
+
+#: dynamic_preferences_registry.py:246
+msgid "ZIP/Postal Code"
+msgstr "Zip / code postal"
+
+#: dynamic_preferences_registry.py:259
+msgid "Country code"
+msgstr "Code du pays"
+
+#: dynamic_preferences_registry.py:260
+msgid "Use a two-letter country code for compatibility with payment systems"
+msgstr ""
+"Utilisez un code de pays à deux lettres pour la compatibilité avec les "
+"systèmes de paiement"
+
+#: dynamic_preferences_registry.py:271
+msgid "Registration Enabled"
+msgstr "Inscription Activé"
+
+#: dynamic_preferences_registry.py:272
+msgid ""
+"Uncheck this to disable registration entirely.  Useful when performing "
+"upgrades or testing."
+msgstr ""
+
+#: dynamic_preferences_registry.py:280
+msgid "Default Registration Capacity"
+msgstr "Capacité d'inscription par défaut"
+
+#: dynamic_preferences_registry.py:281
+msgid ""
+"This is usually a location-specific setting or an event-specific setting.  "
+"However, if a limit is not otherwise provided, then this will limit the "
+"number of registrations allowed."
+msgstr ""
+"Il s'agit généralement d'un paramètre spécifique à l'emplacement ou d'un "
+"paramètre spécifique à l'événement.Cependant, si une limite n'est pas "
+"fournie autrement, cela limitera lenombre d'inscriptions autorisées."
+
+#: dynamic_preferences_registry.py:289
+msgid "Close Registration Days After Beginning"
+msgstr "Fermer les jours d'inscription après le début"
+
+#: dynamic_preferences_registry.py:290
+msgid ""
+"By default, online registration closes automatically this many days from the "
+"beginning of an Event or Series (e.g. Enter 2 to close two days after "
+"beginning, or enter -3 to close three days before beginning).  This value "
+"can be overridden for individual Events."
+msgstr ""
+"Par défaut, l'inscription en ligne se ferme automatiquement après tant de "
+"joursdu début d'un événement ou d'une série (par exemple, entrez 2 pour "
+"fermer deux jours aprèsLe début, ou entrez -3 pour fermer trois jours avant "
+"de commencer. Cette valeur peut être outrepassé pour des événements "
+"individuels."
+
+#: dynamic_preferences_registry.py:298
+msgid ""
+"Do Not Show Registration for Events that Begin More Than __ Days in the "
+"Future"
+msgstr ""
+"Ne pas afficher l'inscription pour les événements qui commencent plus de __ "
+"jours dans” “l'avenir"
+
+#: dynamic_preferences_registry.py:299
+msgid ""
+"By default, events are shown on the registration page as soon as they are "
+"created.  If you list events far into the future, set this value, and events "
+"that begin more than this many days in the future will not be shown in the "
+"registration page.  Enter 0 for no restriction."
+msgstr ""
+"Par défaut, les événements sont affichés sur la page d'inscription dès "
+"qu'ils sontcréés. Si vous listez des événements loin dans le futur, "
+"définissez cette valeur et les” “événementsqui commence plus que ce nombre "
+"de jours dans le futur ne sera pas montré dans lapage d'inscription, entrez "
+"0 pour aucune restriction."
+
+#: dynamic_preferences_registry.py:308
+msgid "Session if available (ordered by start date), otherwise month"
+msgstr ""
+
+#: dynamic_preferences_registry.py:309
+msgid "Session if available (ordered alphabetically), otherwise month"
+msgstr ""
+
+#: dynamic_preferences_registry.py:310 models.py:587 models.py:609
+#: templates/core/account_profile.html:46
+#: templates/core/account_profile.html:107
+#: templates/core/account_profile.html:158
+#: templates/core/account_profile.html:207
+#: templates/core/instructor_stats.html:38
+#: templates/core/instructor_stats.html:66
+msgid "Month"
+msgstr "Mois"
+
+#: dynamic_preferences_registry.py:311
+msgid "Session ordered by start date (if no session, group as \"Other\")"
+msgstr ""
+
+#: dynamic_preferences_registry.py:312
+msgid "Session ordered alphabetically (if no session, group as \"Other\")"
+msgstr ""
+
+#: dynamic_preferences_registry.py:313
+msgid "Session ordered by start date and Month"
+msgstr ""
+
+#: dynamic_preferences_registry.py:314
+msgid "Session ordered alphabetically and Month"
+msgstr ""
+
+#: dynamic_preferences_registry.py:315
+msgid "Weekday"
+msgstr "Jour de la semaine"
+
+#: dynamic_preferences_registry.py:316
+msgid "Month and Weekday"
+msgstr "Jour de la semaine"
+
+#: dynamic_preferences_registry.py:318
+msgid "Rule for Organizing Series and Events for Registration"
+msgstr ""
+
+#: dynamic_preferences_registry.py:321
+msgid ""
+"In registration, events may be grouped by defined sessions, by month, the "
+"combination of both session and month, or by weekday."
+msgstr ""
+
+#: dynamic_preferences_registry.py:331
+msgid "Month of first occurrence"
+msgstr "Première occurence"
+
+#: dynamic_preferences_registry.py:332
+msgid "Month of second occurrence"
+msgstr "Première occurence"
+
+#: dynamic_preferences_registry.py:333
+msgid "Month of last occurrence"
+msgstr "Le mois dernier"
+
+#: dynamic_preferences_registry.py:334
+msgid "First month with more than one occurrence (or first)"
+msgstr ""
+
+#: dynamic_preferences_registry.py:335
+msgid "Month with the most occurrences"
+msgstr "# d’occurences"
+
+#: dynamic_preferences_registry.py:337
+msgid "Rule for Assigning Events to Months"
+msgstr ""
+
+#: dynamic_preferences_registry.py:340
+msgid ""
+"When events are listed by month in various views, this rule determines the "
+"month to which each event is assigned."
+msgstr ""
+
+#: dynamic_preferences_registry.py:350
+msgid "No description"
+msgstr "Description"
+
+#: dynamic_preferences_registry.py:351
+msgid "First 10 words"
+msgstr "Prénom"
+
+#: dynamic_preferences_registry.py:352
+msgid "First 20 words"
+msgstr "Première occurence"
+
+#: dynamic_preferences_registry.py:353
+msgid "First 50 words"
+msgstr "Première occurence"
+
+#: dynamic_preferences_registry.py:354
+msgid "Full description"
+msgstr "Nom complet"
+
+#: dynamic_preferences_registry.py:356
+msgid "Rule for showing class descriptions on the regisration page"
+msgstr ""
+
+#: dynamic_preferences_registry.py:358
+msgid ""
+"This option determines how much of each event's description is shown on the "
+"class registration page. Users can always select the 'more info' link to "
+"access the full description."
+msgstr ""
+
+#: dynamic_preferences_registry.py:368
+msgid "Sales tax percentage rate to be applied registrations"
+msgstr "Taux de pourcentage de taxe sur les ventes à appliquer"
+
+#: dynamic_preferences_registry.py:369
+msgid ""
+"Enter, e.g. '10' for a 10% tax rate to be applied to all class and event "
+"registrations."
+msgstr ""
+"Entrez, par exemple ‘10’ pour un taux d'imposition de 10% à appliquer à tous "
+"les inscriptions” “aux cours et événements"
+
+#: dynamic_preferences_registry.py:377
+msgid "Buyer pays sales tax (added to total price)"
+msgstr "L'acheteur paie la taxe de vente (ajoutée au prix total)"
+
+#: dynamic_preferences_registry.py:378
+msgid ""
+"If unchecked, then the buyer will not be charged sales tax directly, but the "
+"amount of tax collected by the business will be reported."
+msgstr ""
+"Si non cochée, alors l'acheteur ne sera pas facturé directement la taxe de "
+"vente, mais lemontant de la taxe collectée par l'entreprise sera signalé."
+
+#: dynamic_preferences_registry.py:386
+msgid "Allow users to login/signup during registration"
+msgstr ""
+"Autoriser les utilisateurs à se connecter / s'inscrire lors de l'inscription"
+
+#: dynamic_preferences_registry.py:387
+msgid ""
+"If you don't allow customers to see their history or do automatic checks for "
+"prerequisites, then you may not need customers to create user accounts or "
+"authenticate themselves. If this box is unchecked, then users will not be "
+"able to log in or create a new account during the registration process."
+msgstr ""
+
+#: dynamic_preferences_registry.py:395
+msgid "Temporary registration data expires after __ minutes"
+msgstr "Les données d'inscriptions temporaires expirent après __ minutes"
+
+#: dynamic_preferences_registry.py:396
+msgid ""
+"In each step of the registration process, customers have this many minutes "
+"to proceed before they are no longer guaranteed a spot and are required to "
+"begin again."
+msgstr ""
+"A chaque étape du processus d'inscription, les clients ont autant de "
+"minutespour procéder avant qu'ils ne sont plus garantis une place et sont "
+"tenus derecommencer."
+
+#: dynamic_preferences_registry.py:404
+msgid "Automatically delete expired temporary registration and session data"
+msgstr "Supprimer automatiquement les données d'inscription et de sessions"
+
+#: dynamic_preferences_registry.py:405
+msgid ""
+"If this box is checked, then an hourly script will automatically expired "
+"temporary registration and session data.  Disabling this feature is only "
+"recommended for testing."
+msgstr ""
+"Si cette case est cochée, un script horaire expirera "
+"automatiquementenregistrement temporaire et données de session. Désactiver "
+"cette fonctionnalité est” “seulementrecommandé pour les tests."
+
+#: dynamic_preferences_registry.py:416
+msgid "Disable Sending of Emails"
+msgstr "Désactiver l'envoi de courriels"
+
+#: dynamic_preferences_registry.py:417
+msgid "Check to disable all standard emails from being sent."
+msgstr ""
+"Cochez cette case pour désactiver l'envoi de tous les courriels standard."
+
+#: dynamic_preferences_registry.py:425
+msgid "Email address that general site emails are sent from"
+msgstr "Adresse courriel d'où les courriels du site général sont envoyés"
+
+#: dynamic_preferences_registry.py:426
+msgid "This email address may be overridden by specific email templates"
+msgstr ""
+"Cette adresse courriel peut être remplacée par des modèles de courriel "
+"spécifiques"
+
+#: dynamic_preferences_registry.py:439
+msgid "Name that is used for general site emails"
+msgstr "Nom utilisé pour les courriels généraux du site"
+
+#: dynamic_preferences_registry.py:440
+msgid "This name may be overridden by specific email templates"
+msgstr "Ce nom peut être remplacé par des modèles de courriel spécifiques"
+
+#: dynamic_preferences_registry.py:453
+msgid "Send Error Emails"
+msgstr "Courriels d'erreur d'envoi"
+
+#: dynamic_preferences_registry.py:461
+msgid "Email address that error emails are sent from"
+msgstr ""
+"Adresse courriel à partir de laquelle les courriels d'erreur sont envoyés"
+
+#: dynamic_preferences_registry.py:474
+msgid "Email address that error emails are sent to"
+msgstr "Adresse courriel à laquelle les courriels d'erreur sont envoyés"
+
+#: dynamic_preferences_registry.py:491
+msgid "Protocol for URLs in email templates"
+msgstr "Protocole pour les URL dans les modèles de courriels"
+
+#: dynamic_preferences_registry.py:494
+msgid ""
+"Invoice emails and other emails sometimes include links that require a "
+"protocol to be specified via the \"protocol\" context variable.  If your "
+"site uses solely HTTPS, you may need to change this value to avoid broken "
+"links."
+msgstr ""
+"Les courriels de facture et autres courriels incluant parfois des liens qui "
+"nécessitent un"
+
+#: dynamic_preferences_registry.py:505
+msgid "Email template used for successful email registrations"
+msgstr ""
+"Modèle de courriel utilisé pour les inscriptions réussies par courriels."
+
+#: dynamic_preferences_registry.py:518
+msgid "Registration Confirmation Email"
+msgstr "Courriel de Confirmation d'inscription"
+
+#: dynamic_preferences_registry.py:520
+msgid "Registration Confirmation"
+msgstr "Confirmation d'inscription"
+
+#: dynamic_preferences_registry.py:534
+msgid "Email template used for invoice email creation"
+msgstr "Modèle de courriel utilisé pour la création de courriel de facturation"
+
+#: dynamic_preferences_registry.py:547
+msgid "Registration Invoice Email"
+msgstr "Courriel de Facture d'inscription"
+
+#: dynamic_preferences_registry.py:549
+msgid "Registration Invoice"
+msgstr "Facture d'inscription"
+
+#: dynamic_preferences_registry.py:566
+msgid "Enable public calendar feed"
+msgstr "Activer le flux du calendrier public"
+
+#: dynamic_preferences_registry.py:567
+msgid "Uncheck to disable the automatic creation of a public calendar feed."
+msgstr ""
+"Décochez pour désactiver la création automatique d'un flux du calendrier "
+"public."
+
+#: dynamic_preferences_registry.py:575
+msgid "Enable private calendar feed"
+msgstr "Activer le flux du calendrier privé"
+
+#: dynamic_preferences_registry.py:576
+msgid ""
+"Uncheck to disable the automatic creation of private (per-instructor) "
+"calendar feeds."
+msgstr ""
+"Décochez pour désactiver la création automatique de flux (par-instructeur)du "
+"calendrier privé."
+
+#: dynamic_preferences_registry.py:584
+msgid "Default color used for classes on the calendar"
+msgstr "Couleur par défaut utilisée pour les classes du calendrier"
+
+#: dynamic_preferences_registry.py:585 dynamic_preferences_registry.py:594
+msgid "Enter a CSS compatible color"
+msgstr "Entrer une couleur compatible CSS"
+
+#: dynamic_preferences_registry.py:593
+msgid "Default color used for events on the calendar"
+msgstr "Couleur par défaut utilisée pour les événements du calendrier"
+
+#: feeds.py:63
+#, python-format
+msgid "%s Events Calendar"
+msgstr "%s Calendrier des événements"
+
+#: feeds.py:66
+#, python-format
+msgid "%s Staff Calendar for %s %s"
+msgstr "%s Calendrier de l'instructeur pour %s %s"
+
+#: feeds.py:69
+#, python-format
+msgid "Calendar for %s"
+msgstr "Calendrier pour %s"
+
+#: forms.py:134
+msgid "Additional Choices"
+msgstr "Choix supplémentaires"
+
+#: forms.py:158 templates/core/registration/base_event_registration.html:131
+#: templates/core/registration/event_category__default.html:4
+#: templates/core/registration/series_category__default.html:4
+msgid "Register now"
+msgstr "Inscrire maintenant"
+
+#: forms.py:188
+msgid "Door/Invoice Registration"
+msgstr "Facture / Inscription à la porte"
+
+#: forms.py:219
+#, python-format
+msgid "%s sold out!"
+msgstr "%s épuisé!"
+
+#: forms.py:231
+#, python-format
+msgid "Register (%s registered)"
+msgstr "Inscription (%s inscrit)"
+
+#: forms.py:233 templates/core/base/base_individual_class.html:51
+msgid "Sold out!"
+msgstr "Épuisé!"
+
+#: forms.py:250 forms.py:254
+msgid "Drop-in: "
+msgstr "Ouvert à tous"
+
+#: forms.py:285
+msgid "Must select only one role."
+msgstr "Doit sélectionner un seul rôle."
+
+#: forms.py:287
+msgid "Cannot register for drop-in classes and also for the entire series."
+msgstr ""
+"Vous ne pouvez pas vous inscrire à des cours ouverts à tous et à toute la "
+"série."
+
+#: forms.py:289
+msgid "Must register for at least one class or series."
+msgstr "Doit s'inscrire pour au moins un cours ou une série."
+
+#: forms.py:297 models.py:3059
+msgid "First Name"
+msgstr "Prénom"
+
+#: forms.py:298 models.py:3060
+msgid "Last Name"
+msgstr "Nom"
+
+#: forms.py:300
+msgid "Telephone (optional)"
+msgstr "Téléphone (facultatifl)"
+
+#: forms.py:300
+msgid "We may use this to notify you in event of a cancellation."
+msgstr "Nous pourrions utiliser ceci pour vous informer en cas d'annulation."
+
+#: forms.py:301
+msgid "I am a student"
+msgstr "Je suis étudiant"
+
+#: forms.py:301
+msgid "Photo ID is required at the door"
+msgstr "Une pièce d'identité avec photo est requise à la porte"
+
+#: forms.py:302
+msgid "Add me to the mailing list"
+msgstr "Ajoutez-moi à la liste d’envoi"
+
+#: forms.py:303
+msgid "<strong>I agree to all policies (required)</strong>"
+msgstr "<strong>J'accepte toutes les politiques (requis)</strong>"
+
+#: forms.py:303
+msgid "By checking, you agree to abide by all policies."
+msgstr "En cochant, vous acceptez de respecter toutes les politiques."
+
+#: forms.py:304
+msgid "Voucher ID"
+msgstr "Identification du bon"
+
+#: forms.py:305
+msgid "How did you hear about us?"
+msgstr "Comment avez-vous entendu parler de nous?"
+
+#: forms.py:305
+msgid "Optional"
+msgstr "Facultatif"
+
+#: forms.py:306 models.py:1819 models.py:2043 models.py:2495
+msgid "Comments"
+msgstr "Commentaires"
+
+#: forms.py:306
+msgid "Add anything else you'd like to tell us."
+msgstr "Ajoutez tout ce que vous aimeriez nous dire."
+
+#: forms.py:365
+msgid "Complete Registration"
+msgstr "Inscription complète"
+
+#: forms.py:438
+msgid "Payment Received"
+msgstr "Paiement reçu"
+
+#: forms.py:441
+msgid "Payment received by:"
+msgstr "Paiement reçu d'ici le :"
+
+#: forms.py:447
+msgid "Enter a user name"
+msgstr "Entrer un nom d'utilisateur"
+
+#: forms.py:456 templates/core/invoice.html:23
+msgid "Amount Paid"
+msgstr "Montant payé"
+
+#: forms.py:458 forms.py:503
+msgid "Send Invoice"
+msgstr "Envoyer une facture"
+
+#: forms.py:459 forms.py:460
+msgid "Payer Email Address"
+msgstr "Adresse courriel du payeur"
+
+#: forms.py:481
+msgid "Cash Payment"
+msgstr "Paiement en espèces"
+
+#: forms.py:544
+msgid "submissionUser not found."
+msgstr "soumission Utilisateur non trouvé."
+
+#: forms.py:547
+msgid "Invalid user submitted door payment."
+msgstr "Paiement à la porte soumis par l’utilisateur n'est pas valide."
+
+#: forms.py:549
+msgid "Invalid user submitted invoice."
+msgstr "Facture soumise par l'utilisateur non valide."
+
+#: forms.py:561
+msgid "Must choose either cash payment or invoice submission, not both."
+msgstr ""
+"Doit choisir le paiement en espèces ou la soumission de facture, pas les "
+"deux."
+
+#: forms.py:564
+msgid "Must select either cash payment or invoice submission."
+msgstr "Doit sélectionner le paiement en espèces ou la soumission de facture."
+
+#: forms.py:569 forms.py:577
+msgid "Submission user is required."
+msgstr "L'utilisateur de soumission est requis."
+
+#: forms.py:571
+msgid "Must specify recipient of the money."
+msgstr "Doit spécifier le destinataire de l'argent."
+
+#: forms.py:573
+msgid "Must specify the amount of the payment."
+msgstr "Doit spécifier le montant du paiement."
+
+#: forms.py:579
+msgid "Must specify the email address of the invoice recipient."
+msgstr "Vous devez spécifier l'adresse courriel du destinataire de la facture."
+
+#: forms.py:605 models.py:1135 models.py:2270 models.py:2455
+#: templates/core/process_refund.html:94
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: forms.py:607
+msgid "Refund Amount"
+msgstr "Montant du remboursement"
+
+#: forms.py:610
+msgid "Explanation/Comments (optional)"
+msgstr "Explication / Commentaires (facultatif)"
+
+#: forms.py:611
+msgid ""
+"This information will be added to the comments on the invoice associated "
+"with this refund."
+msgstr ""
+"Cette information sera ajoutée aux commentaires sur la facture associéeavec "
+"ce remboursement."
+
+#: forms.py:612
+msgid "Enter explanation/comments..."
+msgstr "Entrer les explications / commentaires ..."
+
+#: forms.py:635
+msgid "Passed value does not match sum of allocated refunds."
+msgstr ""
+"La valeur transmise ne correspond pas à la somme des remboursements alloués."
+
+#: forms.py:637
+msgid "Total refunds allocated exceed revenue received."
+msgstr "Le total des remboursements alloués dépasse le revenu reçu."
+
+#: forms.py:639
+msgid "Cannot reduce the total amount of the refund."
+msgstr "Impossible de réduire le montant total du remboursement."
+
+#: forms.py:645
+msgid "All students in one or more series"
+msgstr "Tous les étudiants dans une ou plusieurs séries"
+
+#: forms.py:645
+msgid "All Students in a given month"
+msgstr "Tous les étudiants dans un mois donné"
+
+#: forms.py:646 models.py:2404
+msgid "Plain text email"
+msgstr "Courriel en texte brut"
+
+#: forms.py:646 models.py:2404
+msgid "HTML rich text email"
+msgstr "Contenu HTML enrichi"
+
+#: forms.py:648
+msgid "This email is for:"
+msgstr "Ce courriel est pour : "
+
+#: forms.py:650
+msgid "(Optional) Select a template"
+msgstr "(Facultatif) Choisir un modèle"
+
+#: forms.py:652 models.py:2406
+msgid "Send this email as"
+msgstr "Envoyer ce courriel comme"
+
+#: forms.py:661
+msgid "CC Myself:"
+msgstr "CC Moi-même"
+
+#: forms.py:662
+msgid "Email all students registered in month:"
+msgstr "Envoyer par courriel à tous les étudiants inscrits ce mois-ci:"
+
+#: forms.py:663
+msgid "Email all students registered in a current/recent series:"
+msgstr ""
+"Envoyer par courriel à tous les étudiants inscrits dans une série actuelle / "
+"récente :"
+
+#: forms.py:664
+msgid "Test email:"
+msgstr "Courriel test :"
+
+#: forms.py:664
+msgid "Send a test email to myself only."
+msgstr "Envoyer un courriel test à moi-même uniquement."
+
+#: forms.py:677
+msgid "Selected customers"
+msgstr "Clients sélectionnés"
+
+#: forms.py:716 forms.py:720
+msgid "Message is required."
+msgstr "Le message est requis."
+
+#: forms.py:845
+msgid ""
+"One or more classes you have selected already has a substitute teacher for "
+"that class."
+msgstr ""
+"Un ou plusieurs cours que vous avez sélectionnées ont déjà un enseignant "
+"suppléant pource cours."
+
+#: forms.py:849
+msgid ""
+"You cannot substitute teach for a class in which you were an instructor."
+msgstr ""
+"Vous ne pouvez pas être suppléant pour un cours dans lequelle vous étiez "
+"instructeur."
+
+#: forms.py:897
+msgid "Available For private lessons"
+msgstr "Disponible pour des leçons privées"
+
+#: forms.py:900 models.py:231
+msgid ""
+"Check this box if you would like to be listed as available for private "
+"lessons from students."
+msgstr ""
+"Cochez cette case si vous souhaitez être listé comme disponible pour donner "
+"desleçons privées des étudiants."
+
+#: forms.py:917
+msgid "First event occurs on"
+msgstr "Le premier événement se produit le"
+
+#: forms.py:918
+msgid "Repeat every"
+msgstr "Répéter chaque"
+
+#: forms.py:919
+msgid "Period"
+msgstr "Période"
+
+#: forms.py:919
+msgid "Days"
+msgstr "Jours"
+
+#: forms.py:919
+msgid "Weeks"
+msgstr "Semaines"
+
+#: forms.py:919
+msgid "Months"
+msgstr "Mois"
+
+#: forms.py:920
+msgid "Repeat this many times"
+msgstr "Répéter cela plusieurs fois"
+
+#: forms.py:921
+msgid "Repeat until this date"
+msgstr "Répéter jusqu'à cette date"
+
+#: forms.py:929
+msgid "End date must be after start date."
+msgstr "La date de fin doit être après la date de début."
+
+#: forms.py:932
+msgid "Please specify either a number of repeats or an end date, not both."
+msgstr ""
+"Veuillez spécifier un nombre de répétitions ou une date de fin, pas les deux."
+
+#: mixins.py:66
+msgid "Email must have a recipient."
+msgstr "Le courriel doit avoir un destinataire"
+
+#: mixins.py:248
+#, python-format
+msgid "%s is not a valid template."
+msgstr "%s n'est pas un modèle valide."
+
+#: models.py:79 models.py:106 models.py:124 models.py:139 models.py:186
+#: models.py:341 models.py:383 models.py:458 models.py:504 models.py:624
+#: models.py:1303 models.py:1605 models.py:1700 models.py:1844 models.py:2092
+#: models.py:2943 templates/core/invoice.html:70
+#: templates/core/staff_directory.html:13
+#: templates/core/staff_directory.html:54
+#: templates/core/staff_directory.html:95
+#: templates/core/staff_directory.html:136
+#: templates/core/view_eventregistrations.html:25
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:80
+msgid "Plural of name"
+msgstr "Nom au pluriel"
+
+#: models.py:80
+msgid "For the registration form."
+msgstr "Pour le formulaire d'inscription"
+
+#: models.py:81 models.py:107 models.py:125 models.py:354
+msgid "Order number"
+msgstr "Numéro de commande"
+
+#: models.py:81
+msgid "Lower numbers show up first when registering."
+msgstr "Les nombres inférieurs apparaissent en premier lors de l'inscription."
+
+#: models.py:95 models.py:2264 models.py:2360
+msgid "Dance role"
+msgstr "Rôle de danse"
+
+#: models.py:96 models.py:109
+msgid "Dance roles"
+msgstr "Rôle de danse"
+
+#: models.py:107
+msgid ""
+"Lower numbers show up first when choosing class types in the admin.  By "
+"default, this does not affect ordering on public-facing registration pages."
+msgstr ""
+"Les nombres inférieurs apparaissent en premier lors du choix des types de "
+"cours dans l'admin.par défaut, cela n'affecte pas la commande sur les pages "
+"d'inscriptions publiques."
+
+#: models.py:109
+msgid ""
+"Select default roles used for registrations of this dance type (can be "
+"overriden for specific events)."
+msgstr ""
+"Sélectionnez les rôles par défaut utilisés pour les enregistrements de ce "
+"type de danse (peut êtreécrasé pour des événements spécifiques\". "
+
+#: models.py:115 models.py:294
+msgid "Dance type"
+msgstr "Type de danse"
+
+#: models.py:116
+msgid "Dance types"
+msgstr "Types de danses"
+
+#: models.py:125
+msgid "This is used to order and look up dance types."
+msgstr "Ceci est utilisé pour commander et rechercher des types de danse."
+
+#: models.py:126
+msgid "Dance Type"
+msgstr "Type de danse"
+
+#: models.py:127
+msgid "Display Color"
+msgstr "Couleur d'affichage"
+
+#: models.py:127
+msgid "Choose a color for the calendar display."
+msgstr "Choisissez une couleur pour l'affichage du calendrier."
+
+#: models.py:133
+msgid "Level of dance type"
+msgstr "Niveau du type de danse"
+
+#: models.py:134
+msgid "Levels of dance type"
+msgstr "Niveaux du type de danse"
+
+#: models.py:146
+msgid "Event staff category"
+msgstr "Catégorie du personnel de l'événement"
+
+#: models.py:147
+msgid "Event staff categories"
+msgstr "Catégories du personnel de l'événement"
+
+#: models.py:158 models.py:1682 models.py:1808 models.py:2034
+msgid "First name"
+msgstr "Prénom"
+
+#: models.py:159 models.py:1683 models.py:1809 models.py:2035
+msgid "Last name"
+msgstr "Nom"
+
+#: models.py:163 models.py:1680
+msgid "User account"
+msgstr "Compte d’utilisateur"
+
+#: models.py:167
+msgid "Public Email Address"
+msgstr "Adresse courriel publique"
+
+#: models.py:167
+msgid ""
+"This is the email address used on the site if the instructor is available "
+"for private lessons."
+msgstr ""
+"Ceci est l'adresse courriel utilisée sur le site si l'instructeur est "
+"disponiblepour des leçons privées."
+
+#: models.py:168
+msgid "Private Email Address"
+msgstr "Adresse courriel privée"
+
+#: models.py:168
+msgid ""
+"This is the personal email address of the instructor for the instructor "
+"directory."
+msgstr ""
+"Ceci est l'adresse courriel personnelle de l'instructeur pour l'annuaire des "
+"instructeurs"
+
+#: models.py:169 models.py:1685 models.py:1811
+msgid "Telephone"
+msgstr "Téléphone"
+
+#: models.py:169
+msgid ""
+"Instructor phone numbers are for the instructor directory only, and should "
+"not be given to students."
+msgstr ""
+"Les numéros de téléphone des instructeurs sont pour le répertoire des "
+"instructeurs seulement, et ne devraientpas être donné aux étudiants."
+
+#: models.py:171
+msgid "Staff photo"
+msgstr "Photo du personnel"
+
+#: models.py:172
+msgid "Bio text"
+msgstr "Texte bio"
+
+#: models.py:172
+msgid ""
+"Insert the instructor's bio here.  Use HTML to include videos, formatting, "
+"etc."
+msgstr ""
+"Insérez la biographie de l'instructeur ici. Utilisez le HTML pour inclure "
+"des vidéos, le formatageetc."
+
+#: models.py:175
+msgid "Included in staff categories"
+msgstr "Catégories du personnel de l'événement"
+
+#: models.py:176
+msgid ""
+"When choosing staff members, the individuals available to staff will be "
+"limited based on the categories chosen here. If the individual is an "
+"instructor, also be sure to set the instructor information below."
+msgstr ""
+
+#: models.py:181
+msgid "Calendar/RSS feed key"
+msgstr "Calendrier / clé de flux RSS"
+
+#: models.py:191
+msgid "Staffed this month"
+msgstr "Personnel ce mois-ci"
+
+#: models.py:196
+msgid "Staffed for upcoming events"
+msgstr "Personnel pour les événements à venir"
+
+#: models.py:204 models.py:228 models.py:3046
+msgid "Staff member"
+msgstr "Membre du personnel"
+
+#: models.py:205
+msgid "Staff members"
+msgstr "Membres du personnel"
+
+#: models.py:209
+msgid "Can access the staff directory view"
+msgstr "Peut accéder à l'affichage de l'annuaire du personnel"
+
+#: models.py:210
+msgid "Can view statistics about the school's performance."
+msgstr "Peut voir des statistiques sur la performance de l'école."
+
+#: models.py:211
+msgid ""
+"Able to use customer and staff member autocomplete features (in admin forms)"
+msgstr ""
+
+#: models.py:220
+msgid "Regular Instructor"
+msgstr "Instructeur régulier"
+
+#: models.py:221
+msgid "Assistant Instructor"
+msgstr "Assistant Instructeur"
+
+#: models.py:222
+msgid "Instructor-in-training"
+msgstr "Instructeur en formation"
+
+#: models.py:223
+msgid "Guest Instructor"
+msgstr "Instructeur invité"
+
+#: models.py:224
+msgid "Former Guest Instructor"
+msgstr "Ancien instructeur invité"
+
+#: models.py:225
+msgid "Former/Retired Instructor"
+msgstr "Instructeur Ancien / Retraité"
+
+#: models.py:226
+msgid "Publicly Hidden"
+msgstr "Publiquement caché"
+
+#: models.py:230
+msgid ""
+"Instructor status affects the visibility of the instructor on the site, but "
+"is separate from the \"categories\" of event staffing on which compensation "
+"is based."
+msgstr ""
+"Le statut d'instructeur affecte la visibilité de l'instructeur sur le site "
+"etpeut également avoir un impact sur le taux de rémunération de "
+"l'instructeur."
+
+#: models.py:236
+msgid "Is assistant"
+msgstr "Est assistant"
+
+#: models.py:241
+msgid "Is guest"
+msgstr "Est invité"
+
+#: models.py:246
+msgid "Is retired"
+msgstr "Est retraité"
+
+#: models.py:251
+msgid "Is hidden"
+msgstr "Est caché"
+
+#: models.py:259
+msgid "Is upcoming guest"
+msgstr "Est invité à venir"
+
+#: models.py:264 models.py:352 models.py:2661
+msgid "Status"
+msgstr "Statut"
+
+#: models.py:268 models.py:1293 templates/core/account_profile.html:107
+#: templates/core/account_profile.html:158
+#: templates/core/account_profile.html:207
+#: templates/core/staff_image_set.html:3 templates/core/staff_list.html:3
+msgid "Instructors"
+msgstr "Instructeurs"
+
+#: models.py:270
+msgid "Can update instructors' bio information"
+msgstr "Peut mettre à jour les informations biographiques des instructeurs"
+
+#: models.py:271
+msgid "Can view one's own statistics (if an instructor)"
+msgstr "Peut voir ses propres statistiques (si est un instructeur)"
+
+#: models.py:272
+msgid "Can view other instructors' statistics"
+msgstr "Peut voir les statistiques d'autres instructeurs"
+
+#: models.py:273
+msgid "Can view one's own financial/payment data (if a staff member)"
+msgstr ""
+"Peut voir ses propres données financières / de paiement (si est un "
+"instructeur)"
+
+#: models.py:274
+msgid "Can view other staff members' financial/payment data"
+msgstr ""
+"Peut voir les données financières / de paiement des autres instructeurs"
+
+#: models.py:282 models.py:1565
+msgid "Title"
+msgstr "Titre"
+
+#: models.py:283 models.py:388 models.py:459 models.py:505 models.py:636
+#: models.py:1311 models.py:1569 models.py:1613 models.py:2912
+msgid "Description"
+msgstr "Description"
+
+#: models.py:284 models.py:648 models.py:1324 models.py:1570 models.py:1623
+msgid "Short description"
+msgstr "Description"
+
+#: models.py:284
+msgid "May be used for tag lines and feeds."
+msgstr ""
+
+#: models.py:285
+msgid "Dance Type & Level"
+msgstr "Type et niveau de danse"
+
+#: models.py:287 models.py:461 models.py:521 models.py:533 models.py:1333
+#: models.py:1566
+msgid "Slug"
+msgstr "Coup"
+
+#: models.py:287
+msgid ""
+"This is used in the URL for the individual class pages.  You can override "
+"the default"
+msgstr ""
+"Ceci est utilisé dans l'URL pour les pages de cours individuelles. Vous "
+"pouvez remplacerle défaut"
+
+#: models.py:289
+msgid "One Time Series"
+msgstr "Une série unique"
+
+#: models.py:289
+msgid ""
+"If checked, this class description will not show up in the dropdown menu "
+"when creating a new series."
+msgstr ""
+"Si cochée, cette description du cours n'apparaîtra pas dans le menu "
+"déroulantlors de la création d'une nouvelle série."
+
+#: models.py:299
+msgid "Level"
+msgstr "Niveau"
+
+#: models.py:307 models.py:318
+msgid "Last offered"
+msgstr "Offert la fois précédente"
+
+#: models.py:328
+msgid "Class series description"
+msgstr "Description de la série de cours"
+
+#: models.py:329
+msgid "Class series descriptions"
+msgstr "Descriptions des séries de cours"
+
+#: models.py:337
+msgid "Active Location"
+msgstr "Emplacement actif"
+
+#: models.py:338
+msgid "Former Location"
+msgstr "Ancien emplacement"
+
+#: models.py:339
+msgid "Special Event Location (not shown by default)"
+msgstr "Emplacement de l'événement spécial (non affiché par défaut)"
+
+#: models.py:341
+msgid "Give this location a name."
+msgstr "Donnez un nom à cet emplacement."
+
+#: models.py:343
+msgid "Enter the location's street address."
+msgstr "Entrez l'adresse de l'emplacement."
+
+#: models.py:345
+msgid "2-digit state code"
+msgstr "Code d'état à 2 chiffres"
+
+#: models.py:346
+msgid "ZIP/postal code"
+msgstr "Zip / code postal"
+
+#: models.py:348
+msgid "Directions"
+msgstr "Directions"
+
+#: models.py:348
+msgid ""
+"Insert any detailed directions that you would like here.  Use HTML to "
+"include videos, formatting, etc."
+msgstr ""
+"Insérer les instructions détaillées que vous souhaitez ici. Utiliser HTML "
+"pour"
+
+#: models.py:352
+msgid ""
+"Is this location used regularly, used for special events, or no longer used?"
+msgstr ""
+"Cet emplacement est-il utilisé régulièrement, utilisé pour des événements "
+"spéciaux, ou n'est plus utilisé?"
+
+#: models.py:354
+msgid ""
+"This determines the order that the locations show up on the Locations page."
+msgstr ""
+
+#: models.py:356 models.py:386
+msgid "Default Venue Capacity"
+msgstr "Capacité du lieu par défaut"
+
+#: models.py:356
+msgid ""
+"If set, this will be used to determine capacity for class series in this "
+"venue."
+msgstr ""
+"Si défini, cela sera utilisé pour déterminer la capacité pour les séries de "
+"cours dans celieu."
+
+#: models.py:361
+msgid "Address"
+msgstr "Adresse"
+
+#: models.py:374 models.py:384 models.py:575 models.py:3113
+#: templates/core/account_profile.html:46
+#: templates/core/account_profile.html:107
+#: templates/core/account_profile.html:158
+#: templates/core/account_profile.html:207
+#: templates/core/instructor_stats.html:38
+#: templates/core/instructor_stats.html:66
+#: templates/core/view_eventregistrations.html:10
+msgid "Location"
+msgstr "Emplacement"
+
+#: models.py:383
+msgid "Give this room a name."
+msgstr "Donner un nom à cette pièce."
+
+#: models.py:386
+msgid ""
+"If set, this will be used to determine capacity for class series in this "
+"room."
+msgstr ""
+"Si défini, cela sera utilisé pour déterminer la capacité pour les séries de "
+"cours dans cettePièce."
+
+#: models.py:388
+msgid ""
+"By default, only room names are listed publicly.  However, you may insert "
+"any descriptive information that you would like about this room here."
+msgstr ""
+"Par défaut, seuls les noms de salles sont répertoriés publiquement, mais "
+"vous pouvez insérerToute information descriptive que vous souhaitez sur "
+"cette pièce ici."
+
+#: models.py:402 models.py:576
+msgid "Room"
+msgstr "Pièce"
+
+#: models.py:403
+msgid "Rooms"
+msgstr "Pièces"
+
+#: models.py:408
+msgid "Give this pricing tier a name (e.g. 'Default 4-week series')"
+msgstr ""
+"Attribuez un nom à ce niveau de tarification (par exemple, \"Série par "
+"défaut de 4 semaines\")"
+
+#: models.py:413
+msgid "Online price"
+msgstr "Prix en ligne"
+
+#: models.py:414
+msgid "At-the-door price"
+msgstr "Prix à la porte"
+
+#: models.py:416
+msgid "Single class drop-in price"
+msgstr "Prix d'entrée du cours ouvert à tous"
+
+#: models.py:416
+msgid ""
+"If students are allowed to drop in, then this price will be applied per "
+"class."
+msgstr ""
+"Si les étudiants sont autorisés à entrer, ce prix sera appliqué parcours."
+
+#: models.py:418
+msgid "Expired"
+msgstr "Expiré"
+
+#: models.py:418
+msgid ""
+"If this box is checked, then this pricing tier will not show up as an option "
+"when creating new series.  Use this for old prices or custom pricing that "
+"will not be repeated."
+msgstr ""
+"Si cette case est cochée, ce niveau de tarification n'apparaîtra pas en tant "
+"qu'optionlors de la création de nouvelles séries.Utilisez ceci pour les "
+"anciens prix ou personnalisés les prix qui ne seront pas répété."
+
+#: models.py:439
+msgid "Base price"
+msgstr "Tarif de base"
+
+#: models.py:446 models.py:1295
+msgid "Pricing tier"
+msgstr "Niveau de tarification"
+
+#: models.py:447
+msgid "Pricing tiers"
+msgstr "Niveaux de tarification"
+
+#: models.py:458
+msgid "Session name will be displayed."
+msgstr "Le nom de la catégorie sera affiché."
+
+#: models.py:459 models.py:505
+msgid "Add an optional description."
+msgstr "Ajoutez une description facultative."
+
+#: models.py:463
+msgid ""
+"Events can be accessed by a URL based on this slug, as well as by a URL "
+"specified by month."
+msgstr ""
+
+#: models.py:467 models.py:1132 templates/core/account_profile.html:46
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: models.py:468
+msgid ""
+"This value should be populated automatically based on the first start time "
+"of any event associated with this session."
+msgstr ""
+
+#: models.py:472 models.py:1133
+msgid "End Time"
+msgstr "Heure de fin"
+
+#: models.py:473
+msgid ""
+"This value should be populated automatically based on the last end time of "
+"any event associated with this session."
+msgstr ""
+
+#: models.py:493
+msgid "Event session"
+msgstr "Données de Session et des Formulaires"
+
+#: models.py:494
+msgid "Event sessions"
+msgstr "Décrivez l'événement pour la page de l'événement."
+
+#: models.py:504
+msgid "Category name will be displayed."
+msgstr "Le nom de la catégorie sera affiché."
+
+#: models.py:512
+msgid "Event category"
+msgstr "Catégorie d'événement"
+
+#: models.py:513
+msgid "Event categories"
+msgstr "Catégories d'événements"
+
+#: models.py:521 models.py:533
+msgid ""
+"This slug is used primarily for custom templates in registration, if the "
+"category is shown separately on the registration page.  You can override the "
+"default."
+msgstr ""
+
+#: models.py:522 models.py:534
+msgid "Show category separately on registration page"
+msgstr "Afficher la catégorie séparément sur la page d'inscription"
+
+#: models.py:525
+msgid "Series category"
+msgstr "Catégorie de série"
+
+#: models.py:526
+msgid "Series categories"
+msgstr "Catégories des séries"
+
+#: models.py:535 models.py:1343
+msgid "Calendar display color"
+msgstr "Couleur d'affichage du calendrier"
+
+#: models.py:538
+msgid "Public event category"
+msgstr "Catégorie d'événement public"
+
+#: models.py:539
+msgid "Public event categories"
+msgstr "Catégories d'événements publics"
+
+#: models.py:547
+msgid "Registration disabled"
+msgstr "Inscription désactivée"
+
+#: models.py:548 models.py:886
+msgid "Registration enabled"
+msgstr "Inscription activée"
+
+#: models.py:549
+msgid "Registration held closed (override default behavior)"
+msgstr "Enregistrement tenu fermé (remplacement du comportement par défaut)"
+
+#: models.py:550
+msgid "Registration held open (override default)"
+msgstr "Enregistrement maintenu ouvert (override default)"
+
+#: models.py:551
+msgid ""
+"Registration open, but hidden from registration page and calendar (link "
+"required to register)"
+msgstr ""
+"Inscription ouverte, mais cachée de la page d'inscription et du calendrier "
+"(lienrequis pour s'inscrire"
+
+#: models.py:552
+msgid ""
+"Hidden from registration page and registration closed, but visible on "
+"calendar."
+msgstr ""
+"Caché de la page d'inscription et de l'inscription fermée, mais visible "
+"surcalendrier."
+
+#: models.py:553
+msgid "Event hidden and registration closed"
+msgstr "Événement caché et inscription fermée"
+
+#: models.py:555
+msgid "Registration status"
+msgstr "Statut d'inscription"
+
+#: models.py:555
+msgid "Set the registration status and visibility status of this event."
+msgstr ""
+"Définissez l'état d'inscription et le statut de visibilité de cet événement."
+
+#: models.py:556
+msgid "Session"
+msgstr "Supprimer automatiquement les données d'inscription et de sessions"
+
+#: models.py:556
+msgid "Optional event sessions can be used to order events for registration."
+msgstr ""
+
+#: models.py:559
+msgid "Unique link ID"
+msgstr "ID de lien unique"
+
+#: models.py:563
+msgid "Registration is open"
+msgstr "L'inscription est ouverte"
+
+#: models.py:565
+msgid "Registration closes days from first occurrence"
+msgstr "L'inscription ferme les jours suivant la première occurrence"
+
+#: models.py:569
+msgid ""
+"Enter positive values to close after first event occurrence, and negative "
+"values to close before first event occurrence.  Leave blank to keep "
+"registration open until the event has ended entirely."
+msgstr ""
+
+#: models.py:571 models.py:1234
+msgid "Creation date"
+msgstr "Date de création"
+
+#: models.py:572 models.py:1235
+msgid "Last modified date"
+msgstr "Date de dernière modification"
+
+#: models.py:573
+msgid "Submitted by user"
+msgstr "Soumis par l'utilisateur"
+
+#: models.py:578
+msgid "Event capacity"
+msgstr "Capacité de l'événement"
+
+#: models.py:588
+msgid "Year"
+msgstr "Année"
+
+#: models.py:589
+msgid "Start time (first occurrence)"
+msgstr "Heure de début (première occurrence)"
+
+#: models.py:590
+msgid "End time (last occurrence)"
+msgstr "Heure de fin (dernière occurrence)"
+
+#: models.py:591
+msgid "Duration in hours"
+msgstr "Durée en heures"
+
+#: models.py:621
+#, python-format
+msgid "Event, begins %s"
+msgstr "Événement, commence %s"
+
+#: models.py:623
+#, python-format
+msgid "Event #%s"
+msgstr "Événement #%s"
+
+#: models.py:700
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: models.py:725
+#, python-format
+msgid "%ss in %s"
+msgstr ""
+
+#: models.py:727
+#, python-format
+msgid "%ss"
+msgstr ""
+
+#: models.py:740
+msgid "Display color"
+msgstr "Couleur d'affichage"
+
+#: models.py:746
+msgid "Duration in minutes"
+msgstr "Durée en minutes"
+
+#: models.py:775 models.py:1357 models.py:1589
+msgid "Base price for online registration"
+msgstr "Prix de base pour l'inscription en ligne"
+
+#: models.py:819
+msgid "# Occurrences"
+msgstr "# d’occurences"
+
+#: models.py:824
+msgid "First occurrence"
+msgstr "Première occurence"
+
+#: models.py:831 templates/core/registration/event_category__default.html:12
+#: templates/core/registration/series_category__default.html:12
+msgid "Begins"
+msgstr "Commence"
+
+#: models.py:836
+msgid "Next occurrence"
+msgstr "Prochaine occurrence"
+
+#: models.py:843
+msgid "Next occurs"
+msgstr "Le prochain est"
+
+#: models.py:848
+msgid "Last occurrence"
+msgstr "Dernière occurrence"
+
+#: models.py:855
+msgid "Ends"
+msgstr "Fini"
+
+#: models.py:860
+msgid "Day of week"
+msgstr "Jour de la semaine"
+
+#: models.py:865
+msgid "Hour"
+msgstr "Heure"
+
+#: models.py:870
+msgid "Minute"
+msgstr "Minute"
+
+#: models.py:875
+msgid "Has begun"
+msgstr "A commencé"
+
+#: models.py:880
+msgid "Has ended"
+msgstr "Est terminé"
+
+#: models.py:895
+msgid "# Drop-ins"
+msgstr "# Ouvert à tous"
+
+#: models.py:916
+msgid "# Registered"
+msgstr "# Inscrits"
+
+#: models.py:932
+msgid "Applicable dance roles"
+msgstr "Rôles de danse applicables"
+
+#: models.py:951
+msgid "# Registered by role"
+msgstr "# Inscrits par rôle"
+
+#: models.py:1002
+msgid "Sold Out"
+msgstr "Épuisé"
+
+#: models.py:1010
+msgid "Event URL"
+msgstr "URL de l'événement"
+
+#: models.py:1079
+msgid "If registration is enabled then a capacity must be set."
+msgstr "Si l'inscription est activé, une capacité doit être définie."
+
+#: models.py:1081
+msgid "Selected room is not part of selected location."
+msgstr ""
+"La chambre sélectionnée ne fait pas partie de l'emplacement sélectionné."
+
+#: models.py:1117
+#, python-format
+msgid "Event: %s"
+msgstr "Événement : %s"
+
+#: models.py:1120 models.py:1130
+msgid "Series/Event"
+msgstr "Série / Événement"
+
+#: models.py:1121
+msgid "All Series/Events"
+msgstr "Toutes les séries / événements"
+
+#: models.py:1135
+msgid "Check this box to mark that the class or event was cancelled."
+msgstr ""
+"Cochez cette case pour indiquer que le cours ou l'événement a été annulé."
+
+#: models.py:1143
+msgid "Duration"
+msgstr "Durée"
+
+#: models.py:1174
+#, python-format
+msgid "On %s"
+msgstr "Sur %s"
+
+#: models.py:1187
+#, python-brace-format
+msgid "From {startTime} to {endTime}"
+msgstr ""
+
+#: models.py:1188
+msgid "Occurs"
+msgstr "Se produit"
+
+#: models.py:1194
+msgid "Event occurrence"
+msgstr "Occurrence d'événement"
+
+#: models.py:1195
+msgid "Event occurrences"
+msgstr "Occurences d’événement"
+
+#: models.py:1207
+msgid "Event dance role"
+msgstr "Rôle de danse de l’événement"
+
+#: models.py:1208
+msgid "Event dance roles"
+msgstr "Rôles de danse de l’événement"
+
+#: models.py:1218
+msgid "Category"
+msgstr "Catégorie"
+
+#: models.py:1220 models.py:2262 models.py:2359
+msgid "Event"
+msgstr "Événement"
+
+#: models.py:1221
+msgid "Applicable event occurrences"
+msgstr "Occurrences d'événement applicables"
+
+#: models.py:1223
+msgid "Staff Member"
+msgstr "Membre du personnel"
+
+#: models.py:1224
+msgid "Replacement for"
+msgstr "Remplacement pour"
+
+#: models.py:1227
+msgid "Number of hours (optional)"
+msgstr "Veuillez indiquer le nombre d'heures à payer."
+
+#: models.py:1228
+msgid ""
+"If unspecified, then the net number of hours is based on the duration of the "
+"applicable event occurrences."
+msgstr ""
+
+#: models.py:1233
+msgid "Submission User"
+msgstr "Utilisateur de soumission"
+
+#: models.py:1249
+msgid "Net hours"
+msgstr "Heures nettes"
+
+#: models.py:1253
+msgid "Event Staff"
+msgstr "Personnel d'événement"
+
+#: models.py:1255
+msgid "as"
+msgstr ""
+
+#: models.py:1257
+msgid "for"
+msgstr ""
+
+#: models.py:1265
+msgid "Event staff member"
+msgstr "Membre du personnel de l'événement"
+
+#: models.py:1266
+msgid "Event staff members"
+msgstr "Membres du personnel de l'événement"
+
+#: models.py:1276
+msgid "Class description"
+msgstr "Description du cours"
+
+#: models.py:1277
+msgid "Series category (optional)"
+msgstr "Catégorie de série (facultatif)"
+
+#: models.py:1277
+msgid ""
+"Custom series categories may be used to display special series (e.g. one-"
+"offs, visiting instructors) separately on your registration page."
+msgstr ""
+
+#: models.py:1278
+msgid "Allow class drop-ins"
+msgstr "Autoriser l'ouverture des cours"
+
+#: models.py:1278
+msgid ""
+"If checked, then all staff will be able to register students as drop-ins."
+msgstr ""
+"\"Si cochée, tout le personnel pourra inscrire les étudiants en tant que "
+"\"visiteurs\"."
+
+#: models.py:1372
+msgid "Class series URL"
+msgstr "URL de la Série de cours"
+
+#: models.py:1376
+msgid ""
+"If drop-ins are allowed then drop-in price must be specified by the Pricing "
+"Tier."
+msgstr ""
+"Si les drop-ins sont autorisés, le prix de revient doit être spécifié par le "
+"niveau de tarification."
+
+#: models.py:1382
+#, python-format
+msgid "%s %s: %s"
+msgstr ""
+
+#: models.py:1384
+#, python-format
+msgid "Class Series: %s"
+msgstr "Série de cours : %s"
+
+#: models.py:1386 models.py:3143
+msgid "Class Series"
+msgstr "Série de cours"
+
+#: models.py:1389 models.py:1390
+msgid "Class series"
+msgstr "Série de cours"
+
+#: models.py:1428 models.py:1522
+msgid "Net hours taught"
+msgstr "Heures nettes enseignées"
+
+#: models.py:1435
+msgid "Series instructor"
+msgstr "Instructeur de la série"
+
+#: models.py:1436
+msgid "Series instructors"
+msgstr "Instructeurs de la série"
+
+#: models.py:1466
+msgid " subbed: "
+msgstr "remplacé : "
+
+#: models.py:1473
+msgid " subbed for "
+msgstr "remplacé pour"
+
+#: models.py:1479
+msgid "Must indicate which Instructor was replaced."
+msgstr "Doit indiquer quel instructeur a été remplacé."
+
+#: models.py:1484
+msgid "Can access the substitute teaching reporting form"
+msgstr "Peut accéder au formulaire de rapport d'enseignement de remplacement"
+
+#: models.py:1486
+msgid "Substitute instructor"
+msgstr "Instructeur suppléant"
+
+#: models.py:1487
+msgid "Substitute instructors"
+msgstr "Instructeurs suppléants"
+
+#: models.py:1529
+msgid "Event DJ"
+msgstr "Événement"
+
+#: models.py:1530
+msgid "Event DJs"
+msgstr "Événement"
+
+#: models.py:1556
+msgid "Series staff member"
+msgstr "Membre du personnel"
+
+#: models.py:1557
+msgid "Series staff members"
+msgstr "Membres du personnel"
+
+#: models.py:1565
+msgid "Give the event a title"
+msgstr "Donner un titre à l'événement"
+
+#: models.py:1566
+msgid "This is for the event page URL, you can override the default."
+msgstr ""
+"Ceci est pour l'URL de la page de l'événement, vous pouvez remplacer la "
+"valeur par défaut."
+
+#: models.py:1568
+msgid "Category (optional)"
+msgstr "Catégorie (facultatif)"
+
+#: models.py:1568
+msgid ""
+"Custom event categories may be used to display special types of events (e.g. "
+"practice sessions) separately on your registration page.  They may also be "
+"displayed in different colors on the public calendar."
+msgstr ""
+
+#: models.py:1569
+msgid "Describe the event for the event page."
+msgstr "Décrivez l'événement pour la page de l'événement."
+
+#: models.py:1570
+msgid "Shorter description for \"taglines\" and feeds."
+msgstr ""
+
+#: models.py:1571
+msgid "External link to event (if applicable)"
+msgstr "Lien externe vers l'événement (le cas échéant)"
+
+#: models.py:1571
+msgid ""
+"Optionally include the URL to a page for this Event.  If set, then the "
+"site's auto-generated Event page will instead redirect to this URL."
+msgstr ""
+
+#: models.py:1575
+msgid "Pricing Tier"
+msgstr "Niveau de prix"
+
+#: models.py:1597
+msgid "DJs"
+msgstr ""
+
+#: models.py:1646
+msgid "Public event"
+msgstr "Événement public"
+
+#: models.py:1647
+msgid "Public events"
+msgstr "Événements publics"
+
+#: models.py:1655
+msgid "Group name"
+msgstr ""
+"Attribuez un nom à ce groupe de points de niveau de prix (par exemple,\" "
+"Heures de cours en série standard \")"
+
+#: models.py:1669
+msgid "Customer group"
+msgstr "Groupe de points"
+
+#: models.py:1670 models.py:1689
+msgid "Customer groups"
+msgstr "Client"
+
+#: models.py:1684 models.py:1810 models.py:2102
+msgid "Email address"
+msgstr "Adresse Courriel"
+
+#: models.py:1690
+msgid ""
+"Customer groups may be used for group-specific discounts and vouchers, as "
+"well as for email purposes."
+msgstr ""
+
+#: models.py:1705
+msgid "# Events/series registered"
+msgstr "# Événements / séries inscrits"
+
+#: models.py:1710
+msgid "# Series registered"
+msgstr "# séries inscrites"
+
+#: models.py:1715
+msgid "# Public events registered"
+msgstr "# Événements publics inscrits"
+
+#: models.py:1721
+msgid "Customer's first series"
+msgstr "Première série du client"
+
+#: models.py:1727
+msgid "Customer's first series date"
+msgstr "Date de la première série du client"
+
+#: models.py:1733
+msgid "Customer's most recent series"
+msgstr "La série la plus récente du client"
+
+#: models.py:1739
+msgid "Customer's most recent series date"
+msgstr "Date de la série la plus récente du client"
+
+#: models.py:1800
+msgid ""
+"Able to use customer and User autocomplete features (in various admin forms)"
+msgstr ""
+
+#: models.py:1801
+msgid "Able to view other Customer and User profile pages"
+msgstr "Capable d'afficher d'autres pages de profil client et d’utilisateur"
+
+#: models.py:1813 models.py:2038
+msgid "How they heard about us"
+msgstr "Comment ils ont entendu parler de nous"
+
+#: models.py:1814 models.py:2039
+msgid "Eligible for student discount"
+msgstr "Admissible au rabais étudiant"
+
+#: models.py:1815 models.py:2040
+msgid "At-the-door registration"
+msgstr "Inscription à la porte"
+
+#: models.py:1817
+msgid "registered by user"
+msgstr "Inscrit par l'utilisateur"
+
+#: models.py:1820 models.py:2049
+msgid "Registration date/time"
+msgstr "Date / Heure d'inscription"
+
+#: models.py:1821 models.py:2042
+msgid "Price net of discounts"
+msgstr "Prix net des réductions"
+
+#: models.py:1833
+msgid "Expiration date"
+msgstr "Date d'Expiration"
+
+#: models.py:1835
+msgid ""
+"When a customer attempts to begin the registration process, the system looks "
+"for temporary registrations that are still in progress (with a future "
+"expiration date) to determine if there is space for them to register."
+msgstr ""
+
+#: models.py:1849 models.py:2107
+msgid "Price of class series"
+msgstr "Prix de la série de cours"
+
+#: models.py:1854 models.py:2112
+msgid "Price of public events"
+msgstr "Prix des événements publics"
+
+#: models.py:1859 models.py:2117
+msgid "Total price before discounts"
+msgstr "Prix total avant les réductions"
+
+#: models.py:1884
+msgid "Total discounts"
+msgstr "Total des réductions"
+
+#: models.py:1889 models.py:2171
+msgid "First event starts"
+msgstr "Le premier événement commence"
+
+#: models.py:1894 models.py:2176
+msgid "First class series starts"
+msgstr "La première série de cours commence"
+
+#: models.py:1899 models.py:2181
+msgid "Last event ends"
+msgstr "Dernier événement termine"
+
+#: models.py:1904 models.py:2186
+msgid "Last class series ends"
+msgstr "La dernière série de cours termine"
+
+#: models.py:2019 models.py:2021
+msgid "Temporary Registration"
+msgstr "Inscription temporaire"
+
+#: models.py:2026
+msgid "Temporary registrations"
+msgstr "Inscriptions temporaires"
+
+#: models.py:2047 models.py:2364
+msgid "Associated temporary registration"
+msgstr "Inscription temporaire associé"
+
+#: models.py:2076 models.py:2314
+msgid "Issue with event registration"
+msgstr "Problème avec l'inscription à l'événement"
+
+#: models.py:2087 models.py:2325
+msgid "Transaction was partially refunded"
+msgstr "La transaction a été partiellement remboursée"
+
+#: models.py:2123 models.py:2281
+msgid "Net price"
+msgstr "Prix net"
+
+#: models.py:2148 models.py:2286 models.py:2651
+msgid "Is discounted"
+msgstr "Est réduit"
+
+#: models.py:2159
+msgid "Net price of class series"
+msgstr "Prix net de la série de cours"
+
+#: models.py:2166
+msgid "Net price of public events"
+msgstr "Prix net des événements publics"
+
+#: models.py:2243
+msgid "Registrations"
+msgstr "Inscriptions"
+
+#: models.py:2246
+msgid "Can access the series-level registration summary view"
+msgstr "Peut accéder à la vue récapitulative de l'inscription au niveau série"
+
+#: models.py:2247
+msgid "Can check-in customers using the summary view"
+msgstr "Peut enregistrer les clients en utilisant la vue récapitulative"
+
+#: models.py:2248
+msgid "Can process door payments in the registration system"
+msgstr "Peut traiter les paiements à la porte dans le système d'inscription"
+
+#: models.py:2249
+msgid "Can register students for drop-ins."
+msgstr "Peut inscrire des étudiants comme visiteurs."
+
+#: models.py:2250
+msgid ""
+"Can register students for series/events that are closed for registration by "
+"the public"
+msgstr ""
+"Peut enregistrer des étudiants pour des séries / événements qui sont fermés "
+"à l'inscription par” “le public"
+
+#: models.py:2251
+msgid "Can register students for series/events that are officially sold out"
+msgstr ""
+"Peut inscrire des étudiants pour des séries / événements qui sont "
+"officiellement épuisés"
+
+#: models.py:2252
+msgid ""
+"Can register students for drop-ins even if the series does not allow drop-in "
+"registration."
+msgstr ""
+"Peut enregistrer des étudiants pour des cours ouverts même si la série ne "
+"permet pas” “d'iscriptions visite."
+
+#: models.py:2265 models.py:2358
+msgid "Price before discounts"
+msgstr "Prix avant les réductions"
+
+#: models.py:2267
+msgid "Checked In"
+msgstr "Enregistré"
+
+#: models.py:2267
+msgid "Check to mark the individual as checked in."
+msgstr "Cochez pour marquer l'individu comme enregistré."
+
+#: models.py:2269 models.py:2361
+msgid "Drop-in registration"
+msgstr "Inscription cours ouvert"
+
+#: models.py:2269 models.py:2361
+msgid "If true, this is a drop-in registration."
+msgstr "Si vrai, ceci est l’inscription au cours ouvert"
+
+#: models.py:2270
+msgid ""
+"Mark as cancelled so that this registration is not counted in student/"
+"attendee counts."
+msgstr ""
+"Marquer comme annulé afin que cette inscription ne soit pas comptabilisée "
+"dans le nombre” “d'étudiants / participants."
+
+#: models.py:2291
+msgid "Matching temporary registration"
+msgstr "Correspondance d'inscription temporaire"
+
+#: models.py:2353 models.py:2918
+msgid "Event registration"
+msgstr "Inscription d'événement"
+
+#: models.py:2354
+msgid "Event registrations"
+msgstr "Inscriptions d'événements"
+
+#: models.py:2396 models.py:2915
+msgid "Temporary event registration"
+msgstr "Inscription d'événement temporaire"
+
+#: models.py:2397
+msgid "Temporary event registrations"
+msgstr "Inscriptions d'événements temporaires"
+
+#: models.py:2401
+msgid "Template name"
+msgstr "Nom du modèle"
+
+#: models.py:2402
+msgid "Subject line"
+msgstr "Ligne d'objet"
+
+#: models.py:2408
+msgid "Plain text Content"
+msgstr "Contenu en texte brut"
+
+#: models.py:2408
+msgid ""
+"See the list of available variables for details on what information can be "
+"included with template tags."
+msgstr ""
+"Voir la liste des variables disponibles pour plus de détails sur les "
+"informations qui peuvent” “être incluses avec les balises de gabarit."
+
+#: models.py:2409
+msgid "HTML rich text content"
+msgstr "Contenu HTML enrichi"
+
+#: models.py:2409
+msgid ""
+"Emails are sent as plain text by default.  To send an HTML email instead, "
+"enter your desired content in this field."
+msgstr ""
+"Les courriels sont envoyés en texte brut par défaut. Pour envoyer un "
+"courriel HTML,entrez votre contenu souhaité dans ce champ."
+
+#: models.py:2411
+msgid "From name (default)"
+msgstr "De nom (par défaut)"
+
+#: models.py:2412
+msgid "From address (default)"
+msgstr "De l'adresse (par défaut)"
+
+#: models.py:2413
+msgid "CC (default)"
+msgstr "CC (par défaut)"
+
+#: models.py:2415
+msgid "Group permissions required to use."
+msgstr "Autorisations de groupe requises pour utiliser."
+
+#: models.py:2415
+msgid "Some templates should only be visible to some users."
+msgstr ""
+"Certains modèles ne doivent être visibles que par certains utilisateurs."
+
+#: models.py:2416
+msgid "Hide from 'Email Students' form"
+msgstr "Masquer le formulaire \"Etudiants\" "
+
+#: models.py:2416
+msgid "Check this box for templates that are used for automated emails."
+msgstr ""
+"Cochez cette case pour les modèles utilisés pour les courriels automatisés."
+
+#: models.py:2421
+msgid "HTML Email Template"
+msgstr "Modèle de courriel HTML"
+
+#: models.py:2440
+msgid "Email template"
+msgstr "Modèle de courriel"
+
+#: models.py:2441
+msgid "Email templates"
+msgstr "Modèles de courriels"
+
+#: models.py:2443
+msgid "Can send emails using the SendEmailView"
+msgstr "Peut envoyer des courriels en utilisant le mode SendEmailView"
+
+#: models.py:2450 models.py:2615
+msgid "Unpaid"
+msgstr "Non payé"
+
+#: models.py:2451
+msgid "Authorized using payment processor"
+msgstr "Autorisé en utilisant un processeur de paiement"
+
+#: models.py:2452
+msgid "Paid"
+msgstr "Payé"
+
+#: models.py:2453
+msgid "Cash payment recorded"
+msgstr "Paiement en espèces enregistré"
+
+#: models.py:2454 models.py:3020
+msgid "Refunded in full"
+msgstr "Remboursé en totalité"
+
+#: models.py:2456
+msgid "Rejected in processing"
+msgstr "Rejeté en cours de traitement"
+
+#: models.py:2457
+msgid "Error in processing"
+msgstr "Erreur dans le traitement"
+
+#: models.py:2462
+msgid "Invoice number"
+msgstr "Numéro de facture"
+
+#: models.py:2463
+msgid "Validation string"
+msgstr "Chaîne de validation"
+
+#: models.py:2467
+msgid "Recipient first name"
+msgstr "Prénom du destinataire"
+
+#: models.py:2468
+msgid "Recipient last name"
+msgstr "Nom du destinataire"
+
+#: models.py:2469
+msgid "Recipient email address"
+msgstr "Adresse courriel du destinataire"
+
+#: models.py:2477
+msgid "Invoice created"
+msgstr "Facture créée"
+
+#: models.py:2478
+msgid "Last modified"
+msgstr "Dernière modification"
+
+#: models.py:2480 models.py:3025
+msgid "Payment status"
+msgstr "Statut de paiement"
+
+#: models.py:2482 templates/core/process_refund.html:18
+msgid "Paid Online"
+msgstr "Payé en ligne"
+
+#: models.py:2483
+msgid "Registered by user"
+msgstr "Enregistré par l'utilisateur"
+
+#: models.py:2484 models.py:3026
+msgid "Collected by user"
+msgstr "Recueilli par l'utilisateur"
+
+#: models.py:2486 models.py:2920
+msgid "Total before discounts"
+msgstr "Total avant rabais"
+
+#: models.py:2487 models.py:2921
+msgid "Total billed amount"
+msgstr "Montant total facturé"
+
+#: models.py:2488 models.py:2922
+msgid "Refunds/adjustments"
+msgstr "Remboursements / ajustements"
+
+#: models.py:2489 models.py:2923
+#: templates/core/base/base_registration_summary.html:81
+#: templates/core/invoice.html:43 templates/core/invoice.html:73
+#: templates/core/process_refund.html:92
+msgid "Taxes"
+msgstr "Taxes"
+
+#: models.py:2490 models.py:2924
+msgid "Processing fees"
+msgstr "Frais de traitement"
+
+#: models.py:2491
+msgid "Buyer pays sales tax"
+msgstr "L'acheteur paie la taxe de vente"
+
+#: models.py:2493 templates/core/process_refund.html:16
+msgid "Net Amount Paid"
+msgstr "Montant net payé"
+
+#: models.py:2623 templates/core/invoice_notification.html:22
+#: templates/core/invoice_notification.html:62
+msgid "Outstanding balance"
+msgstr "solde restant dû"
+
+#: models.py:2628
+msgid "Amount refunded"
+msgstr "Montant remboursé"
+
+#: models.py:2633
+msgid "Unallocated adjustments"
+msgstr "Ajustements non alloués"
+
+#: models.py:2638
+msgid "All refunds are allocated"
+msgstr "Tous les remboursements sont alloués"
+
+#: models.py:2646 models.py:2932
+msgid "Net revenue"
+msgstr "Revenu net"
+
+#: models.py:2656
+msgid "Discount percentage"
+msgstr "Pourcentage de remise"
+
+#: models.py:2676
+msgid "Invoice URL"
+msgstr "URL de la facture"
+
+#: models.py:2829
+msgid ""
+"Invoice item totals do not match invoice total.  Unable to allocate fees."
+msgstr ""
+"Les ajustements d'articles de facture ne correspondent pas aux ajustements "
+"de facture.” “Impossible d'allouer des frais."
+
+#: models.py:2833
+msgid ""
+"Invoice item adjustments do not match invoice adjustments.  Unable to "
+"allocate fees."
+msgstr ""
+"Les ajustements d'articles de facture ne correspondent pas aux ajustements "
+"de facture.” “Impossible d'allouer des frais."
+
+#: models.py:2870
+msgid "Cannot send notification email because no recipient has been specified."
+msgstr ""
+"Impossible d'envoyer un courriel de notification car aucun destinataire n'a "
+"été spécifié."
+
+#: models.py:2893
+msgid "Can view invoices without passing the validation string."
+msgstr "Peut visualiser les factures sans passer la chaîne de validation."
+
+#: models.py:2894
+msgid "Can send invoices to students requesting payment"
+msgstr "Peut envoyer des factures aux étudiants demandant le paiement"
+
+#: models.py:2895
+msgid "Can refund customers for registrations and other invoice payments."
+msgstr ""
+"Peut rembourser les clients pour les inscriptions et autres paiements de "
+"factures."
+
+#: models.py:2910
+msgid "Invoice item number"
+msgstr "Numéro d'article de la facture"
+
+#: models.py:2938
+#, python-format
+msgid "Drop-in Registration: %s"
+msgstr "Inscription au cours ouvert : %s"
+
+#: models.py:2940
+#, python-format
+msgid "Registration: %s"
+msgstr "Inscription : %s"
+
+#: models.py:2942
+msgid "Other items"
+msgstr "Autres éléments"
+
+#: models.py:2949
+msgid "Invoice item"
+msgstr "Élément de facture"
+
+#: models.py:2950
+msgid "Invoice items"
+msgstr "Éléments de facture"
+
+#: models.py:2964
+msgid "Created"
+msgstr "Créé"
+
+#: models.py:2965
+msgid "Last updated"
+msgstr "Dernière mise à jour"
+
+#: models.py:2967
+msgid "Submission user"
+msgstr "Utilisateur de soumission"
+
+#: models.py:3011
+msgid "Payment record"
+msgstr "Registre de paiement"
+
+#: models.py:3012
+msgid "Payment records"
+msgstr "Registres de paiements"
+
+#: models.py:3018
+msgid "Cash payment recorded, needs collection"
+msgstr "Paiement en espèces enregistré, besoin de collecte"
+
+#: models.py:3019
+msgid "Cash payment collected"
+msgstr "Paiement en espèces collecté"
+
+#: models.py:3022
+msgid "Amount paid"
+msgstr "Le montant payé"
+
+#: models.py:3023
+msgid "Payer email"
+msgstr "Courriel du Payeur"
+
+#: models.py:3040
+msgid "Cash payment record"
+msgstr "Registre de paiement en espèces"
+
+#: models.py:3041
+msgid "Cash payment records"
+msgstr "Registres de paiements en espèces"
+
+#: models.py:3047 models.py:3098 models.py:3114 models.py:3188
+msgid "Plugin template"
+msgstr "Modèle de module d'extension"
+
+#: models.py:3061
+msgid "Instructor Status"
+msgstr "Statut d'instructeur"
+
+#: models.py:3062
+msgid "Randomly Ordered"
+msgstr "Commandé au hasard"
+
+#: models.py:3065
+msgid "Limit to Instructors with Status"
+msgstr "Limiter au statut d'instructeur"
+
+#: models.py:3069
+msgid "Order By"
+msgstr "Commandé par"
+
+#: models.py:3070
+msgid "Image thumbnail option"
+msgstr "Option de vignette d'image"
+
+#: models.py:3072
+msgid "Exclude staff members with no bio"
+msgstr "Exclure les instructeurs sans bio"
+
+#: models.py:3073
+msgid "Exclude staff members with no photo"
+msgstr "Exclure les instructeurs sans photo"
+
+#: models.py:3074
+msgid "Include only staff members with upcoming classes/events"
+msgstr "Inclure seulement les instructeurs avec les cours à venir"
+
+#: models.py:3076
+msgid "Listing Title"
+msgstr "Titre de l'annonce"
+
+#: models.py:3077
+msgid "Template"
+msgstr "Modèle"
+
+#: models.py:3139
+msgid "Event start date"
+msgstr "Date de début de l'événement"
+
+#: models.py:3140
+msgid "Event end date"
+msgstr "Date de fin de l'événement"
+
+#: models.py:3144
+msgid "Public Events"
+msgstr "Événements publics"
+
+#: models.py:3147
+msgid "Ascending"
+msgstr ""
+
+#: models.py:3148
+msgid "Descending"
+msgstr ""
+
+#: models.py:3151
+msgid "Custom list title"
+msgstr "Titre de la liste personnalisée"
+
+#: models.py:3151
+msgid "Upcoming Events"
+msgstr "Évènements à venir"
+
+#: models.py:3153
+msgid "Limit to event type"
+msgstr "Limiter au type d'événement"
+
+#: models.py:3153
+msgid "Leave blank to include all Events."
+msgstr "Laisser vide pour inclure tous les événements."
+
+#: models.py:3154
+msgid "Limit number"
+msgstr ""
+"Il s'agit généralement d'un paramètre spécifique à l'emplacement ou d'un "
+"paramètre spécifique à l'événement.Cependant, si une limite n'est pas "
+"fournie autrement, cela limitera lenombre d'inscriptions autorisées."
+
+#: models.py:3154 models.py:3166 models.py:3171 models.py:3177 models.py:3183
+msgid "Leave blank for no restriction"
+msgstr "Laissez ce champ vide pour aucune restriction les jours de la semaine"
+
+#: models.py:3155
+msgid "Sort by start time"
+msgstr "Date/Heure Début"
+
+#: models.py:3155
+msgid "This may be overridden by the particular template in use"
+msgstr ""
+
+#: models.py:3157
+msgid "Limit interval start by"
+msgstr "L'intervalle de limite commence par"
+
+#: models.py:3158 models.py:3162
+msgid "Interval limited to __ days from present"
+msgstr "Intervalle limité à __ jours du présent"
+
+#: models.py:3158
+msgid ""
+"(E.g. enter -30 for an interval that starts with 30 days prior to today) "
+"Leave blank for no limit, or enter 0 to limit to future events"
+msgstr ""
+"(Par exemple entrez -30 pour un intervalle qui commence avec 30 jours avant "
+"aujourd'hui)Laissez vide pour aucune limite, ou entrez 0 pour limiter à des "
+"événements futurs"
+
+#: models.py:3159
+msgid "Exact interval start date"
+msgstr "Date de début de l'intervalle exact"
+
+#: models.py:3159 models.py:3163
+msgid "Leave blank for no limit (overrides relative interval limits)"
+msgstr ""
+"Laissez vide pour aucune limite (remplace les limites d'intervalle relatif)"
+
+#: models.py:3161
+msgid "Limit interval end by"
+msgstr "Limiter la fin de l'Intervalle par"
+
+#: models.py:3162
+msgid ""
+"(E.g. enter 30 for an interval that ends 30 days from today) Leave blank for "
+"no limit, or enter 0 to limit to past events"
+msgstr ""
+"(Par exemple, entrez 30 pour un intervalle qui se termine 30 jours à partir "
+"d'aujourd'hui) Laissez vide pourAucune limite, ou entrez 0 pour limiter aux "
+"événements passés"
+
+#: models.py:3163
+msgid "Exact interval end date "
+msgstr "Date de fin exacte de l'intervalle"
+
+#: models.py:3165
+msgid "Limit to open for registration only"
+msgstr "Limité à ouverture pour inscription seulement"
+
+#: models.py:3166
+msgid "Limit to locations"
+msgstr "Emplacements"
+
+#: models.py:3167
+msgid "Limit to weekday"
+msgstr "Limiter au jour de la semaine"
+
+#: models.py:3170
+msgid "Limit to public event categories"
+msgstr "Catégories d'événements publics"
+
+#: models.py:3176
+msgid "Limit to series categories"
+msgstr "Catégories des séries"
+
+#: models.py:3182
+msgid "Limit to type and levels"
+msgstr "Niveaux du type de danse"
+
+#: models.py:3187
+msgid "Custom CSS classes"
+msgstr "Cours CSS personnalisés"
+
+#: models.py:3187
+msgid "Classes are applied to surrounding &lt;div&gt;"
+msgstr "Les cours sont appliquées aux environs & lt; div & gt;"
+
+#: models.py:3214
+msgid ""
+"Can enter a custom plugin template for plugins with selectable template."
+msgstr ""
+
+#: templates/account/ajax_login.html:6
+msgid "Returning Customers"
+msgstr "Clients Existants"
+
+#: templates/account/ajax_login.html:11 templates/account/ajax_login.html:43
+msgid "Sign In"
+msgstr "Se connecter"
+
+#: templates/account/ajax_login.html:12 templates/account/ajax_login.html:54
+msgid "Create An Account"
+msgstr "Créer un compte"
+
+#: templates/account/ajax_login.html:18
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"    of your existing third party accounts. Or, <a href=\"#ajax_login_choice"
+"\" id=\"signup_switch\">sign up</a>\n"
+"    for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: templates/account/ajax_login.html:28
+msgid "or"
+msgstr ""
+
+#: templates/account/ajax_login.html:35
+msgid ""
+"If you have not created an account yet, then please\n"
+"    <a href=\"#ajax_login_choice\" id=\"signup_switch\">sign up</a> first."
+msgstr ""
+
+#: templates/account/ajax_login.html:42
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié?"
+
+#: templates/account/ajax_login.html:49
+msgid ""
+"Already have an account? Then please <a href=\"#ajax_login_choice\" id="
+"\"signin_switch\">sign in</a>."
+msgstr ""
+"Vous avez déjà un compte? Alors s'il vous plait <a href = \" # "
+"ajax_login_choice \\ \"id =\" signin_switch \\ \"> connectez-vous </a>."
+
+#: templates/admin/base.html:41
+msgid "Welcome,"
+msgstr "Bienvenue,"
+
+#: templates/admin/base.html:46
+msgid "View site"
+msgstr "Voir le site"
+
+#: templates/admin/base.html:51
+msgid "Documentation"
+msgstr "Documentation"
+
+#: templates/admin/base.html:55
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+#: templates/admin/base.html:57
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: templates/admin/base.html:67
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/cms/forms/display_form_classbased.html:10
+#: templates/cms/forms/display_form_classbased_admin.html:10
+#: templates/core/repeat_events.html:38
+#: templates/dynamic_preferences/form_danceschool.html:56
+msgid "Submit"
+msgstr "Envoyer"
+
+#: templates/cms/forms/submission_redirect.html:20
+#, python-format
+msgid ""
+"You will be redirected automatically in %(seconds)s seconds.  If for some "
+"reason you are not redirected, please <a href=\"%(redirect_url)s\">click "
+"here</a>."
+msgstr ""
+
+#: templates/cms/navbar.html:5
+msgid "Toggle navigation"
+msgstr "Activer la navigation"
+
+#: templates/core/account_profile.html:7
+msgid "Welcome Back"
+msgstr "Bienvenue"
+
+#: templates/core/account_profile.html:9
+#, python-format
+msgid "Account Profile for %(name)s"
+msgstr ""
+
+#: templates/core/account_profile.html:13
+msgid "Register for Classes"
+msgstr "S'inscrire aux cours"
+
+#: templates/core/account_profile.html:19
+msgid "Staff Directory"
+msgstr "Répertoire du personnel"
+
+#: templates/core/account_profile.html:23
+msgid "Your Instructor Stats"
+msgstr "Vos statistiques d'instructeur"
+
+#: templates/core/account_profile.html:26
+msgid "Your Payment History"
+msgstr "historique de paiement"
+
+#: templates/core/account_profile.html:41
+msgid "Current and Upcoming Series"
+msgstr "Série en cours et à venir"
+
+#: templates/core/account_profile.html:46
+msgid "Series/Event Name"
+msgstr "Nom de la série / de l'événement"
+
+#: templates/core/account_profile.html:46
+#: templates/core/instructor_stats.html:38
+#: templates/core/instructor_stats.html:66
+msgid "Teaching Partner"
+msgstr "Partenaire d'enseignement"
+
+#: templates/core/account_profile.html:46
+#: templates/core/instructor_stats.html:38
+#: templates/core/instructor_stats.html:66
+msgid "Students Registered"
+msgstr "Étudiants inscrits"
+
+#: templates/core/account_profile.html:78
+#, python-format
+msgid "Summary Statistics for %(name)s"
+msgstr ""
+
+#: templates/core/account_profile.html:83
+msgid "Basic Customer Information"
+msgstr "Informations de base sur le client"
+
+#: templates/core/account_profile.html:85
+msgid "Basic Information"
+msgstr "Informations de base"
+
+#: templates/core/account_profile.html:90
+msgid "Customer Since"
+msgstr "Client depuis"
+
+#: templates/core/account_profile.html:92
+msgid "Number of Series Taken"
+msgstr "Nombre de séries prises"
+
+#: templates/core/account_profile.html:95
+msgid "Customer Referral ID"
+msgstr "ID de référence client"
+
+#: templates/core/account_profile.html:97
+msgid "Available Referral Credits"
+msgstr "Crédits de référence disponibles"
+
+#: templates/core/account_profile.html:102
+msgid "Class Series Taken"
+msgstr "Nombre de séries prises"
+
+#: templates/core/account_profile.html:107
+#: templates/core/account_profile.html:158
+#: templates/core/account_profile.html:207
+#: templates/core/instructor_stats.html:38
+#: templates/core/instructor_stats.html:66
+msgid "Series Name"
+msgstr "Nom de la série"
+
+#: templates/core/account_profile.html:107
+#: templates/core/account_profile.html:158
+#: templates/core/account_profile.html:207
+#: templates/core/instructor_stats.html:38
+#: templates/core/instructor_stats.html:66
+msgid "Class Time"
+msgstr "Heure du cours"
+
+#: templates/core/account_profile.html:127
+#: templates/core/account_profile.html:178
+#: templates/core/account_profile.html:228
+msgid "Show all"
+msgstr "Afficher tous"
+
+#: templates/core/account_profile.html:146
+#, python-format
+msgid ""
+"It looks like you are not yet a customer.  Perhaps you would like to <a href="
+"\"%(registration_url)s\">register for some classes</a>?"
+msgstr ""
+
+#: templates/core/account_profile.html:153
+msgid "Series Registered From Other Email Addresses"
+msgstr "Série enregistrée à partir d'autres adresses électroniques"
+
+#: templates/core/account_profile.html:202
+msgid "Other Series Registered By You"
+msgstr "D'autres séries enregistrées par vous"
+
+#: templates/core/account_profile.html:207
+msgid "Registered As"
+msgstr "Inscrit en tant que"
+
+#: templates/core/admin/instructor_stackedinline.html:7
+msgid "Instructor information"
+msgstr "Instructeur en formation"
+
+#: templates/core/admin/instructor_stackedinline.html:12
+msgid "Change"
+msgstr ""
+
+#: templates/core/admin/instructor_stackedinline.html:14
+msgid "View on site"
+msgstr "Voir le site"
+
+#: templates/core/admin/location_popup_response.html:3
+msgid "Popup closing..."
+msgstr "la fermeture des popups ..."
+
+#: templates/core/base/base_individual_class.html:5
+#: templates/core/base/base_individual_class.html:11
+#, python-format
+msgid ""
+"\n"
+"\t%(month)s %(year)s Class Series - %(title)s\n"
+"\t"
+msgstr ""
+
+#: templates/core/base/base_individual_class.html:17
+#: templates/core/base/base_individual_class.html:23
+#, python-format
+msgid ""
+"\n"
+"\tLearn more through our %(month)s %(year)s class, %(title)s. Classes begin "
+"%(startDate)s at %(location)s.\n"
+"\t"
+msgstr ""
+
+#: templates/core/base/base_individual_class.html:32
+#, python-format
+msgid ""
+"\n"
+"\t\t%(month)s %(year)s: %(title)s\n"
+"\t\t"
+msgstr ""
+
+#: templates/core/base/base_individual_class.html:49
+msgid "Register for this class!"
+msgstr "Inscrivez-vous à ce cours!"
+
+#: templates/core/base/base_individual_class.html:53
+msgid "Registration closed!"
+msgstr "Inscription fermée"
+
+#: templates/core/base/base_individual_class.html:59
+#: templates/core/registration/single_event_registration.html:26 views.py:804
+msgid "Edit Class Details"
+msgstr "Modifier les détails de la classe"
+
+#: templates/core/base/base_individual_class.html:70
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t%(weekday)ss, %(startTime)s at %(location)s, Beginning "
+"%(startDate)s\n"
+"\t\t\t\t"
+msgstr ""
+
+#: templates/core/base/base_individual_class.html:76
+#: templates/core/registration/event_card.html:13
+#: templates/core/registration/event_category__default.html:27
+#: templates/core/registration/series_category__default.html:27
+msgid "with"
+msgstr ""
+
+#: templates/core/base/base_individual_class.html:78
+#: templates/core/registration/single_event_registration.html:13
+msgid "and"
+msgstr ""
+
+#: templates/core/base/base_individual_class.html:84
+#: templates/core/registration/single_event_registration.html:33
+msgid "Class Schedule"
+msgstr "Horaire de cours"
+
+#: templates/core/base/base_individual_class.html:94
+#: templates/core/registration/single_event_registration.html:44
+msgid "More Info"
+msgstr "Plus d'info"
+
+#: templates/core/base/base_individual_class.html:99
+msgid "Pricing"
+msgstr "Tarification"
+
+#: templates/core/base/base_individual_class.html:100
+#: templates/core/registration/event_card.html:59
+#: templates/core/registration/event_category__default.html:43
+#: templates/core/registration/series_category__default.html:43
+msgid "Pre-Registered"
+msgstr "Pré-inscription"
+
+#: templates/core/base/base_individual_class.html:100
+#: templates/core/registration/event_card.html:62
+#: templates/core/registration/event_category__default.html:43
+#: templates/core/registration/series_category__default.html:43
+msgid "At the Door"
+msgstr "À la porte"
+
+#: templates/core/base/base_individual_class.html:112
+msgid "Class Description"
+msgstr "Description du cours"
+
+#: templates/core/base/base_individual_event.html:13
+#: templates/core/base/base_individual_event.html:19
+#, python-format
+msgid ""
+"\n"
+"\tJoin us for our event, %(name)s, held %(startTime)s - %(endTime)s at "
+"%(location)s.\n"
+"\t"
+msgstr ""
+
+#: templates/core/base/base_individual_event.html:34
+msgid "Register for this event!"
+msgstr "Inscrivez-vous à cet événement!"
+
+#: templates/core/base/base_individual_event.html:39 views.py:850
+msgid "Edit Event Details"
+msgstr "Modifier les détails de l'événement"
+
+#: templates/core/base/base_individual_event.html:52
+msgid "Map this"
+msgstr "Plan"
+
+#: templates/core/base/base_individual_event.html:55
+msgid "Registration for this event is not required."
+msgstr "L'inscription à cet événement n'est pas requise."
+
+#: templates/core/base/base_individual_event.html:67
+msgid "About this Event"
+msgstr "À propos de cet événement"
+
+#: templates/core/base/base_registration_summary.html:4
+msgid "Complete Your Registration"
+msgstr "Complétez votre inscription"
+
+#: templates/core/base/base_registration_summary.html:19
+#, python-format
+msgid ""
+"\n"
+"\t    \tHi %(name)s!\n"
+"\t    \t"
+msgstr ""
+
+#: templates/core/base/base_registration_summary.html:24
+msgid "You are about to register for the following"
+msgstr "Vous êtes sur le point de vous inscrire pour le suivant"
+
+#: templates/core/base/base_registration_summary.html:28
+msgid "Class/Event Name"
+msgstr "Nom du cours / de l'événement"
+
+#: templates/core/base/base_registration_summary.html:29
+msgid "Date(s)"
+msgstr "Date(s)"
+
+#: templates/core/base/base_registration_summary.html:30
+#: templates/core/view_eventregistrations.html:11
+msgid "Time"
+msgstr "Heure"
+
+#: templates/core/base/base_registration_summary.html:31
+#: templates/core/view_eventregistrations.html:28
+msgid "Role"
+msgstr "Rôle"
+
+#: templates/core/base/base_registration_summary.html:32
+msgid "Price"
+msgstr "Prix"
+
+#: templates/core/base/base_registration_summary.html:37
+#: templates/core/student_info_form.html:17
+msgid "DROP IN"
+msgstr "OUVERT À TOUS"
+
+#: templates/core/base/base_registration_summary.html:40
+#, python-format
+msgid ""
+"\n"
+"\t\t        \t%(weekday)ss in %(month)s, starting %(startTime)s\n"
+"\t\t        \t"
+msgstr ""
+
+#: templates/core/base/base_registration_summary.html:59
+#: templates/core/student_info_form.html:26
+msgid "Free Add-On"
+msgstr "Module complémentaire gratuit"
+
+#: templates/core/base/base_registration_summary.html:67
+#: templates/core/student_info_form.html:35
+msgid "Discount Code Applied"
+msgstr "Code de réduction appliqué"
+
+#: templates/core/base/base_registration_summary.html:72
+msgid "Vouchers Applied"
+msgstr "Coupons appliqués"
+
+#: templates/core/base/base_registration_summary.html:75
+msgid "Total Discounts Applied"
+msgstr "Total des remises appliquées"
+
+#: templates/core/base/base_registration_summary.html:80
+#: templates/core/student_info_form.html:43
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: templates/core/base/base_registration_summary.html:84
+msgid "Total"
+msgstr "Total"
+
+#: templates/core/base/base_registration_summary.html:93
+msgid "Thanks! You're all set."
+msgstr "Merci! Tout est réglé."
+
+#: templates/core/base/base_registration_summary.html:95
+msgid ""
+"In order to complete your registration you must click on the button below to "
+"make a payment."
+msgstr ""
+"Pour compléter votre inscription, vous devez cliquer sur le bouton ci-"
+"dessouspour effectuer un paiement."
+
+#: templates/core/base/base_registration_summary.html:105
+msgid "Immediate Payment"
+msgstr "Paiement immédiat"
+
+#: templates/core/email_confirmation_page.html:6
+msgid "Email Students: Confirmation"
+msgstr "Courriel aux étudiants: Confirmation"
+
+#: templates/core/email_confirmation_page.html:8
+#: templates/core/refund_confirmation.html:8
+msgid "Please confirm the following before sending"
+msgstr "Veuillez confirmer les éléments suivants avant d'envoyer"
+
+#: templates/core/email_confirmation_page.html:12
+msgid "Test Email (No Recipients)"
+msgstr "Courriel test (aucun destinataire)"
+
+#: templates/core/email_confirmation_page.html:13
+msgid "From"
+msgstr "De"
+
+#: templates/core/email_confirmation_page.html:14
+msgid "Subject"
+msgstr "Sujet"
+
+#: templates/core/email_confirmation_page.html:19
+msgid "Message"
+msgstr "Message"
+
+#: templates/core/email_confirmation_page.html:33
+msgid "Recipients"
+msgstr "Destinataires"
+
+#: templates/core/email_confirmation_page.html:41
+#, python-format
+msgid "Events in %(month)s"
+msgstr ""
+
+#: templates/core/email_confirmation_page.html:43
+msgid "Students Registered for Events"
+msgstr "Étudiants inscrits pour des événements"
+
+#: templates/core/email_confirmation_page.html:45
+msgid "Specific Customers"
+msgstr "Clients spécifiques"
+
+#: templates/core/email_confirmation_page.html:63
+msgid "Detailed Recipients"
+msgstr "Destinataires détaillés"
+
+#: templates/core/email_confirmation_page.html:104
+#: templates/core/invoice_notification.html:42
+msgid "Send Emails"
+msgstr "Envoyer courriels"
+
+#: templates/core/email_confirmation_page.html:105
+#: templates/core/refund_confirmation.html:43
+msgid "Return To Form"
+msgstr "Retourner au formulaire"
+
+#: templates/core/events_grouped_list.html:9
+#: templates/core/student_info_form.html:4
+msgid "Classes"
+msgstr "Cours"
+
+#: templates/core/events_grouped_list.html:21
+msgid "Nothing posted yet. Check back soon!"
+msgstr "Rien de publié pour le moment. Revenez bientôt!"
+
+#: templates/core/events_grouped_list.html:29
+msgid "View Calendar"
+msgstr "Voir le calendrier"
+
+#: templates/core/events_grouped_list.html:30
+msgid "Register Now"
+msgstr "Inscrivez-vous maintenant"
+
+#: templates/core/events_viewregistration_list.html:6
+msgid "Select an Event to View Registrations"
+msgstr "Sélectionnez un événement pour voir les inscriptions"
+
+#: templates/core/events_viewregistration_list.html:28
+msgid "No classes or events yet. Check back soon!"
+msgstr "Aucun cours ou événement pour le moment. Revenez bientôt!"
+
+#: templates/core/instructor_stats.html:7
+#, python-format
+msgid ""
+"\n"
+"\tInstructor Teaching Stats for %(name)s\n"
+"\t"
+msgstr ""
+
+#: templates/core/instructor_stats.html:13
+msgid "Basic Info"
+msgstr "Informations de base"
+
+#: templates/core/instructor_stats.html:19
+msgid "Teaching Since"
+msgstr "Enseigne depuis"
+
+#: templates/core/instructor_stats.html:20
+msgid "Classes Taught"
+msgstr "Cours enseignés"
+
+#: templates/core/instructor_stats.html:21
+msgid "Total Students Taught"
+msgstr "Total des étudiants enseignés"
+
+#: templates/core/instructor_stats.html:23
+msgid "Link To Your Calendar Feeds"
+msgstr "Lien vers les flux de votre calendrier"
+
+#: templates/core/instructor_stats.html:25
+msgid "Your Classes"
+msgstr "Vos cours"
+
+#: templates/core/instructor_stats.html:26
+msgid "Private Events &amp; Reminders"
+msgstr "Événements privés & amp; Rappels"
+
+#: templates/core/instructor_stats.html:26
+msgid "copy and paste these URLs to add them to Google Calendar, etc."
+msgstr "copiez et collez ces URL pour les ajouter à Google Calendar, etc."
+
+#: templates/core/instructor_stats.html:33
+msgid "Upcoming Series"
+msgstr "Série à venir"
+
+#: templates/core/instructor_stats.html:61
+msgid "Prior Series"
+msgstr "Série antérieure"
+
+#: templates/core/invoice.html:6
+#, python-format
+msgid "Invoice for %(businessName)s"
+msgstr ""
+
+#: templates/core/invoice.html:9 templates/core/invoice_notification.html:19
+#: templates/core/invoice_notification.html:60
+msgid "Invoice Number"
+msgstr "Numéro de facture"
+
+#: templates/core/invoice.html:15
+msgid "Notify Recipient"
+msgstr "Notifier le destinataire"
+
+#: templates/core/invoice.html:19 templates/core/invoice_notification.html:21
+#: templates/core/invoice_notification.html:61
+#: templates/core/view_eventregistrations.html:98
+msgid "Invoice Status"
+msgstr "Statut de la facture"
+
+#: templates/core/invoice.html:28
+#: templates/core/view_eventregistrations.html:99
+msgid "Outstanding Balance"
+msgstr "Solde impayé"
+
+#: templates/core/invoice.html:35
+msgid "Initial Price"
+msgstr "Prix initial"
+
+#: templates/core/invoice.html:39
+#: templates/core/view_eventregistrations.html:76
+#: templates/core/view_eventregistrations.html:104
+msgid "Net Price"
+msgstr "Prix net"
+
+#: templates/core/invoice.html:47 templates/core/invoice.html:74
+msgid "Fees"
+msgstr "Honoraires"
+
+#: templates/core/invoice.html:51
+#: templates/core/view_eventregistrations.html:57
+#: templates/core/view_eventregistrations.html:95
+msgid "Adjustments/Refunds"
+msgstr "Ajustements / remboursements"
+
+#: templates/core/invoice.html:59 templates/core/process_refund.html:82
+msgid "Item Details"
+msgstr "Détails de l'article"
+
+#: templates/core/invoice.html:62
+msgid "View Registration"
+msgstr "Voir l'inscription"
+
+#: templates/core/invoice.html:64
+msgid "View Temporary Registration"
+msgstr "Voir l'inscription temporaire"
+
+#: templates/core/invoice.html:71
+msgid "Inital Price"
+msgstr "Prix initial"
+
+#: templates/core/invoice.html:72 templates/core/process_refund.html:17
+msgid "Price with Discounts"
+msgstr "Prix avec rabais"
+
+#: templates/core/invoice.html:75
+msgid "Adjustments"
+msgstr "Ajustements"
+
+#: templates/core/invoice.html:93
+#: templates/core/view_eventregistrations.html:136
+msgid "Rev. Item"
+msgstr "Article Rev."
+
+#: templates/core/invoice.html:105 templates/core/process_refund.html:24
+#: templates/core/refund_confirmation.html:29
+msgid "Payment Details"
+msgstr "Détails du paiement"
+
+#: templates/core/invoice.html:108
+#: templates/core/view_eventregistrations.html:133
+msgid "Refund"
+msgstr "Remboursement"
+
+#: templates/core/invoice.html:114
+msgid "Payment Method"
+msgstr "Mode de paiement"
+
+#: templates/core/invoice.html:115
+msgid "Transaction ID"
+msgstr "identifiant de transaction"
+
+#: templates/core/invoice.html:116
+msgid "Amount"
+msgstr "Montant"
+
+#: templates/core/invoice.html:130
+msgid "Comments/Notes"
+msgstr "Commentaires/Notes"
+
+#: templates/core/invoice.html:138
+msgid "Pay Invoice"
+msgstr "Payer la facture"
+
+#: templates/core/invoice_notification.html:6
+msgid "Send Invoice Notifications: Confirmation"
+msgstr "Envoyer des notifications de facture: confirmation"
+
+#: templates/core/invoice_notification.html:10
+msgid "Notification List"
+msgstr "Liste de notification"
+
+#: templates/core/invoice_notification.html:12
+msgid "Recipients associated with the following invoices will be notified"
+msgstr "Les destinataires associés aux factures suivantes seront avisés"
+
+#: templates/core/invoice_notification.html:18
+msgid "Selected"
+msgstr "Sélectionné"
+
+#: templates/core/invoice_notification.html:36
+#: templates/core/invoice_notification.html:73
+msgid "View"
+msgstr "Voir"
+
+#: templates/core/invoice_notification.html:36
+#: templates/core/invoice_notification.html:73
+msgid "Edit"
+msgstr "Modifier"
+
+#: templates/core/invoice_notification.html:43
+msgid "Return To Invoices"
+msgstr "Retour aux factures"
+
+#: templates/core/invoice_notification.html:50
+msgid "Unable to Notify"
+msgstr "Impossible de notifier"
+
+#: templates/core/invoice_notification.html:52
+msgid ""
+"\n"
+"\t\tThe following invoices have no recipient associated with them, so no "
+"notification emails will be sent.\n"
+"\t\tTo send notifications for these invoices, please click to edit the "
+"invoices and specify a recipient email address.\n"
+"\t\t"
+msgstr ""
+
+#: templates/core/process_refund.html:6
+msgid "Invoice #"
+msgstr "Facture #"
+
+#: templates/core/process_refund.html:8
+#, python-format
+msgid ""
+"\n"
+"\tfor %(name)s\n"
+"\t"
+msgstr ""
+
+#: templates/core/process_refund.html:15
+msgid "Date &amp; Time"
+msgstr "Date & amp; Heure"
+
+#: templates/core/process_refund.html:19
+#: templates/core/view_eventregistrations.html:30
+msgid "Student"
+msgstr "Étudiant"
+
+#: templates/core/process_refund.html:29
+#: templates/core/refund_confirmation.html:34
+msgctxt "alert"
+msgid "Note"
+msgstr "Note"
+
+#: templates/core/process_refund.html:29
+#: templates/core/refund_confirmation.html:34
+msgid ""
+"This payment does not appear to be automatically refundable.  Please "
+"manually refund the money to this student after filling out this form."
+msgstr ""
+"Ce paiement ne semble pas automatiquement remboursable.Rembourser "
+"manuellement l'argent à cet étudiant après avoir rempli ce formulaire."
+
+#: templates/core/process_refund.html:41
+#: templates/core/refund_confirmation.html:42
+msgid "Process Refund"
+msgstr "Procéder au remboursement"
+
+#: templates/core/process_refund.html:42
+msgid "Total Refund Amount"
+msgstr "Montant total du remboursement"
+
+#: templates/core/process_refund.html:46
+msgid ""
+"Revenue has been recorded for this registration that has not yet been marked "
+"as received.  In determining any refund amount, please account for revenue "
+"that has not yet been received.  Items with revenue not yet marked as "
+"received are highlighted below."
+msgstr ""
+
+#: templates/core/process_refund.html:49
+msgid ""
+"This invoice is not yet marked as paid.  In determining any refund amount, "
+"please account for revenue that has not yet been received."
+msgstr ""
+"Cette facture n'est pas encore payée. Pour déterminer le montant du "
+"remboursement,veuillez comptabiliser les revenus qui n'ont pas encore été "
+"reçus."
+
+#: templates/core/process_refund.html:59
+msgid "Error with ID"
+msgstr "Erreur avec l'ID"
+
+#: templates/core/process_refund.html:66
+msgid "Error with Total Refund Amount"
+msgstr "Erreur avec le montant du remboursement total"
+
+#: templates/core/process_refund.html:73
+msgid "Error with Initial Refund Amount"
+msgstr "Erreur avec le montant de remboursement initial"
+
+#: templates/core/process_refund.html:86
+msgid "Item ID"
+msgstr "ID de l'article"
+
+#: templates/core/process_refund.html:87
+msgid "Item Name"
+msgstr "Nom de l'article"
+
+#: templates/core/process_refund.html:89
+msgid "Price (Gross)"
+msgstr "Prix (brut)"
+
+#: templates/core/process_refund.html:90
+msgid "Price (Net)"
+msgstr "Prix (net)"
+
+#: templates/core/process_refund.html:95
+msgid "Refunds/Adjustments"
+msgstr "Remboursements / ajustements"
+
+#: templates/core/process_refund.html:132
+#: templates/core/view_eventregistrations.html:157
+msgid "Class Registration Page"
+msgstr "Page d'inscription du cours"
+
+#: templates/core/process_refund.html:133
+msgid "Select Another Event"
+msgstr "Sélectionnez un autre événement"
+
+#: templates/core/process_refund.html:199
+msgid "Cancelled classes are not fully refunded. Confirm that this is desired?"
+msgstr ""
+"Les cours annulés ne sont pas entièrement remboursés. Assurez-vous que cela "
+"est souhaité?"
+
+#: templates/core/public_calendar.html:7
+msgid "Event Details"
+msgstr "Détails de l'évènement"
+
+#: templates/core/public_calendar.html:11
+#: templates/core/public_calendar.html:24
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/core/public_calendar.html:17
+msgid "Start"
+msgstr "Début"
+
+#: templates/core/public_calendar.html:19
+msgid "End"
+msgstr "Fin"
+
+#: templates/core/public_calendar.html:24
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: templates/core/refund_confirmation.html:6
+msgid "Process Refund: Confirmation"
+msgstr "Processus de remboursement: confirmation"
+
+#: templates/core/refund_confirmation.html:12
+msgid "Refund This Amount"
+msgstr "Rembourser ce montant"
+
+#: templates/core/refund_confirmation.html:17
+msgid "Prior Refunds to Invoice"
+msgstr "Remboursements antérieurs à la facture"
+
+#: templates/core/refund_confirmation.html:21
+msgid "Total Refunds to Invoice"
+msgstr "Remboursements totaux à la facture"
+
+#: templates/core/registration/base_event_registration.html:28
+msgid "More Classes and Events Coming Soon!"
+msgstr "Plus de cours et d'événements à venir!"
+
+#: templates/core/registration/base_event_registration.html:29
+#: templates/core/registration/base_event_registration.html:36
+msgid ""
+"Our upcoming classes have not yet been posted, but don't worry, they will be "
+"posted here\n"
+"            soon!  Check back soon for more information."
+msgstr ""
+"Nos cours à venir n'ont pas encore été publiés, mais ne vous inquiétez pas, "
+"ils serontpubliés ici \\ n"
+
+#: templates/core/registration/base_event_registration.html:32
+#: templates/core/registration/base_event_registration.html:39
+#, python-format
+msgid ""
+"In the meantime, check out our <a href=\"%(calendar_url)s\">calendar</a> for "
+"more\n"
+"              information about our past and current classes.</p>"
+msgstr ""
+
+#: templates/core/registration/base_event_registration.html:35
+msgid "More Classes Coming Soon!"
+msgstr "Plus de cours à venir!"
+
+#: templates/core/registration/base_event_registration.html:58
+msgid "Is this a door/invoice registration?"
+msgstr "Est-ce une inscription à la porte / facture?"
+
+#: templates/core/registration/base_event_registration.html:59
+msgid "to be filled out only by school staff"
+msgstr "à remplir uniquement par le personnel de l'école"
+
+#: templates/core/registration/base_event_registration.html:61
+msgid "This is a door/invoice registration"
+msgstr "Ceci est une inscription à la porte / facture"
+
+#: templates/core/registration/event_card.html:39
+#: templates/core/registration/event_category__default.html:38
+#: templates/core/registration/series_category__default.html:38
+msgid "more info"
+msgstr "Plus d’information"
+
+#: templates/core/registration/event_card.html:82
+#: templates/core/registration/event_card.html:84
+msgid "registered"
+msgstr "Inscrits"
+
+#: templates/core/registration/event_card.html:91
+#: templates/core/registration/event_category__default.html:76
+#: templates/core/registration/series_category__default.html:74
+msgid "Sold Out!"
+msgstr "Épuisé!"
+
+#: templates/core/registration/event_card.html:92
+msgid "Please join us for another class, or schedule a private lesson!"
+msgstr ""
+"S'il vous plaît joignez-vous à nous pour un autre cours, un autre mois, ou "
+"planifier une leçon” “privée!"
+
+#: templates/core/registration/event_category__default.html:77
+msgid "Please join us at our next event!"
+msgstr ""
+"S'il vous plaît venez vous joindre à nous lors de notre prochain événement!"
+
+#: templates/core/registration/registration_offline.html:6
+msgid "Registration Offline"
+msgstr "Inscription hors ligne"
+
+#: templates/core/registration/registration_offline.html:8
+msgid "Registration is currently offline.  Please check back later!"
+msgstr ""
+"L'inscription est actuellement hors ligne. S'il vous plaît revenez plus tard!"
+
+#: templates/core/registration/series_category__default.html:75
+msgid ""
+"Please join us for another class, another month, or schedule a private "
+"lesson!"
+msgstr ""
+"S'il vous plaît joignez-vous à nous pour un autre cours, un autre mois, ou "
+"planifier une leçon” “privée!"
+
+#: templates/core/registration/single_event_registration.html:11
+msgid "With"
+msgstr ""
+
+#: templates/core/repeat_events.html:6
+msgid "Duplicate Selected Events"
+msgstr "Dupliquer les événements sélectionnés"
+
+#: templates/core/repeat_events.html:10
+msgid "You have selected the following events to repeat:"
+msgstr "Vous avez sélectionné les événements suivants à répéter:"
+
+#: templates/core/repeat_events.html:19
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t%(count)s occurrence%(pluralize)s from %(first_time)s to "
+"%(last_time)s\n"
+"\t\t\t\t"
+msgstr ""
+
+#: templates/core/repeat_events.html:30
+msgid ""
+"\n"
+"Please select the start date, interval, and end date/number of repeat events "
+"that you would like to create.  All event data, including occurrences and "
+"event-specific roles, will be preserved.  However, event staff (such as "
+"instructors and substitute teachers) will not be assigned to any newly-"
+"created events.\n"
+msgstr ""
+
+#: templates/core/staff_directory.html:7
+msgid "Active Instructors"
+msgstr "Instructeurs actifs"
+
+#: templates/core/staff_directory.html:8
+msgid "Email all active instructors"
+msgstr "Envoyer un courriel à tous les instructeurs actifs"
+
+#: templates/core/staff_directory.html:12
+#: templates/core/staff_directory.html:53
+#: templates/core/staff_directory.html:94
+#: templates/core/staff_directory.html:135
+msgid "Photo"
+msgstr "Photo"
+
+#: templates/core/staff_directory.html:14
+#: templates/core/staff_directory.html:55
+#: templates/core/staff_directory.html:96
+#: templates/core/staff_directory.html:137
+msgid "Private Email"
+msgstr "Courriel privé"
+
+#: templates/core/staff_directory.html:15
+#: templates/core/staff_directory.html:56
+#: templates/core/staff_directory.html:97
+#: templates/core/staff_directory.html:138
+msgid "Public Email"
+msgstr "Courriel publique"
+
+#: templates/core/staff_directory.html:16
+#: templates/core/staff_directory.html:57
+#: templates/core/staff_directory.html:98
+#: templates/core/staff_directory.html:139
+msgid "Phone"
+msgstr "Téléphone"
+
+#: templates/core/staff_directory.html:18
+#: templates/core/staff_directory.html:59
+#: templates/core/staff_directory.html:100
+msgid "Available for Privates"
+msgstr "Disponible pour des privés"
+
+#: templates/core/staff_directory.html:20
+#: templates/core/staff_directory.html:61
+#: templates/core/staff_directory.html:102
+msgid "Instructor Stats/Payments"
+msgstr "Statistiques / Paiements de l'instructeur"
+
+#: templates/core/staff_directory.html:36
+#: templates/core/staff_directory.html:77
+#: templates/core/staff_directory.html:118
+#: templates/core/staff_directory.html:157
+msgid "Stats"
+msgstr "Statistiques"
+
+#: templates/core/staff_directory.html:37
+#: templates/core/staff_directory.html:78
+#: templates/core/staff_directory.html:119
+#: templates/core/staff_directory.html:158
+msgid "Payment History"
+msgstr "historique de paiement"
+
+#: templates/core/staff_directory.html:49
+msgid "Assistant Instructors and Instructors In Training"
+msgstr "Instructeurs adjoints et instructeurs en formation"
+
+#: templates/core/staff_directory.html:90
+msgid "Guest Instructors"
+msgstr "Instructeurs invités"
+
+#: templates/core/staff_directory.html:142
+msgid "Staff Member Stats/Payments"
+msgstr "Statistiques / Paiements de l'instructeur"
+
+#: templates/core/staff_list.html:5
+msgid "Edit Staff Bios"
+msgstr "Modifier les bios des instructeurs"
+
+#: templates/core/staff_list.html:21
+msgid "schedule a private lesson"
+msgstr "planifier un privé"
+
+#: templates/core/student_info_form.html:11
+msgid "You've selected:"
+msgstr "Vous avez sélectionné:"
+
+#: templates/core/student_info_form.html:61
+msgid "Step 2: Provide Your Student Information"
+msgstr "Étape 2: Fournissez les informations sur vos étudiants"
+
+#: templates/core/view_eventregistrations.html:9
+msgid "Total Students"
+msgstr "Nombre total d'étudiants"
+
+#: templates/core/view_eventregistrations.html:12
+msgid "Drop-Ins Permitted"
+msgstr "Ouverture permise"
+
+#: templates/core/view_eventregistrations.html:23
+msgid "Check In"
+msgstr "Enregistrement"
+
+#: templates/core/view_eventregistrations.html:26
+msgid "This Series Price"
+msgstr "Le prix de cette série"
+
+#: templates/core/view_eventregistrations.html:27
+msgid "Total Payment"
+msgstr "Paiement total"
+
+#: templates/core/view_eventregistrations.html:29
+msgid "Drop-In"
+msgstr "OUVERT À TOUS"
+
+#: templates/core/view_eventregistrations.html:31
+msgid "Customer Email"
+msgstr "Courriel du client"
+
+#: templates/core/view_eventregistrations.html:32
+msgid "All-Time Classes"
+msgstr "Cours en tout temps"
+
+#: templates/core/view_eventregistrations.html:46
+msgid "Customer Name"
+msgstr "Nom du client"
+
+#: templates/core/view_eventregistrations.html:46
+msgid "Most recent reg. from this email address"
+msgstr "Inscription la plus récente à partir de cette adresse courriel"
+
+#: templates/core/view_eventregistrations.html:54
+msgid "Gross"
+msgstr "Brut"
+
+#: templates/core/view_eventregistrations.html:55
+msgid "Net"
+msgstr "Net"
+
+#: templates/core/view_eventregistrations.html:60
+msgid "Recorded Revenue"
+msgstr "Revenu enregistré"
+
+#: templates/core/view_eventregistrations.html:61
+msgid "Received Revenue"
+msgstr "Revenu reçu"
+
+#: templates/core/view_eventregistrations.html:75
+#: templates/core/view_eventregistrations.html:103
+msgid "Gross Price"
+msgstr "Prix brut"
+
+#: templates/core/view_eventregistrations.html:78
+#: templates/core/view_eventregistrations.html:105
+msgid "Gross vs. Net Price"
+msgstr "Prix brut vs. Prix net"
+
+#: templates/core/view_eventregistrations.html:79
+#: templates/core/view_eventregistrations.html:106
+msgid "Discount Code"
+msgstr "Code de réduction"
+
+#: templates/core/view_eventregistrations.html:82
+msgid "Discount"
+msgstr "réductions"
+
+#: templates/core/view_eventregistrations.html:87
+#: templates/core/view_eventregistrations.html:109
+msgid "Voucher"
+msgstr "Coupon"
+
+#: templates/core/view_eventregistrations.html:130
+msgctxt "registration"
+msgid "Reg."
+msgstr "Inscription"
+
+#: templates/core/view_eventregistrations.html:147
+msgid "Submit Checkins"
+msgstr "Soumettre les enregistrements"
+
+#: templates/core/view_eventregistrations.html:150
+msgid "Check-ins submitted successfully!"
+msgstr "Enregistrement soumis avec succès!"
+
+#: templates/core/view_eventregistrations.html:151
+msgid "Error submitting class check-in data."
+msgstr ""
+"Erreur lors de la soumission des données d'enregistrement pour le cours"
+
+#: templates/core/view_eventregistrations.html:158
+msgid "Select Another Class"
+msgstr "Sélectionner un autre cours"
+
+#: templates/dynamic_preferences/form_danceschool.html:39
+msgid "Site Settings"
+msgstr "Paramètres du site"
+
+#: templates/forms/djangocms_forms_crispy.html:33
+msgid "Submission successful"
+msgstr "Soumission réussie"
+
+#: templates/forms/djangocms_forms_crispy.html:34
+msgid "Thank You! Your form has been successfully submitted!"
+msgstr "Merci! Votre formulaire a été envoyé avec succès!"
+
+#: views.py:146
+msgid "Invoice notifications successfully sent."
+msgstr "Notifications de facture envoyées avec succès."
+
+#: views.py:179
+msgid "Invalid invoice identifiers specified."
+msgstr "Identifiants spécifiés de facture incorrects."
+
+#: views.py:182
+msgid "No invoice identifiers specified."
+msgstr "Aucun identificateur de facture spécifié."
+
+#: views.py:218
+msgid "Refund successfully processed."
+msgstr "Le remboursement a été traité avec succès."
+
+#: views.py:291
+msgid ""
+"Error: No response from payment processing app. Check payment processor "
+"records for refund status."
+msgstr ""
+"Erreur: Aucune réponse de l'application de traitement des paiements Vérifiez "
+"les” “enregistrements du processeur de paiement pour connaître l'état du "
+"remboursement."
+
+#: views.py:315
+msgid ""
+"An unkown error has occurred. Check payment processor records for refund "
+"status."
+msgstr ""
+"Une erreur inconnue s'est produite Vérifiez les enregistrements du "
+"processeur de paiement” “pour connaître l'état du remboursement."
+
+#: views.py:345
+msgid ""
+"Error, not all of the requested refund was applied. Check invoice and "
+"payment processor records for details."
+msgstr ""
+
+#: views.py:420
+msgid "Email sent successfully."
+msgstr "Courriel envoyé avec succès."
+
+#: views.py:483
+#, python-format
+msgid "Test email from %s to be sent to: "
+msgstr "Tester le courriel de% s à envoyer à:"
+
+#: views.py:485
+msgid "Email body:"
+msgstr "Corps du courriel:"
+
+#: views.py:572
+msgid "Invalid customer ids passed"
+msgstr "Les ID client incorrects sont passés"
+
+#: views.py:595
+msgid "None"
+msgstr "Aucun"
+
+#: views.py:636
+msgid "Use this form to contact current or recent students."
+msgstr ""
+"Utilisez ce formulaire pour contacter les étudiants actuels ou récents."
+
+#: views.py:786 views.py:827
+msgid "Invalid month."
+msgstr "Mois invalide."
+
+#: views.py:868
+msgid "Repeated events created successfully."
+msgstr "Événements répétés créés avec succès."
+
+#: views.py:878 views.py:882
+msgid "Invalid content type passed."
+msgstr "type de contenu non valide passé."
+
+#: views.py:887
+msgid "Invalid ids passed"
+msgstr "ID Invalides passés"
+
+#: views.py:993
+msgid "Substitute teaching reported successfully."
+msgstr "Enseignement substitutif rapporté avec succès."
+
+#: views.py:1000
+msgid "Use this form to report substitute teaching."
+msgstr "Utilisez ce formulaire pour signaler un remplacement."
+
+#: views.py:1019
+msgid "Staff member information updated successfully."
+msgstr "Informations sur l'instructeur mises à jour avec succès."
+
+#: views.py:1025
+msgid "Update Contact Information"
+msgstr "Mettre à jour les coordonnées"
+
+#: views.py:1026
+msgid "Use this form to update your contact information."
+msgstr "Utilisez ce formulaire pour mettre à jour vos informations de contact."

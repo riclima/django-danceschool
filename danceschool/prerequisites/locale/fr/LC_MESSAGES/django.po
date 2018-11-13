@@ -1,0 +1,425 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:07-0500\n"
+"PO-Revision-Date: 2018-12-09 22:16-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:15
+msgid "Requirement items (leave blank for requirement by audition only)"
+msgstr ""
+"Éléments d'exigence (laissez vide pour l'exigence par audition seulement)"
+
+#: admin.py:27
+msgid "Search for customer"
+msgstr "Rechercher un client"
+
+#: admin.py:34
+msgid "Enter a customer name"
+msgstr "Entrez un nom de client"
+
+#: admin.py:61
+msgid "Role Options"
+msgstr "Options de rôle"
+
+#: admin.py:65
+msgid "Customers Meeting Requirement"
+msgstr "Exigences de réunion des clients"
+
+#: admin.py:69
+msgid "Date and Time"
+msgstr "Date et heure"
+
+#: admin.py:88
+msgid "Requirement is met"
+msgstr "L'exigence est satisfaite"
+
+#: admin.py:89
+msgid "Requirement is not met"
+msgstr "L'exigence n'est pas satisfaite"
+
+#: admin.py:92
+msgid "Requirement status"
+msgstr "Statut de l'exigence"
+
+#: ajax.py:37
+msgid "Invalid request."
+msgstr "Requête invalide."
+
+#: ajax.py:47
+msgid "Role must be specified."
+msgstr "Le rôle doit être spécifié."
+
+#: apps.py:8
+msgid "Class Requirements/Prerequisites"
+msgstr "Exigences du cours / Conditions préalables"
+
+#: cms_toolbars.py:16
+msgid "Events"
+msgstr "Évènements"
+
+#: cms_toolbars.py:17
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: cms_toolbars.py:18
+msgid "Registration Requirements/Prerequisites"
+msgstr "Conditions d'inscription / Conditions préalables"
+
+#: dynamic_preferences_registry.py:13
+msgid "Class Requirements"
+msgstr "Conditions du cours"
+
+#: dynamic_preferences_registry.py:23
+msgid "Requirements Enabled"
+msgstr "Exigences activées"
+
+#: dynamic_preferences_registry.py:24
+msgid ""
+"If this box is unchecked, then all requirement checks during registration "
+"will be disabled."
+msgstr ""
+"Si cette case n'est pas cochée, toutes les vérifications d'exigences lors de "
+"l'inscription seront désactivées."
+
+#: dynamic_preferences_registry.py:32
+msgid "Error message for unmet requirements"
+msgstr "Message d'erreur pour les exigences non satisfaites"
+
+#: dynamic_preferences_registry.py:33
+msgid ""
+"This message will be appended to any error message with a list of "
+"requirements not met.  Individual requirements may be set to produce either "
+"errors or warnings."
+msgstr ""
+"Ce message sera ajouté à tout message d'erreur avec une liste d'exigences "
+"non satisfaites.” “Les exigences individuelles peuvent être définies pour "
+"produire des erreurs ou des” “avertissements."
+
+#: dynamic_preferences_registry.py:46
+msgid "Warning message for unmet requirements"
+msgstr "Message d'avertissement pour les exigences non satisfaites"
+
+#: dynamic_preferences_registry.py:47
+msgid ""
+"This message will be appended to any warning message with a list of "
+"requirements not met.  Individual requirements may be set to produce either "
+"errors or warnings."
+msgstr ""
+"Ce message sera ajouté à tout message d'avertissement avec une liste "
+"d'exigences non” “satisfaites. Les exigences individuelles peuvent être "
+"définies pour produire des erreurs ou des” “avertissements."
+
+#: handlers.py:63
+msgid ""
+"Unfortunately, you do not meet the following requirements/prerequisites for "
+"the items you have chosen:\n"
+msgstr ""
+"Malheureusement, vous ne remplissez pas les conditions / prérequis suivants "
+"pour les” “éléments que vous avez choisis :\n"
+
+#: handlers.py:71
+msgid ""
+"<strong>Please Note:</strong> It appears that you do not meet the following "
+"requirements/prerequisites for the items you have chosen:\n"
+msgstr ""
+"<strong> Veuillez noter: </ strong> Il semble que vous ne rencontriez pas "
+"les critères suivantsconditions / prérequis pour les éléments que vous avez "
+"choisis : \n"
+
+#: models.py:18
+msgid "Must meet all requirement items"
+msgstr "Doit répondre à tous les éléments d'exigence"
+
+#: models.py:19
+msgid "Must meet one or more requirement items"
+msgstr "Doit correspondre à un ou plusieurs éléments d'exigence"
+
+#: models.py:20
+msgid "Must not meet any requirement items"
+msgstr "Ne doit pas répondre aux exigences"
+
+#: models.py:23
+msgid "Enforcement disabled"
+msgstr "Application désactivée"
+
+#: models.py:24
+msgid "Allow registration with warning"
+msgstr "Autoriser l'inscription avec avertissement"
+
+#: models.py:25
+msgid "Raise error and do not allow registration"
+msgstr "Trouver l'erreur et ne pas autoriser l'enregistrement"
+
+#: models.py:27
+msgid "Requirement name/description"
+msgstr "Nom de l'exigence / description"
+
+#: models.py:27
+msgid ""
+"If a customer does not meet the requirement for a series, then this "
+"description will be used to explain the issue (e.g. 'Must have taken Lindy 1 "
+"to take Lindy 2')."
+msgstr ""
+"Si un client ne répond pas à l'exigence d'une série, cette description sera "
+"utilisée pour” “expliquer le problème (par exemple\" Doit avoir pris Lindy 1 "
+"pour prendre Lindy 2 \")."
+
+#: models.py:29
+msgid "Applies to class"
+msgstr "S'applique au cours"
+
+#: models.py:30
+msgid "Applies to dance type/level"
+msgstr "S'applique au type / niveau de danse"
+
+#: models.py:34
+msgid "How many items of this requirement must be met"
+msgstr "Combien d'articles de cette exigence doivent être remplis"
+
+#: models.py:35
+msgid ""
+"If you select an option other than 'Must meet all requirements', then you "
+"can still enforce multiple requirements by adding another Requirement item."
+msgstr ""
+"Si vous sélectionnez une option autre que\" Doit répondre à toutes les "
+"exigences \", vous” “pouvez toujours appliquer plusieurs exigences en "
+"ajoutant un autre élément d'exigence."
+
+#: models.py:36
+msgid "Enforcement method"
+msgstr "Méthode d'application"
+
+#: models.py:38
+msgid "Applies only to role (optional)"
+msgstr "S'applique uniquement au rôle (facultatif)"
+
+#: models.py:38
+msgid ""
+"Most requirements apply identically to all dance roles.  If this requirement "
+"does not, then specify the role to which it applies here."
+msgstr ""
+
+#: models.py:39
+msgid "Same dance role enforced"
+msgstr "Le même rôle de danse est appliqué"
+
+#: models.py:39
+msgid ""
+"If checked, then in order to meet the requirement, the customer must have "
+"met all individual requirements in the same dance role, and that must be the "
+"dance role for which they are registering."
+msgstr ""
+
+#: models.py:41 models.py:188
+msgid "Submission date"
+msgstr "Date de soumission"
+
+#: models.py:42 models.py:189
+msgid "Last modified date"
+msgstr "Date de dernière modification"
+
+#: models.py:47
+msgid "Enabled"
+msgstr "Activé"
+
+#: models.py:133
+msgid ""
+"Requirement must be for a specific class or for a dance level; it cannot be "
+"for both."
+msgstr ""
+"L'exigence doit s'appliquer à un cours spécifique ou à un niveau de danse."
+
+#: models.py:135
+msgid "Requirement must apply to either a specific class or to a dance level."
+msgstr ""
+"L'exigence doit s'appliquer à un cours spécifique ou à un niveau de danse."
+
+#: models.py:141
+msgid "Class requirement"
+msgstr "Exigence du cours"
+
+#: models.py:142
+msgid "Class requirements"
+msgstr "Exigences du cours"
+
+#: models.py:144
+msgid ""
+"Can register users for series regardless of any prerequisites or requirements"
+msgstr ""
+
+#: models.py:151 models.py:182
+msgid "Requirement"
+msgstr "Exigence"
+
+#: models.py:154
+msgid "Must have previously taken"
+msgstr "Doit déjà avoir pris"
+
+#: models.py:155
+msgid "May register/begin with one class remaining"
+msgstr "Peut s'inscrire / commencer avec une classe restante"
+
+#: models.py:156
+msgid "May register/begin with two classes remaining"
+msgstr "Peut s'inscrire / commencer avec deux classes restantes"
+
+#: models.py:157
+msgid "Concurrent registration allowed"
+msgstr "Inscription simultanée autorisée"
+
+#: models.py:158
+msgid "Concurrent registration required"
+msgstr "Inscription simultanée requise"
+
+#: models.py:160
+msgid "Quantity"
+msgstr "Quantité"
+
+#: models.py:161
+msgid "Required Dance type/level"
+msgstr "Type / niveau de danse requis"
+
+#: models.py:162
+msgid "Required class"
+msgstr "Cours requis"
+
+#: models.py:164
+msgid "Concurrency Rule"
+msgstr "Règle de la concurrence"
+
+#: models.py:168
+msgid "Requirement item cannot specify both a level and a class."
+msgstr ""
+"L'élément d'exigence ne peut pas spécifier à la fois un niveau et un cours"
+
+#: models.py:170
+msgid "Either a level or a class must be required."
+msgstr "Un niveau ou un cours doit être requis."
+
+#: models.py:173
+msgid "Requirement item"
+msgstr "Élément exigé"
+
+#: models.py:174
+msgid "Requirement items"
+msgstr "Éléments exigés"
+
+#: models.py:181
+msgid "Customer"
+msgstr "Client"
+
+#: models.py:183
+msgid "Dance role"
+msgstr "Rôle de danse"
+
+#: models.py:183
+msgid ""
+"Role must be specified only for requirements for which roles are enforced."
+msgstr ""
+"Le rôle doit être spécifié uniquement pour les exigences pour lesquelles les "
+"rôles sont” “appliqués."
+
+#: models.py:185
+msgid "Meets Requirement"
+msgstr "Répond aux exigences"
+
+#: models.py:185
+msgid ""
+"If unchecked, then the customer explicitly does not meet the requirement, "
+"regardless of whether they meet its parameters."
+msgstr ""
+"Si cette option n'est pas cochée, le client ne répond pas explicitement à "
+"l'exigence, qu'il respecte ou non ses paramètres."
+
+#: models.py:186
+msgid "Comments/Notes"
+msgstr "Commentaires/Notes"
+
+#: models.py:193
+msgid ""
+"Since roles are enforced for this requirement, you must specify the "
+"customer's dance role."
+msgstr ""
+"Puisque les rôles sont appliqués pour cette exigence, vous devez spécifier "
+"le rôle de danse du” “client."
+
+#: models.py:197
+msgid "Customer-level requirement record"
+msgstr "Enregistrement des exigences au niveau du client"
+
+#: models.py:198
+msgid "Customer-level requirement records"
+msgstr "Enregistrements des exigences au niveau du client"
+
+#: templates/admin/prerequisites/requirement/change_form.html:7
+msgid ""
+"You must save this requirement before checking if customers satisfy the "
+"requirement."
+msgstr ""
+
+#: templates/admin/prerequisites/requirement/change_form.html:8
+msgid ""
+"An unknown error has occurred.  Please try searching for the customer in the "
+"Customer admin view."
+msgstr ""
+"Une erreur inconnue s'est produite. Veuillez rechercher le client dans la "
+"vue de l'administrateur” “du client."
+
+#: templates/admin/prerequisites/requirement/change_form.html:48
+msgid ""
+"Please enter a customer to see whether they meet the conditions of this "
+"requirement."
+msgstr ""
+"S'il vous plaît entrer un client pour voir si elles répondent aux conditions "
+"de cette exigence."
+
+#: templates/admin/prerequisites/requirement/change_form.html:69
+msgid "No customer specified. "
+msgstr "Aucun client spécifié"
+
+#: templates/admin/prerequisites/requirement/change_form.html:88
+msgid "This customer meets the requirements."
+msgstr "Ce client répond aux exigences."
+
+#: templates/admin/prerequisites/requirement/change_form.html:91
+msgid "This customer does not meet the requirements."
+msgstr "Ce client ne répond pas aux exigences."
+
+#: templates/admin/prerequisites/requirement/change_form.html:94
+msgid ""
+"Here is the information on the roles for which the customer meets the "
+"requirements:"
+msgstr ""
+
+#: templates/admin/prerequisites/requirement/change_form.html:99
+msgid "Select a Role to Change Requirement Status"
+msgstr "Sélectionnez un rôle pour modifier l'état des exigences"
+
+#: templates/admin/prerequisites/requirement/change_form.html:145
+msgid ""
+"The record for this customer has been updated to indicate that they meet "
+"this requirement."
+msgstr ""
+"L'enregistrement de ce client a été mis à jour pour indiquer qu'il répond à "
+"cette exigence."
+
+#: templates/admin/prerequisites/requirement/change_form.html:150
+msgid ""
+"The record for this customer has been updated to indicate that they do not "
+"meet this requirement."
+msgstr ""
+"L'enregistrement de ce client a été mis à jour pour indiquer qu'il ne répond "
+"pas à cette” “exigence."

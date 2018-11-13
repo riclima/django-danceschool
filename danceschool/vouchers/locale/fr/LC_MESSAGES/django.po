@@ -1,0 +1,679 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:08-0500\n"
+"PO-Revision-Date: 2018-12-09 22:21-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:20
+msgid "Enter a customer name"
+msgstr "Entrez un nom de client"
+
+#: admin.py:159
+msgid "Voucher Restrictions"
+msgstr "Restrictions du coupon"
+
+#: admin.py:162
+msgid "Other Info"
+msgstr "Autre info"
+
+#: admin.py:170
+msgid "Enabled"
+msgstr "Activé"
+
+#: admin.py:176
+msgid "Single use"
+msgstr "Usage unique"
+
+#: admin.py:178
+msgid "First-time customer"
+msgstr "nouveau client"
+
+#: admin.py:180
+msgid "Previous customer"
+msgstr "Client précédent"
+
+#: admin.py:182
+msgid "Specific customer"
+msgstr "Client spécifique"
+
+#: admin.py:184
+msgid "Specific class"
+msgstr "Cours spécifique"
+
+#: admin.py:186
+msgid "Specific dance type/level"
+msgstr "Type de danse spécifique / niveau"
+
+#: admin.py:188
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: admin.py:197
+msgid "Disable selected Vouchers"
+msgstr "Désactiver les coupons sélectionnés"
+
+#: admin.py:206
+msgid "Enable selected Vouchers"
+msgstr "Activer les coupons sélectionnés"
+
+#: cms_plugins.py:10
+msgid "Statistics on Usage of Vouchers"
+msgstr "Statistiques sur l'utilisation des coupons"
+
+#: cms_toolbars.py:18
+msgid "Finances"
+msgstr "Finances"
+
+#: cms_toolbars.py:32
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: cms_toolbars.py:35
+msgid "Voucher Categories"
+msgstr "Catégories de coupons"
+
+#: cms_toolbars.py:37 models.py:191
+msgid "Vouchers"
+msgstr "Coupons"
+
+#: dynamic_preferences_registry.py:19
+msgid "Vouchers/Gift Certificates"
+msgstr "Coupons / Chèques-cadeaux"
+
+#: dynamic_preferences_registry.py:20
+msgid "Referral Program"
+msgstr "Programme de référence"
+
+#: dynamic_preferences_registry.py:30
+msgid "Enable Vouchers"
+msgstr "Activer les coupons"
+
+#: dynamic_preferences_registry.py:31
+msgid "If checked, then voucher functionality will be enabled."
+msgstr "Si cette case est cochée, la fonctionnalité du coupon sera activée."
+
+#: dynamic_preferences_registry.py:39
+msgid "Enable Gift Certificates"
+msgstr "Activer les chèques-cadeaux"
+
+#: dynamic_preferences_registry.py:40
+msgid "If checked, then gift certificate functionality will be enabled."
+msgstr ""
+"Si cette case est cochée, la fonctionnalité de chèque cadeau sera activée."
+
+#: dynamic_preferences_registry.py:48
+msgid "Enable Gift Certificate PDF Attachments"
+msgstr "Activer les pièces jointes au PDF du chèque-cadeau"
+
+#: dynamic_preferences_registry.py:49
+msgid ""
+"If checked, then gift certificate emails will come with an attached PDF that "
+"can be printed and presented as a gift, based on the special EmailTemplate."
+msgstr ""
+
+#: dynamic_preferences_registry.py:57
+msgid "Voucher Category for email promotions"
+msgstr "Catégorie de coupon pour les promotions par courriel"
+
+#: dynamic_preferences_registry.py:63
+msgid "Email Promotion"
+msgstr "Envoyer Courriel Promotion"
+
+#: dynamic_preferences_registry.py:70
+msgid "Voucher Category for Purchased Gift Certificates"
+msgstr "Catégorie de coupon pour les chèques-cadeaux achetés"
+
+#: dynamic_preferences_registry.py:76
+msgid "Purchased Gift Certificate"
+msgstr "Chèque-cadeau acheté"
+
+#: dynamic_preferences_registry.py:83
+msgid "Voucher Category for Non-Purchased (Promotional) Gift Certificates"
+msgstr ""
+"Catégorie de coupon pour les chèques-cadeaux non-achetés (promotionnels)"
+
+#: dynamic_preferences_registry.py:89
+msgid "Non-Purchased Gift Certificate"
+msgstr "Chèque-cadeau non acheté"
+
+#: dynamic_preferences_registry.py:96
+msgid "Email Template for Gift Certificates"
+msgstr "Modèle de courriel pour les chèques-cadeaux"
+
+#: dynamic_preferences_registry.py:109
+msgid "Gift Certificate Purchase Confirmation Email"
+msgstr "Confirmation d'achat d'un chèque-cadeau"
+
+#: dynamic_preferences_registry.py:111
+msgid "Gift Certificate Purchase Confirmation"
+msgstr "Confirmation d'achat de chèque-cadeau"
+
+#: dynamic_preferences_registry.py:125
+msgid "Email Template for Gift Certificate PDF Attachments"
+msgstr "Modèle de courriel pour les pièces jointes au PDF chèque cadeau"
+
+#: dynamic_preferences_registry.py:138
+msgid "Gift Certificate Purchase PDF Text"
+msgstr "Chèque-cadeau Acheter texte PDF"
+
+#: dynamic_preferences_registry.py:140
+msgid "You've Been Given the Gift of Dance!"
+msgstr "Vous avez reçu le cadeau de la danse!"
+
+#: dynamic_preferences_registry.py:157
+msgid "Enable Referral Program"
+msgstr "Activer le programme de référence"
+
+#: dynamic_preferences_registry.py:158
+msgid ""
+"If checked, then each customer will automatically have a referral code "
+"generated that they can use to get friends discounts."
+msgstr ""
+"Si cochée, chaque client aura automatiquement un code de référence qu'il "
+"pourra utiliser pour” “obtenir des réductions pour ses amis."
+
+#: dynamic_preferences_registry.py:166
+msgid "Discount to Referees"
+msgstr "Remise aux arbitres"
+
+#: dynamic_preferences_registry.py:167
+msgid ""
+"Discount given to individuals who provide a referral code.  In default "
+"currency."
+msgstr ""
+
+#: dynamic_preferences_registry.py:175
+msgid "Discount to Referrers"
+msgstr "Remise aux arbitres"
+
+#: dynamic_preferences_registry.py:176
+msgid ""
+"Discount given to students who refer other students via referral code.  In "
+"default currency."
+msgstr ""
+
+#: dynamic_preferences_registry.py:184
+msgid "Prefix applied to all referral voucher codes."
+msgstr "Préfixe appliqué à tous les codes de coupons de référence."
+
+#: dynamic_preferences_registry.py:192
+msgid "The Voucher Category for referrer vouchers"
+msgstr "La catégorie de coupons pour les coupons de référence"
+
+#: dynamic_preferences_registry.py:198
+msgid "Referral Vouchers"
+msgstr "Coupons de référence"
+
+#: dynamic_preferences_registry.py:205
+msgid "The Voucher Category for referee vouchers"
+msgstr "La catégorie de Coupon pour les coupons d'arbitrage"
+
+#: dynamic_preferences_registry.py:211
+msgid "Referee Vouchers"
+msgstr "Coupons d'arbitrage"
+
+#: forms.py:7
+msgid "Email gift certificate to"
+msgstr "Envoyer un chèque-cadeau à"
+
+#: forms.py:9
+msgid "This email belongs to"
+msgstr "Ce courriel appartient à"
+
+#: forms.py:12
+msgid "The recipient"
+msgstr "Le récipient"
+
+#: forms.py:12
+msgid "The purchaser"
+msgstr "L'acheteur"
+
+#: forms.py:13
+msgid ""
+"If emailing directly to the recipient, a gift message will be sent. If "
+"emailing to the purchaser, the gift message will only be included as a PDF "
+"attachment."
+msgstr ""
+
+#: forms.py:16
+msgid "Recipient name (optional)"
+msgstr "Nom du destinataire (facultatif)"
+
+#: forms.py:16
+msgid "If provided, this will be used to customize the gift message."
+msgstr "Si fourni, cela sera utilisé pour personnaliser le message cadeau."
+
+#: forms.py:17
+msgid "From name (optional)"
+msgstr "De nom (facultatif)"
+
+#: forms.py:19
+msgid "Enter a message to the recipient (optional)"
+msgstr "Entrez un message au destinataire (facultatif)"
+
+#: handlers.py:45
+msgid "Vouchers are disabled."
+msgstr "Les coupons sont désactivés."
+
+#: handlers.py:48
+msgid "Can't have more than one voucher"
+msgstr "Ne peut pas avoir plus d'un coupon"
+
+#: handlers.py:55
+msgid "Invalid Voucher Id"
+msgstr "Identifiant du coupon invalide"
+
+#: helpers.py:62
+#, python-format
+msgid "Referral Bonus for %s, %s"
+msgstr "Bonus de référence pour% s,% s"
+
+#: helpers.py:104
+#, python-format
+msgid "Referral: %s"
+msgstr "Référence:% s"
+
+#: helpers.py:129
+msgid "Referral from "
+msgstr "Référence de"
+
+#: models.py:13 models.py:29
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:14 models.py:282 templates/stats/schoolstats_voucherusage.html:32
+msgid "Description"
+msgstr "Description"
+
+#: models.py:20
+msgid "Voucher category"
+msgstr "Catégorie de coupon"
+
+#: models.py:21
+msgid "Voucher categories"
+msgstr "Catégories de coupons"
+
+#: models.py:26
+msgid "Voucher Code"
+msgstr "Code du coupon"
+
+#: models.py:29
+msgid ""
+"Give a descriptive name that will be used when a customer applies the "
+"voucher."
+msgstr ""
+"Donnez un nom descriptif qui sera utilisé lorsqu'un client applique le "
+"coupon."
+
+#: models.py:32
+msgid "Category"
+msgstr "Catégorie"
+
+#: models.py:35
+msgid "Description (optional)"
+msgstr "description (facultatif)"
+
+#: models.py:35
+msgid "For internal use only"
+msgstr "Pour usage interne uniquement"
+
+#: models.py:38
+msgid "Original Amount"
+msgstr "Montant original"
+
+#: models.py:38
+msgid "Enter the original amount of the voucher here."
+msgstr "Entrez le montant original du coupon ici."
+
+#: models.py:39
+msgid "Refunded Amount"
+msgstr "Montant remboursé"
+
+#: models.py:39
+msgid ""
+"When a refund is processed through Paypal, this should automatically "
+"update.  Otherwise it should not need to be changed."
+msgstr ""
+"Lorsqu'un remboursement est traité via Paypal, il doit automatiquement être "
+"mis à jour, sinon” “il ne devrait pas être modifié."
+
+#: models.py:43
+msgid "Max. Amount Per Use"
+msgstr "Montant Max. par utilisation"
+
+#: models.py:43
+msgid ""
+"If specified, this will limit the size of a repeated-use voucher.  If "
+"unspecified, there is no limit.  Be sure to specify this for publicly "
+"advertised voucher codes."
+msgstr ""
+"Si spécifié, cela limitera la taille d'un coupon d'achat à usage répété.S'il "
+"n'est pas spécifié, il” “n'y a pas de limite.Veuillez vous assurer de le "
+"spécifier pour les codes promotionnels” “publicisés."
+
+#: models.py:46
+msgid "Single Use"
+msgstr "Usage unique"
+
+#: models.py:50
+msgid "For First-Time Customers Only"
+msgstr "Pour les nouveaux clients seulement"
+
+#: models.py:54
+msgid "For Previous Customers Only"
+msgstr "Pour les clients précédents seulement"
+
+#: models.py:57
+msgid "Creation Date"
+msgstr "Date de création"
+
+#: models.py:60
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: models.py:63
+msgid "Voucher Disabled"
+msgstr "Coupon désactivé"
+
+#: models.py:63
+msgid "Check this box to disable the voucher entirely."
+msgstr "Cochez cette case pour désactiver complètement le coupon."
+
+#: models.py:88
+msgid "Has Expired"
+msgstr "A expiré"
+
+#: models.py:98
+msgid "Voucher is valid for any customer"
+msgstr "Le coupon est valable pour tout client"
+
+#: models.py:106
+msgid "Voucher is valid for any class"
+msgstr "Le bon est valable pour n'importe quel cours"
+
+#: models.py:122
+msgid "Amount remaining"
+msgstr "Quantité restante"
+
+#: models.py:128
+msgid "Voucher has expired."
+msgstr "Le coupon a expiré."
+
+#: models.py:132
+msgid "Voucher has already been used."
+msgstr "Le coupon a déjà été utilisé."
+
+#: models.py:136
+msgid "There is no money left on this voucher."
+msgstr "Il n'y a plus d'argent sur ce coupon."
+
+#: models.py:142 models.py:146 models.py:150
+msgid "This voucher can be only used for specific classes."
+msgstr "Ce coupon ne peut être utilisé que pour des cours spécifiques."
+
+#: models.py:154
+msgid "This voucher can be only used for specific events."
+msgstr "Ce coupon ne peut être utilisé que pour des évènements spécifiques."
+
+#: models.py:158
+msgid "This voucher can be only used for specific classes or events."
+msgstr ""
+"Ce coupon ne peut être utilisé que pour des cours ou évènements spécifiques."
+
+#: models.py:162
+msgid "This voucher has been disabled."
+msgstr "Ce coupon a été désactivé."
+
+#: models.py:167
+msgid "This voucher is associated with a specific customer or customer group."
+msgstr "Ce coupon est associé à un client spécifique."
+
+#: models.py:173
+msgid "This voucher is associated with a specific customer."
+msgstr "Ce coupon est associé à un client spécifique."
+
+#: models.py:175
+msgid "This voucher is associated with a specific customer group."
+msgstr "Ce coupon est associé à un client spécifique."
+
+#: models.py:178
+msgid "This voucher can only be used by first time customers."
+msgstr "Ce coupon ne peut être utilisé que par des clients débutants."
+
+#: models.py:181
+msgid ""
+"This voucher can only be used by existing customers.  If you are an existing "
+"customer, be sure to register with the same email address that you have used "
+"previously."
+msgstr ""
+"Ce coupon ne peut être utilisé que par des clients existants Si vous êtes un "
+"client existant,” “assurez-vous de vous enregistrer avec la même adresse "
+"courriel que vous avez déjà utilisée."
+
+#: models.py:190 models.py:205 models.py:218 models.py:227 models.py:236
+#: models.py:245 models.py:254 models.py:263 models.py:272 models.py:280
+#: models.py:292
+msgid "Voucher"
+msgstr "Coupon"
+
+#: models.py:195
+msgid "Referrer voucher"
+msgstr "Coupon de référence"
+
+#: models.py:196
+msgid "Referree voucher"
+msgstr "Coupon d'arbitre"
+
+#: models.py:197
+msgid "Amount awarded to referrer"
+msgstr "Montant accordé à referrer"
+
+#: models.py:200 models.py:302
+msgid "Voucher referral discount"
+msgstr "Coupon Rabais de recommandation"
+
+#: models.py:201
+msgid "Voucher referral discounts"
+msgstr "Coupons Rabais de recommandation"
+
+#: models.py:206 models.py:291
+msgid "Registration"
+msgstr "Inscription"
+
+#: models.py:207 models.py:281 models.py:293
+msgid "Amount"
+msgstr "Montant"
+
+#: models.py:208
+msgid "Notes"
+msgstr "Notes"
+
+#: models.py:209 models.py:294 models.py:305
+msgid "Date of use"
+msgstr "Date d'utilisation"
+
+#: models.py:212 models.py:303
+msgid "Voucher use"
+msgstr "Utilisation du coupon"
+
+#: models.py:213
+msgid "Voucher uses"
+msgstr "Utilisations du coupon"
+
+#: models.py:217
+msgid "Dance Type/Level"
+msgstr "Type de danse / niveau"
+
+#: models.py:221
+msgid "Dance type/level voucher restriction"
+msgstr "Restriction du Coupon pour Type de danse / niveau"
+
+#: models.py:222
+msgid "Dance type/level voucher restrictions"
+msgstr "Restrictions du Coupon pour Type de danse / niveau"
+
+#: models.py:226
+msgid "Class Type (Description)"
+msgstr "Type de cours (description)"
+
+#: models.py:230
+msgid "Class-specific voucher restriction"
+msgstr "Restriction du coupon spécifique au cours"
+
+#: models.py:231
+msgid "Class-specific voucher restrictions"
+msgstr "Restrictions du coupon spécifique au cours"
+
+#: models.py:235
+msgid "Series Category"
+msgstr "Catégorie de série"
+
+#: models.py:239
+msgid "Series category-specific voucher restriction"
+msgstr "Restriction de coupon au client spécifique"
+
+#: models.py:240
+msgid "Series category-specific voucher restrictions"
+msgstr "Restrictions de coupons au client spécifique"
+
+#: models.py:244
+msgid "Public Event Category"
+msgstr "Catégorie d'événement public"
+
+#: models.py:248
+msgid "Public event category-specific voucher restriction"
+msgstr "Restriction de coupon au client spécifique"
+
+#: models.py:249
+msgid "public event Category-specific voucher restrictions"
+msgstr "Restrictions de coupons au client spécifique"
+
+#: models.py:253
+msgid "Event Session"
+msgstr "Session d'évènement"
+
+#: models.py:257
+msgid "Session-specific voucher restriction"
+msgstr "Restriction de coupon au client spécifique"
+
+#: models.py:258
+msgid "Session-specific voucher restrictions"
+msgstr "Restrictions de coupons au client spécifique"
+
+#: models.py:262
+msgid "Customer group"
+msgstr "Groupe de points"
+
+#: models.py:266
+msgid "Group-specific voucher restriction"
+msgstr "Restriction du coupon spécifique au cours"
+
+#: models.py:267
+msgid "Group-specific voucher restrictions"
+msgstr "Restrictions du coupon spécifique au cours"
+
+#: models.py:271
+msgid "Customer"
+msgstr "Client"
+
+#: models.py:275
+msgid "Customer-specific voucher restriction"
+msgstr "Restriction de coupon au client spécifique"
+
+#: models.py:276
+msgid "Customer-specific voucher restrictions"
+msgstr "Restrictions de coupons au client spécifique"
+
+#: models.py:283
+msgid "Date of credit"
+msgstr "Date du crédit"
+
+#: models.py:286 models.py:304
+msgid "Voucher credit"
+msgstr "Coupon pour crédit"
+
+#: models.py:287
+msgid "Voucher credits"
+msgstr "Coupons pour crédits"
+
+#: models.py:297
+msgid "Tentative voucher use"
+msgstr "Utilisation du coupon provisoire"
+
+#: models.py:298
+msgid "Tentative voucher uses"
+msgstr "Utilisations des coupons provisoires "
+
+#: models.py:308
+msgid "Use of voucher referral discount"
+msgstr "Utilisation de la remise du coupon de recommandation"
+
+#: models.py:309
+msgid "Uses of voucher referral discounts"
+msgstr "Utilisations des remises des coupons de recommandation"
+
+#: templates/stats/schoolstats_voucherusage.html:7
+msgid "Statistics on Voucher Usage"
+msgstr "Statistiques sur l'utilisation du coupon"
+
+#: templates/stats/schoolstats_voucherusage.html:13
+msgid "Last 12 Months"
+msgstr "12 derniers mois"
+
+#: templates/stats/schoolstats_voucherusage.html:16
+msgid "Last Month"
+msgstr "Le mois dernier"
+
+#: templates/stats/schoolstats_voucherusage.html:19
+msgid "All Time"
+msgstr "Tout le temps"
+
+#: templates/stats/schoolstats_voucherusage.html:26
+msgid "Percentage of Registration Using Vouchers"
+msgstr "Pourcentage d'inscription utilisant des coupons"
+
+#: templates/stats/schoolstats_voucherusage.html:30
+msgid "Most Popular Vouchers"
+msgstr "Les coupons les plus populaires"
+
+#: templates/stats/schoolstats_voucherusage.html:32
+msgid "Code"
+msgstr "Code"
+
+#: templates/stats/schoolstats_voucherusage.html:32
+msgid "Uses"
+msgstr "Les usages"
+
+#: views.py:45
+msgid "Invalid invoice information passed."
+msgstr "Informations de facturation incorrectes transmises."
+
+#: views.py:48
+msgid "Passed invoice is not paid."
+msgstr "La facture validée n'est pas payée."
+
+#: views.py:68
+#, python-format
+msgid "Gift certificate: %s%s for %s"
+msgstr "Chèque cadeau:% s% s pour% s"
+
+#: views.py:77
+msgid "Gift certificate transaction not completed"
+msgstr "La transaction du chèque-cadeau n'est pas terminée"
+
+#, fuzzy
+#~ msgid "This voucher can only be used for %(level)s classes"
+#~ msgstr "Ce coupon ne peut être utilisé que pour les cours% (niveau) s"

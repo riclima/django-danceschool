@@ -1,0 +1,240 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:07-0500\n"
+"PO-Revision-Date: 2018-12-09 22:24-0500\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:23
+msgid "Registration invoice"
+msgstr ""
+
+#: admin.py:33
+msgid "Basic Information"
+msgstr "Informations de base"
+
+#: admin.py:36
+msgid "Dates"
+msgstr "Dates"
+
+#: cms_plugins.py:13
+msgid "Square Checkout Form"
+msgstr "Formulaire de paiement Square"
+
+#: cms_plugins.py:31
+msgid "Square Point of Sale Button"
+msgstr "Bouton Point de vente Square"
+
+#: cms_toolbars.py:18
+msgid "Finances"
+msgstr "Finances"
+
+#: cms_toolbars.py:32
+msgid "Related Items"
+msgstr ""
+
+#: cms_toolbars.py:35
+msgid "Square Payment Records"
+msgstr "Registres de paiement Square"
+
+#: models.py:27
+msgid "Square Transaction ID"
+msgstr "Identifiant de transaction Square"
+
+#: models.py:28
+msgid "Square Location ID"
+msgstr "Identifiant d’endroit Square"
+
+#: models.py:29
+msgid "Associated email"
+msgstr "Courriel associé"
+
+#: models.py:149
+msgid "Has access to point-of-sale payment functionality"
+msgstr "A accès à la fonctionnalité de paiement au point de vente"
+
+#: models.py:151
+msgid "Square payment record"
+msgstr "Registre de paiement Square"
+
+#: models.py:152
+msgid "Payment records"
+msgstr "Registres de paiements"
+
+#: models.py:158
+msgid "Success Page"
+msgstr "Succès"
+
+#: models.py:158
+msgid ""
+"When the user returns to the site after a successful transaction, send them "
+"to this page."
+msgstr ""
+"Lorsque l'utilisateur revient sur le site après une transaction réussie, "
+"envoyez-le à cette page."
+
+#: models.py:159
+msgid "Default amount"
+msgstr "Montant par défaut"
+
+#: models.py:159
+msgid "The initial value for gift certificate forms."
+msgstr "La valeur initiale pour les formulaires de chèque-cadeau."
+
+#: templates/square/checkout.html:3
+msgid ""
+"An unknown error has occurred. Please try again, or notify us if you "
+"continue to have an issue."
+msgstr ""
+
+#: templates/square/checkout.html:10
+msgid "Pay Now with Square"
+msgstr "Payer maintenant avec Square"
+
+#: templates/square/checkout.html:13
+msgid "Card Number"
+msgstr "Numéro de carte"
+
+#: templates/square/checkout.html:15
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/square/checkout.html:17
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: templates/square/checkout.html:19
+msgid "Postal Code"
+msgstr "Code Postal"
+
+#: templates/square/checkout.html:37
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#: templates/square/checkout.html:98
+msgid ""
+"Your browser does not support Square checkout.  Please use another browser."
+msgstr ""
+"Votre navigateur ne prend pas en charge la caisse Square. Veuillez utiliser "
+"un autre” “navigateur."
+
+#: templates/square/point_of_sale.html:4
+msgid "Send to Square App"
+msgstr "Envoyer à l'application Square"
+
+#: templates/square/point_of_sale.html:6
+msgid ""
+"<em>Note:</em> Square Point of Sale app must be installed and logged in "
+"before attempting this transaction."
+msgstr ""
+"<em> Remarque: </ em> L'application\" Square Point of Sale \"doit être "
+"installée et connectée” “avant de tenter cette transaction."
+
+#: templates/square/point_of_sale.html:87
+msgid "unavailable"
+msgstr "indisponible"
+
+#: templates/square/point_of_sale.html:88
+msgid ""
+"Point of sale integration is only supported for iOS and Android devices."
+msgstr ""
+"L'intégration au point de vente est uniquement prise en charge pour les "
+"appareils iOS et” “Android."
+
+#: views.py:66 views.py:103 views.py:127 views.py:167
+msgid "ERROR: Error with Square checkout transaction attempt."
+msgstr "ERREUR: Erreur lors de la tentative de transaction Square Checkout."
+
+#: views.py:67
+msgid "Invalid amount passed."
+msgstr "Quantité non valide transmise"
+
+#: views.py:84 views.py:372
+#, python-format
+msgid "Invoice Payment: %s"
+msgstr "Paiement de facture:% s"
+
+#: views.py:93 views.py:367
+#, python-format
+msgid "Registration Payment: #%s"
+msgstr "Paiement d'inscription: #% s"
+
+#: views.py:104
+msgid "Insufficient information passed to createSquarePayment view."
+msgstr "Information insuffisante transmise à la vue createSquarePayment."
+
+#: views.py:111 views.py:384
+msgid "Gift Certificate Purchase"
+msgstr "Achat de chèques-cadeaux"
+
+#: views.py:128
+#, python-format
+msgid ""
+"Invalid registration information passed to createSquarePayment view: (%s, "
+"%s, %s)"
+msgstr ""
+"Informations d'inscription incorrectes transmises à la vue "
+"createSquarePayment: (% s,% s,% s)"
+
+#: views.py:161
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: views.py:235 views.py:274 views.py:296
+msgid "ERROR: Error with Square point of sale transaction attempt."
+msgstr ""
+"ERREUR: Erreur lors d'une tentative de transaction au point de vente Square."
+
+#: views.py:236 views.py:275
+msgid "Invalid metadata passed from Square app."
+msgstr "Métadonnées non valides transmises depuis l'application Square."
+
+#: views.py:309
+msgid "ERROR: Unable to find Square transaction by server ID."
+msgstr ""
+"ERREUR: Impossible de trouver la transaction Square par l'ID du serveur."
+
+#: views.py:313
+msgid "ERROR: Unable to find Square transaction by server ID:"
+msgstr ""
+"ERREUR: Impossible de trouver la transaction Square par l'ID du serveur:"
+
+#: views.py:322
+msgid "ERROR: Unable to find Square transaction by client ID."
+msgstr "ERREUR: Impossible de trouver la transaction Square par ID client."
+
+#: views.py:326
+msgid "ERROR: Unable to find Square transaction by client ID:"
+msgstr "ERREUR: Impossible de trouver la transaction Square par ID client:"
+
+#: views.py:333
+msgid "ERROR: Returned client transaction ID not found."
+msgstr "ERREUR: Retour d'identifiant de transaction client introuvable."
+
+#: views.py:337
+msgid ""
+"ERROR: An unknown error has occurred with Square point of sale transaction "
+"attempt."
+msgstr ""
+"ERREUR: une erreur inconnue s'est produite lors de la tentative de "
+"transaction au point de vente Square."
+
+#: views.py:360
+msgid "ERROR: Invalid registration ID passed"
+msgstr "ERREUR: ID d'inscription non valide transmis"
+
+#: views.py:378
+msgid "ERROR: Invalid invoice ID passed"
+msgstr "ERREUR: ID de facture non valide transmis"
