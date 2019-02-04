@@ -1,0 +1,434 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:04-0500\n"
+"PO-Revision-Date: 2018-12-09 22:21-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:31
+msgid "Enter a customer name"
+msgstr "Entrez un nom de client"
+
+#: admin.py:82
+msgid "Flat-Price Discount (in default currency)"
+msgstr "Rabais à prix forfaitaire (dans la devise par défaut)"
+
+#: admin.py:86
+msgid "Dollar Discount (in default currency)"
+msgstr "Remise en dollars (dans la devise par défaut)"
+
+#: admin.py:90
+msgid "Percentage Discount"
+msgstr "Remise en pourcentage"
+
+#: admin.py:99
+msgid "Students only"
+msgstr "Étudiants seulement"
+
+#: admin.py:101
+msgid "First-time customer"
+msgstr "nouveau client"
+
+#: admin.py:103
+#, python-format
+msgid "%s day advance registration"
+msgstr "% s jour d'inscription à l'avance"
+
+#: admin.py:105
+#, python-format
+msgid "First %s to register"
+msgstr "Inscription (%s inscrit)"
+
+#: admin.py:107
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: admin.py:116
+msgid "Disable selected Discounts"
+msgstr "Désactiver les remises sélectionnées"
+
+#: admin.py:125
+msgid "Enable selected Discounts"
+msgstr "Activer les remises sélectionnées"
+
+#: admin.py:159
+msgid "pricing tier discount group"
+msgstr "groupe de réduction de niveau de prix"
+
+#: admin.py:160
+msgid "pricing tier discount groups"
+msgstr "groupes de réduction de niveau de prix"
+
+#: cms_plugins.py:10
+msgid "Statistics on Usage of Discounts"
+msgstr "Statistiques sur l'utilisation des réductions"
+
+#: cms_toolbars.py:21
+msgid "Finances"
+msgstr "Finances"
+
+#: cms_toolbars.py:35
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: cms_toolbars.py:38 models.py:256
+msgid "Discounts"
+msgstr "Réductions"
+
+#: cms_toolbars.py:40
+msgid "Discount Categories"
+msgstr "Catégories de réduction"
+
+#: models.py:13 models.py:101 templates/stats/schoolstats_discountusage.html:34
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:13
+msgid ""
+"Give this pricing tier point group a name (e.g. 'Regular Series Class Hours')"
+msgstr ""
+"Attribuez un nom à ce groupe de points de niveau de prix (par exemple,\" "
+"Heures de cours en série standard \")"
+
+#: models.py:19
+msgid "Point group type"
+msgstr "Type de groupe de points"
+
+#: models.py:20
+msgid "Point group types"
+msgstr "Types de groupes de points"
+
+#: models.py:30
+msgid "Point group"
+msgstr "Groupe de points"
+
+#: models.py:31
+msgid "Pricing tier"
+msgstr "Niveau de tarification"
+
+#: models.py:32
+msgid "# of Points"
+msgstr "# de Points"
+
+#: models.py:35
+#, python-format
+msgid "%s points for pricing tier %s"
+msgstr "% s Points pour le niveau de tarification% s"
+
+#: models.py:40
+msgid "Pricing tier point group"
+msgstr "Groupe de points du niveau de tarification"
+
+#: models.py:41
+msgid "Pricing tier point groups"
+msgstr "Groupes de points de niveau de tarification"
+
+#: models.py:48
+msgid "Category name"
+msgstr "Nom de catégorie"
+
+#: models.py:50
+msgid "Category order"
+msgstr "Ordre de catégorie"
+
+#: models.py:51
+msgid "Discounts from categories with lower numbers are applied first."
+msgstr ""
+"Les réductions de catégories avec des nombres inférieurs sont appliquées en "
+"premier."
+
+#: models.py:55
+msgid "Cannot be combined"
+msgstr "Ne peut pas être combiné"
+
+#: models.py:56
+msgid ""
+"If checked, then discounts in this category cannot be combined with any "
+"other type of discount."
+msgstr ""
+"Si coché, alors les réductions dans cette catégorie ne peuvent être "
+"combinées avec aucunAutre type de réduction."
+
+#: models.py:65 models.py:104
+msgid "Discount category"
+msgstr "Catégorie de réduction"
+
+#: models.py:66
+msgid "Discount categories"
+msgstr "Catégories de réduction"
+
+#: models.py:73
+msgid "Exact Specified Price"
+msgstr "Prix exact spécifié"
+
+#: models.py:74
+msgid "Dollar Discount from Regular Price"
+msgstr "Remise de dollar du prix régulier"
+
+#: models.py:75
+msgid "Percentage Discount from Regular Price"
+msgstr "Remise en pourcentage du prix régulier"
+
+#: models.py:76
+msgid "Free Add-on Item (Can be combined with other discounts)"
+msgstr ""
+
+#: models.py:101
+msgid "Give this discount combination a name (e.g. 'Two 4-week series')"
+msgstr ""
+"Article complémentaire gratuit (peut être combiné avec d'autres réductions)"
+
+#: models.py:102
+msgid "Active"
+msgstr "Actif"
+
+#: models.py:102
+msgid "Uncheck this to 'turn off' this discount"
+msgstr "Décochez cette case pour désactiver cette remise"
+
+#: models.py:105
+msgid ""
+"One discount can be applied per category, and the order in which discounts "
+"are applied depends on the order parameter of the categories."
+msgstr ""
+"Une réduction peut être appliquée par catégorie, et l'ordre dans lequel les "
+"réductionssont appliqués dépend du paramètre d'ordre des catégories."
+
+#: models.py:109
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: models.py:109
+msgid "Leave blank for no expiration."
+msgstr "Laissez vide pour aucune expiration."
+
+#: models.py:111
+msgid "Discount for HS/college/university students only"
+msgstr ""
+"Rabais pour les étudiants au secondaire / collégial / universitaire seulement"
+
+#: models.py:111
+msgid "Check this box to create student discounts."
+msgstr "Cochez cette case pour créer des réductions pour les étudiants."
+
+#: models.py:112
+msgid "Discount for New Customers only"
+msgstr "Réduction pour les nouveaux clients seulement"
+
+#: models.py:114
+msgid "Must register __ days in advance"
+msgstr "Doit s'inscrire __ jours à l'avance"
+
+#: models.py:117
+msgid ""
+"For this discount to apply, all components must be satisfied by events that "
+"begin this many days in the future (measured from midnight of the date of "
+"registration). Leave blank for no restriction."
+msgstr ""
+
+#: models.py:123
+msgid "Only for first __ registrants"
+msgstr "Pour les nouveaux clients seulement"
+
+#: models.py:126
+msgid ""
+"For this discount to apply, all components must be satisfied by events that "
+"have fewer than this many individuals registered (including registrations in "
+"progress). Only one discount per category can be applied, so if you define "
+"tiered discounts in the same category, only the best available discount will "
+"be used."
+msgstr ""
+
+#: models.py:133
+msgid "Discount type"
+msgstr "Type de remise"
+
+#: models.py:133
+msgid ""
+"Is this a flat price, a dollar amount discount, a 'percentage off' discount, "
+"or a free add-on?"
+msgstr ""
+"S'agit-il d'un prix fixe, d'un rabais sur le montant en dollars, d'un rabais"
+"\" en pourcentage \"ou” “d'un ajout gratuit?"
+
+#: models.py:136
+msgid "Online price"
+msgstr "Prix en ligne"
+
+#: models.py:137
+msgid "At-the-door price"
+msgstr "Prix à la porte"
+
+#: models.py:140
+msgid "Amount of dollar discount"
+msgstr "Montant du rabais en dollars"
+
+#: models.py:140
+msgid ""
+"This amount will be subtracted from the customer's total (in currency units, "
+"e.g. dollars)."
+msgstr ""
+"Ce montant sera soustrait du total du client (en unités monétaires, par "
+"exemple en dollars)."
+
+#: models.py:143
+msgid "Amount of percentage discount"
+msgstr "Montant du pourcentage de réduction"
+
+#: models.py:143
+msgid "This percentage will be subtracted from the customer's total."
+msgstr "Ce pourcentage sera soustrait du total du client."
+
+#: models.py:144
+msgid "Percentage discount is univerally applied"
+msgstr "La réduction en pourcentage est appliquée universellement"
+
+#: models.py:144
+#, python-format
+msgid ""
+"If checked, then the percentage discount will be applied to all items in the "
+"order, not just the items that qualify the order for this discount "
+"combination (e.g. 20% off all registrations of three or more classes."
+msgstr ""
+
+#: models.py:196
+msgid "Invalid discount type."
+msgstr "Type de remise invalide."
+
+#: models.py:255 models.py:264 models.py:281 models.py:292 models.py:304
+#: models.py:314
+msgid "Discount"
+msgstr "réductions"
+
+#: models.py:266
+msgid "Pricing Tier Point Group"
+msgstr "Groupe de points de prix"
+
+#: models.py:268
+msgid "Applies to all within Point Group"
+msgstr "S'applique à tous dans le groupe Point"
+
+#: models.py:268
+msgid ""
+"If checked, then this discount applies to this quantity or more within the "
+"point group.  Use, for example, for all-in passes."
+msgstr ""
+"Si cette case est cochée, cette réduction s'applique à cette quantité ou "
+"plus dans le groupe de” “points, par exemple pour les laissez-passer tout "
+"compris."
+
+#: models.py:270
+msgid "Quantity"
+msgstr "Quantité"
+
+#: models.py:271
+msgid "Dance type/level"
+msgstr "Type de danse / niveau"
+
+#: models.py:272
+msgid "Weekday"
+msgstr "Jour de la semaine"
+
+#: models.py:272
+msgid "Leave this blank for no restriction on days of the week"
+msgstr "Laissez ce champ vide pour aucune restriction les jours de la semaine"
+
+#: models.py:275
+msgid "Required component of discount"
+msgstr "Composant requis de la réduction"
+
+#: models.py:276
+msgid "Required components of discount"
+msgstr "Composants requis de réduction"
+
+#: models.py:280
+msgid "Temporary registration"
+msgstr "Inscription temporaire"
+
+#: models.py:282 models.py:293
+msgid "Amount of discount"
+msgstr "Montant de la réduction"
+
+#: models.py:286
+msgid "Discount applied to temporary registration"
+msgstr "Rabais appliqué à l'inscription temporaire"
+
+#: models.py:287
+msgid "Discounts applied to temporary registrations"
+msgstr "Réductions appliquées aux inscriptions temporaires"
+
+#: models.py:291
+msgid "Registration"
+msgstr "Inscription"
+
+#: models.py:297
+msgid "Discount applied to registration"
+msgstr "Rabais appliqué à l'inscription"
+
+#: models.py:298
+msgid "Discounts applied to registrations"
+msgstr "Réductions appliquées aux inscriptions"
+
+#: models.py:303
+msgid "Customer group"
+msgstr "Groupe de points"
+
+#: models.py:307
+msgid "Group-specific discount restriction"
+msgstr "Restriction de remise spécifique au client"
+
+#: models.py:308
+msgid "Group-specific discount restrictions"
+msgstr "Restrictions de remise spécifiques au client"
+
+#: models.py:313
+msgid "Customer"
+msgstr "Client"
+
+#: models.py:317
+msgid "Customer-specific discount restriction"
+msgstr "Restriction de remise spécifique au client"
+
+#: models.py:318
+msgid "Customer-specific discount restrictions"
+msgstr "Restrictions de remise spécifiques au client"
+
+#: templates/stats/schoolstats_discountusage.html:7
+msgid "Statistics on Discount Usage"
+msgstr "Statistiques sur l'utilisation de la remise"
+
+#: templates/stats/schoolstats_discountusage.html:13
+msgid "Last 12 Months"
+msgstr "12 derniers mois"
+
+#: templates/stats/schoolstats_discountusage.html:16
+msgid "Last Month"
+msgstr "Le mois dernier"
+
+#: templates/stats/schoolstats_discountusage.html:19
+msgid "All Time"
+msgstr "Tout le temps"
+
+#: templates/stats/schoolstats_discountusage.html:26
+msgid "Percentage of Registration Using Discounts"
+msgstr "Pourcentage d'inscription utilisant des remises"
+
+#: templates/stats/schoolstats_discountusage.html:31
+msgid "Most Popular Discounts"
+msgstr "Réductions les plus populaires"
+
+#: templates/stats/schoolstats_discountusage.html:34
+msgid "Uses"
+msgstr "Les usages"

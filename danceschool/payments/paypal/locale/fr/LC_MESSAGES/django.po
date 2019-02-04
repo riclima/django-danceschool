@@ -1,0 +1,144 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:07-0500\n"
+"PO-Revision-Date: 2018-12-09 22:23-0500\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:23
+msgid "Registration invoice"
+msgstr "Facture d'inscription"
+
+#: admin.py:33
+msgid "Basic Information"
+msgstr "Informations de base"
+
+#: admin.py:36
+msgid "Dates"
+msgstr "Dates"
+
+#: cms_plugins.py:12
+msgid "Paypal Gift Certificate Form"
+msgstr "Formulaire de chèque-cadeau Paypal"
+
+#: cms_plugins.py:35
+msgid "Paypal Express Checkout Form"
+msgstr "Formulaire de paiement Paypal Express"
+
+#: cms_toolbars.py:18
+msgid "Finances"
+msgstr "Finances"
+
+#: cms_toolbars.py:32
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: cms_toolbars.py:35
+msgid "Paypal Payment Records"
+msgstr "Dossiers de paiement Paypal"
+
+#: dynamic_preferences_registry.py:11
+msgid "Paypal"
+msgstr "Paypal"
+
+#: dynamic_preferences_registry.py:21
+msgid "Paypal fixed transaction fee"
+msgstr "Paypal frais de transaction fixe"
+
+#: dynamic_preferences_registry.py:22
+msgid ""
+"Paypal fees consist of a fixed fee plus a percentage of the total price.  "
+"When a refund is made, the  the U.S., the variable percentage is refunded, "
+"but the fixed fee is not.  In the U.S., this fixed fee is $0.30.  Entering "
+"your country's fee here ensures that your accounting will remain accurate "
+"when you refund students."
+msgstr ""
+
+#: models.py:24
+msgid "Paypal Payment ID"
+msgstr "Identifiant de paiement Paypal"
+
+#: models.py:25
+msgid "Paypal Payer ID"
+msgstr "Identifiant du payeur Paypal"
+
+#: models.py:26
+msgid "Current status"
+msgstr "Statut actuel"
+
+#: models.py:122
+msgid "Paypal payment record"
+msgstr "Registre des paiements Paypal"
+
+#: models.py:123
+msgid "Payment records"
+msgstr "Registres de paiements"
+
+#: models.py:129
+msgid "Success Page"
+msgstr "Succès"
+
+#: models.py:129
+msgid ""
+"When the user returns to the site after a successful transaction, send them "
+"to this page."
+msgstr ""
+"Lorsque l'utilisateur revient sur le site après une transaction réussie, "
+"envoyez-le à cette page."
+
+#: models.py:130
+msgid "Default amount"
+msgstr "Montant par défaut"
+
+#: models.py:130
+msgid "The initial value for gift certificate forms."
+msgstr "La valeur initiale pour les formulaires de chèque-cadeau."
+
+#: templates/paypal/express_checkout.html:3
+#: templates/paypal/giftcertificate_form.html:3
+msgid ""
+"An unknown error has occurred. Please try again, or notify us if you "
+"continue to have an issue."
+msgstr ""
+
+#: templates/paypal/giftcertificate_form.html:8
+msgid "Amount"
+msgstr "Montant"
+
+#: views.py:62
+#, python-format
+msgid "Invoice Payment: %s"
+msgstr "Paiement de facture:% s"
+
+#: views.py:71
+#, python-format
+msgid "Registration Payment: #%s"
+msgstr "Paiement d'inscription: #% s"
+
+#: views.py:81
+msgid "Gift Certificate Purchase"
+msgstr "Achat de chèques-cadeaux"
+
+#: views.py:136
+msgid "Total Discounts"
+msgstr "Total des remises"
+
+#: views.py:143
+msgid "Previously Paid"
+msgstr "Payé Auparavant"
+
+#: views.py:150
+msgid "Remaining Balance After Payment"
+msgstr "Solde restant après paiement"

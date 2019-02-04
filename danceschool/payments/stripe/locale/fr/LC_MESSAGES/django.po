@@ -1,0 +1,96 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:07-0500\n"
+"PO-Revision-Date: 2018-12-09 22:25-0500\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:23
+msgid "Registration invoice"
+msgstr "Facture d'inscription"
+
+#: admin.py:33
+msgid "Basic Information"
+msgstr "Informations de base"
+
+#: admin.py:36
+msgid "Dates"
+msgstr "Dates"
+
+#: cms_plugins.py:13
+msgid "Stripe Gift Certificate Form"
+msgstr "Formulaire de chèque-cadeau Stripe"
+
+#: cms_plugins.py:33
+msgid "Stripe Checkout Form"
+msgstr "Formulaire de paiement Stripe"
+
+#: models.py:29
+msgid "Charge Id"
+msgstr "Identifiant de charge"
+
+#: models.py:30
+msgid "Current status"
+msgstr "Statut actuel"
+
+#: models.py:84
+msgid "Stripe charge"
+msgstr "Frais pour Stripe"
+
+#: models.py:85
+msgid "Stripe charges"
+msgstr "Frais pour Stripe"
+
+#: models.py:91
+msgid "Success Page"
+msgstr "Succès"
+
+#: models.py:91
+msgid ""
+"When the user returns to the site after a successful transaction, send them "
+"to this page."
+msgstr ""
+"Lorsque l'utilisateur revient sur le site après une transaction réussie, "
+"envoyez-le à cette page."
+
+#: models.py:92
+msgid "Default amount"
+msgstr "Montant par défaut"
+
+#: models.py:92
+msgid "The initial value for gift certificate forms."
+msgstr "La valeur initiale pour les formulaires de chèque-cadeau."
+
+#: templates/stripe/checkout.html:26
+msgid "Invoice #"
+msgstr "Facture #"
+
+#: templates/stripe/checkout.html:29
+msgid "Temporary Registration #"
+msgstr "Numéro d'inscription temporaire"
+
+#: templates/stripe/giftcertificate_form.html:42 views.py:88
+msgid "Gift Certificate Purchase"
+msgstr "Achat de chèques-cadeaux"
+
+#: views.py:69
+#, python-format
+msgid "Invoice Payment: %s"
+msgstr "Paiement de facture:% s"
+
+#: views.py:78
+#, python-format
+msgid "Registration Payment: #%s"
+msgstr "Paiement d'inscription: #% s"

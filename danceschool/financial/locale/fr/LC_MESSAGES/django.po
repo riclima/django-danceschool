@@ -1,0 +1,1663 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:04-0500\n"
+"PO-Revision-Date: 2018-12-09 22:22-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:25
+msgid "Pay to this user"
+msgstr "Payer à cet utilisateur"
+
+#: admin.py:31 admin.py:117 forms.py:230
+msgid "Enter a user name"
+msgstr "Entrer un nom d'utilisateur"
+
+#: admin.py:66 admin.py:149
+msgid "Basic Info"
+msgstr "Informations de base"
+
+#: admin.py:69 admin.py:155
+msgid "File Attachment (optional)"
+msgstr "Fichier joint (facultatif)"
+
+#: admin.py:72 admin.py:158
+msgid "Approval/Payment Status"
+msgstr "Approbation / État de paiement"
+
+#: admin.py:85
+msgid "Mark Expense Items as approved"
+msgstr "Marquer les dépenses comme approuvées"
+
+#: admin.py:94
+msgid "Mark Expense Items as not approved"
+msgstr "Marquer les dépenses comme non approuvées"
+
+#: admin.py:111 forms.py:224 models.py:770
+msgid "Cash currently in possession of"
+msgstr "Espèces actuellement en possession de"
+
+#: admin.py:152 cms_toolbars.py:86
+msgid "Related Items"
+msgstr "Articles connexes"
+
+#: admin.py:181 cms_toolbars.py:97
+msgid "Revenue Items"
+msgstr "Articles de revenus"
+
+#: admin.py:191
+msgid "Series/Event"
+msgstr "Série / Événement"
+
+#: admin.py:196 admin.py:198
+msgid "Invoice"
+msgstr "Facture"
+
+#: admin.py:210
+msgid "Submitted"
+msgstr "Soumis"
+
+#: admin.py:219
+msgid "Mark Revenue Items as received"
+msgstr "Marquer les revenus comme reçus"
+
+#: admin.py:228
+msgid "Mark Revenue Items as not received"
+msgstr "Marquer les éléments de revenus comme non reçus"
+
+#: admin.py:283
+msgid "Reset compensation rules"
+msgstr "Actualiser les règles de compensation"
+
+#: admin.py:296
+msgid "Update compensation rules"
+msgstr "Actualiser les règles de compensation"
+
+#: admin.py:310 admin.py:379
+msgid "Generation rules"
+msgstr "Règles de génération"
+
+#: admin.py:313 admin.py:385
+msgid "Start and End Date (optional)"
+msgstr "Date de début et de fin (facultatif)"
+
+#: admin.py:366
+msgid "Per day"
+msgstr "Par jour"
+
+#: admin.py:382
+msgid "Expense item parameters"
+msgstr "Paramètres d'élément de dépense"
+
+#: admin.py:389
+msgid "Automated approval"
+msgstr "Approbation automatisée"
+
+#: admin.py:410
+msgid "Enabled"
+msgstr "Activé"
+
+#: admin.py:420
+msgid "Disable selected repeated expense rules"
+msgstr "Désactiver les règles de dépenses répétées sélectionnées"
+
+#: admin.py:429
+msgid "Enable selected repeated expense rules"
+msgstr "Activer les règles de dépenses répétées sélectionnées"
+
+#: admin.py:440
+msgid "Generate expenses for selected repeated expense rules"
+msgstr ""
+"Générer des dépenses pour des règles de dépenses répétées sélectionnées"
+
+#: apps.py:8
+msgid "Financial Functions"
+msgstr "Fonctions financières"
+
+#: apps.py:118
+msgid ""
+"Staff members for this series have already been paid.  If you need to adjust "
+"hours worked, you will need to request money from them directly."
+msgstr ""
+"Les membres du personnel de cette série ont déjà été payés. Si vous avez "
+"besoin d'ajuster les” “heures travaillées, vous devrez demander de l'argent "
+"directement auprès d'eux."
+
+#: autocomplete_light_registry.py:12
+msgid "Cash"
+msgstr "En espèces"
+
+#: autocomplete_light_registry.py:12
+msgid "Check"
+msgstr "Chèque"
+
+#: autocomplete_light_registry.py:12
+msgid "Bank/Debit Card"
+msgstr "Carte bancaire / débit"
+
+#: autocomplete_light_registry.py:12
+#: templates/financial/finances_bymonth.html:67
+msgid "Other"
+msgstr "Autre"
+
+#: cms_toolbars.py:20
+msgid "Finances"
+msgstr "Finances"
+
+#: cms_toolbars.py:41
+msgid "Submit Expenses"
+msgstr "Soumettre des dépenses"
+
+#: cms_toolbars.py:45
+msgid "Submit Revenues"
+msgstr "Soumettre des revenus"
+
+#: cms_toolbars.py:49
+msgid "Your Payment History"
+msgstr "Votre historique de paiement"
+
+#: cms_toolbars.py:56
+msgid "View Monthly Financial Summary"
+msgstr "Voir le résumé financier mensuel"
+
+#: cms_toolbars.py:59
+msgid "View Financial Summary By Event"
+msgstr "Afficher le récapitulatif financier par événement"
+
+#: cms_toolbars.py:63
+msgid "Detailed Breakdown"
+msgstr "Répartition détaillée"
+
+#: cms_toolbars.py:71
+msgid "Year To Date"
+msgstr "Année à ce jour"
+
+#: cms_toolbars.py:72
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: cms_toolbars.py:76
+msgid "Month To Date"
+msgstr "Mois à ce jour"
+
+#: cms_toolbars.py:77 cms_toolbars.py:78 cms_toolbars.py:79
+#, python-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#: cms_toolbars.py:89
+msgid "Expense Categories"
+msgstr "Catégories de dépenses"
+
+#: cms_toolbars.py:91
+msgid "Expense Items"
+msgstr "Articles de dépense"
+
+#: cms_toolbars.py:93
+msgid "Repeated Expense Rules"
+msgstr "Règles de dépenses répétées"
+
+#: cms_toolbars.py:95
+msgid "Revenue Categories"
+msgstr "Catégories de revenus"
+
+#: constants.py:7
+msgid "Date of Accrual (e.g. Series end date)"
+msgstr "Date d'accumulation (par exemple, date de fin de la série)"
+
+#: constants.py:8
+msgid "Date of Submission"
+msgstr "Date de soumission"
+
+#: constants.py:9
+msgid "Date of Payment/Receipt"
+msgstr "Date de paiement / réception"
+
+#: constants.py:10
+msgid "Date of Approval/Receipt"
+msgstr "Date d'approbation / de réception"
+
+#: dynamic_preferences_registry.py:14
+msgid "Financial App"
+msgstr "Application financière"
+
+#: dynamic_preferences_registry.py:24
+msgid "Auto-generate ExpenseItems for completed events"
+msgstr "Générer automatiquement des ExpenseItems pour les événements terminés"
+
+#: dynamic_preferences_registry.py:25
+msgid ""
+"Uncheck to disable the automatic generation of expense items for class "
+"series instructors in the financial app."
+msgstr ""
+"Désactivez la case à cocher pour désactiver la génération automatique des "
+"ExpenseItems pour les instructeurs de la classe dans l'application "
+"financière."
+
+#: dynamic_preferences_registry.py:33
+msgid "Use staff category default wages to generate expenses"
+msgstr ""
+
+#: dynamic_preferences_registry.py:35
+msgid ""
+"If checked, then expenses will be generated as long as a default "
+"compensation rate for that staff category. If unchecked, then you will need "
+"to specify compensation rules separately for each staff member. Note: you "
+"can update or copy the defaults to a group of staff members in the admin by "
+"using the \"Update compensation rules\" and \"Reset compensation rules\" "
+"actions."
+msgstr ""
+
+#: dynamic_preferences_registry.py:47
+msgid "Auto-generate ExpenseItems for venue rental"
+msgstr "Générer automatiquement des ExpenseItems pour la location de salles"
+
+#: dynamic_preferences_registry.py:48
+msgid ""
+"Uncheck to disable the automatic generation of expense items for venue "
+"rental in the financial app."
+msgstr ""
+"Désactivez la désactivation de la génération automatique de ExpenseItems "
+"pour la location de” “sites dans l'application financière."
+
+#: dynamic_preferences_registry.py:56
+msgid "Auto-generate RevenueItems for registrations"
+msgstr "Générer automatiquement des RevenueItems pour les enregistrements"
+
+#: dynamic_preferences_registry.py:57
+msgid ""
+"Uncheck to disable the automatic generation of revenue items for old "
+"registrations in the financial app (useful when migrating old DBs)."
+msgstr ""
+"Désactivez la case à cocher pour désactiver la génération automatique de "
+"RevenueItems pour” “les anciennes inscriptions dans l'application financière "
+"(utile lors de la migration d'anciennes” “bases de données)."
+
+#: dynamic_preferences_registry.py:65
+msgid "Registration revenue autogeneration window (months)"
+msgstr "Fenêtre d'autogénération de revenus d'enregistrement (mois)"
+
+#: dynamic_preferences_registry.py:66
+msgid ""
+"Set how many months back back from the date of execution to autogenerate "
+"revenue items for old registrations in the financial app, or set to 0 to "
+"autogenerate with no time restriction."
+msgstr ""
+"Définir le délai depuis la date d'exécution pour générer automatiquement des "
+"éléments de” “revenus pour les anciennes inscriptions dans l'application "
+"financière, ou définir sur 0 pour” “générer automatiquement sans restriction "
+"de temps."
+
+#: dynamic_preferences_registry.py:74
+msgid "Expense Category for Class Instruction items"
+msgstr ""
+"Catégorie de dépenses pour les articles d'instruction de classe assistante"
+
+#: dynamic_preferences_registry.py:80
+msgid "Class Instruction"
+msgstr "Instruction de classe"
+
+#: dynamic_preferences_registry.py:87
+msgid "Expense Category for Assistant Class Instruction items"
+msgstr ""
+"Catégorie de dépenses pour les articles d'instruction de classe assistante"
+
+#: dynamic_preferences_registry.py:93
+msgid "Assistant Class Instruction"
+msgstr "Instruction de cours Assistant"
+
+#: dynamic_preferences_registry.py:100
+msgid "Expense Category for other Event-Related Staff Expenses"
+msgstr ""
+"Catégorie de dépenses pour les autres dépenses de personnel liées à des "
+"événements"
+
+#: dynamic_preferences_registry.py:106
+msgid "Other Event-Related Staff Expenses"
+msgstr "Autres dépenses de personnel liées à des événements"
+
+#: dynamic_preferences_registry.py:113
+msgid "Expense Category for Venue Rental"
+msgstr "Catégorie de dépenses pour la location de salles"
+
+#: dynamic_preferences_registry.py:119
+#: templates/financial/finances_byevent.html:46
+#: templates/financial/finances_bymonth.html:67
+#: templates/financial/finances_detail.html:168
+msgid "Venue Rental"
+msgstr "Location de lieu"
+
+#: dynamic_preferences_registry.py:126
+msgid "Revenue Category for Registrations"
+msgstr "Catégorie de revenus pour les inscriptions"
+
+#: dynamic_preferences_registry.py:132
+#: templates/financial/finances_bymonth.html:50 views.py:367
+msgid "Registrations"
+msgstr "Inscriptions"
+
+#: dynamic_preferences_registry.py:139
+msgid "Revenue Category for Purchased Vouchers and Gift Certificates"
+msgstr "Catégorie de revenu pour les bons achetés et les chèques-cadeaux"
+
+#: dynamic_preferences_registry.py:145
+msgid "Purchased Vouchers/Gift Certificates"
+msgstr "Chèques achetés / Chèques-cadeaux"
+
+#: dynamic_preferences_registry.py:152
+msgid "Revenue Category for Unknown and Otherwise Unallocated Online Payments"
+msgstr ""
+"Catégorie de revenu pour les paiements en ligne inconnus et autrement non "
+"alloués"
+
+#: dynamic_preferences_registry.py:158
+msgid "Unallocated Online Payments"
+msgstr "Paiements en ligne non alloués"
+
+#: forms.py:31
+msgid "Me"
+msgstr "Moi"
+
+#: forms.py:32
+msgid "A Location (e.g. a rental payment)"
+msgstr "Un lieu (par exemple un paiement de location)"
+
+#: forms.py:33
+msgid "Someone else"
+msgstr "Quelqu'un d'autre"
+
+#: forms.py:36
+msgid "Hours of Work/Rental (paid at default rate)"
+msgstr "Heures de travail / location (payé au taux par défaut)"
+
+#: forms.py:37
+msgid "Flat Payment"
+msgstr "Paiement forfaitaire"
+
+#: forms.py:40
+msgid "A Class Series or Event"
+msgstr "Une série de cours ou un événement"
+
+#: forms.py:41
+msgid "Neither"
+msgstr "Ni l’un ni l’autre"
+
+#: forms.py:77
+msgid "This expense to be paid to:"
+msgstr "Cette dépense doit être payée à:"
+
+#: forms.py:78
+msgid "Report this expense as:"
+msgstr "Déclarez cette dépense comme:"
+
+#: forms.py:83 forms.py:243 models.py:479 models.py:546 models.py:758
+msgid "Payment method"
+msgstr "Mode de paiement"
+
+#: forms.py:97
+msgid "Mark as Approved/Paid"
+msgstr "Marquer comme approuvé / payé"
+
+#: forms.py:97
+msgid "click to expand"
+msgstr "Cliquez pour agrandir"
+
+#: forms.py:111
+msgid "Note:"
+msgstr "Note:"
+
+#: forms.py:111
+msgid ""
+"For accounting purposes, please do not mark expenses as paid unless they "
+"have already been paid to the recipient."
+msgstr ""
+"Pour les besoins de la comptabilité, ne marquez pas les dépenses comme "
+"payées, sauf si” “elles ont déjà été payées au destinataire."
+
+#: forms.py:124
+msgid "Add Another"
+msgstr "Ajouter un autre"
+
+#: forms.py:148 forms.py:248
+#: templates/financial/reset_staff_compensation_rules.html:47
+#: templates/financial/update_staff_compensation_rules.html:38
+msgid "Submit"
+msgstr "Envoyer"
+
+#: forms.py:221
+msgid "This revenue is associated with:"
+msgstr "Ce revenu est associé à:"
+
+#: forms.py:270
+msgid "Form Submitted Revenue"
+msgstr "Formulaire de revenus soumis"
+
+#: forms.py:327
+msgid "No default compensation specified. "
+msgstr "Actualiser les règles de compensation"
+
+#: forms.py:329
+#, python-brace-format
+msgid "{count} selected members with rules specified."
+msgstr ""
+
+#: forms.py:335
+msgid "For each selected category:"
+msgstr ""
+
+#: forms.py:335
+msgid "Copy default rules to each staff member"
+msgstr ""
+
+#: forms.py:335
+msgid "Delete existing custom rules"
+msgstr ""
+
+#: handlers.py:121
+#, python-format
+msgid "Registration invoice %s"
+msgstr "Facture d'inscription% s"
+
+#: helpers.py:33 helpers.py:88 models.py:526 models.py:750
+#: templates/financial/finances_detail.html:67
+#: templates/financial/finances_detail.html:102
+#: templates/financial/finances_detail.html:147
+#: templates/financial/finances_detail.html:185
+#: templates/financial/finances_detail.html:222
+#: templates/financial/staffmember_payments.html:41
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:89
+msgid "Description"
+msgstr "Description"
+
+#: helpers.py:34
+msgid "Expense Category"
+msgstr "Catégorie de dépenses"
+
+#: helpers.py:35 models.py:529 templates/financial/staffmember_payments.html:41
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:89
+msgid "Hours"
+msgstr "Heures"
+
+#: helpers.py:36
+msgid "Wage Rate"
+msgstr "Taux de salaire"
+
+#: helpers.py:37
+msgid "Total Payment"
+msgstr "Paiement total"
+
+#: helpers.py:38
+msgid "Is Reimbursement"
+msgstr "Est le remboursement"
+
+#: helpers.py:39 templates/financial/finances_bymonth.html:12
+#: templates/financial/finances_detail.html:18
+#: templates/financial/staffmember_payments.html:32
+#: templates/financial/staffmember_payments.html:41
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:89
+msgid "Submission Date"
+msgstr "Date de soumission"
+
+#: helpers.py:40 helpers.py:94 models.py:558 models.py:767 views.py:242
+msgid "Event"
+msgstr "Événement"
+
+#: helpers.py:41 models.py:588 templates/financial/staffmember_payments.html:41
+msgid "Approved"
+msgstr "Approuvé"
+
+#: helpers.py:42 models.py:592
+msgid "Paid"
+msgstr "Payé"
+
+#: helpers.py:43 templates/financial/staffmember_payments.html:31
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:89
+msgid "Payment Date"
+msgstr "Date de paiement"
+
+#: helpers.py:47
+msgid "Pay To"
+msgstr "payer à l'ordre de"
+
+#: helpers.py:70
+msgid "Location: "
+msgstr "Emplacement:"
+
+#: helpers.py:89
+msgid "Revenue Category"
+msgstr "Catégorie de revenu"
+
+#: helpers.py:90
+msgid "Gross Total (Pre-Discounts & Vouchers)"
+msgstr "Total brut (pré-escomptes et coupons)"
+
+#: helpers.py:91
+msgid "Net Total"
+msgstr "Total net"
+
+#: helpers.py:92 models.py:768
+msgid "Received From"
+msgstr "Reçu de"
+
+#: helpers.py:93
+msgid "Registration"
+msgstr "Inscription"
+
+#: helpers.py:95 models.py:771
+msgid "Received"
+msgstr "Reçu"
+
+#: helpers.py:96
+msgid "Received Date"
+msgstr "Date de réception"
+
+#: helpers.py:185
+msgid "Event/Series venue rental"
+msgstr "Location de salles de spectacles / événements"
+
+#: helpers.py:186
+msgid "of"
+msgstr ""
+
+#: helpers.py:188 helpers.py:295
+msgid "for"
+msgstr ""
+
+#: helpers.py:206 helpers.py:367
+msgid "to"
+msgstr ""
+
+#: helpers.py:293
+msgid "Staff"
+msgstr "Personnel"
+
+#: helpers.py:294
+msgid "payment to"
+msgstr "Paiement à"
+
+#: helpers.py:564
+msgid "Event Registration "
+msgstr "Inscription d'événement"
+
+#: helpers.py:743
+msgid "Unspecified Month"
+msgstr "Mois non spécifié"
+
+#: models.py:32 models.py:48
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:32
+msgid ""
+"Different types of tasks and payments should have different category names"
+msgstr ""
+"Différents types de tâches et de paiements doivent avoir des noms de "
+"catégories différents"
+
+#: models.py:33
+msgid "Default rate"
+msgstr "Taux de défaut"
+
+#: models.py:33
+msgid ""
+"This is the default hourly payment rate for this type of task.  For staff "
+"expenses and venue rentals, this will be overridden by the rate specified as "
+"default for the venue or staff type."
+msgstr ""
+
+#: models.py:39
+msgid "Expense category"
+msgstr "Catégorie de dépenses"
+
+#: models.py:40
+msgid "Expense categories"
+msgstr "Catégories de dépenses"
+
+#: models.py:48
+msgid "Different types of revenue fall under different categories."
+msgstr "Les différents types de revenus relèvent de catégories différentes."
+
+#: models.py:49
+msgid "Default amount"
+msgstr "Montant par défaut"
+
+#: models.py:49
+msgid "This is the default amount of revenue for items in this category."
+msgstr ""
+"Ceci est le montant par défaut des revenus pour les articles de cette "
+"catégorie."
+
+#: models.py:55
+msgid "Revenue category"
+msgstr "Catégorie de revenus"
+
+#: models.py:56
+msgid "Revenue categories"
+msgstr "Catégories de revenus"
+
+#: models.py:68
+msgid "Per hour"
+msgstr "Par heure"
+
+#: models.py:69
+msgid "Per day of scheduled events"
+msgstr "Par jour d'événements programmés"
+
+#: models.py:70
+msgid "Per week"
+msgstr "Par semaine"
+
+#: models.py:71
+msgid "Per month"
+msgstr "Par mois"
+
+#: models.py:74
+msgid "First occurrence starts"
+msgstr "La première occurrence commence"
+
+#: models.py:75
+msgid "Last occurrence ends"
+msgstr "La dernière occurrence se termine"
+
+#: models.py:78
+msgid "Expense Rate"
+msgstr "Taux de dépenses"
+
+#: models.py:78
+msgid "In default currency"
+msgstr "Dans la devise par défaut"
+
+#: models.py:82
+msgid "Apply this rate"
+msgstr "Appliquer ce taux"
+
+#: models.py:89
+msgid "Day starts at"
+msgstr "La journée commence à"
+
+#: models.py:93
+msgid ""
+"If you run events after midnight, avoids creation of duplicate expense items"
+msgstr ""
+
+#: models.py:97
+msgid "Week starts on"
+msgstr "La semaine commence le"
+
+#: models.py:104
+msgid "Month starts on"
+msgstr "Le mois commence le"
+
+#: models.py:111
+msgid "Start date"
+msgstr "Date de début"
+
+#: models.py:114
+msgid ""
+"If specified, then expense items will not be generated prior to this date."
+msgstr ""
+"Si spécifié, les articles de dépenses ne seront pas générés avant cette date."
+
+#: models.py:118
+msgid "End date"
+msgstr "Date de fin"
+
+#: models.py:121
+msgid ""
+"If specified, then expense items will not be generated after this date.  "
+"Leave blank for expenses to be generated indefinitely."
+msgstr ""
+"Si spécifié, les postes de dépenses ne seront pas générés après cette date."
+"Laissez vide pour que les dépenses soient générées indéfiniment."
+
+#: models.py:125
+msgid "Generate expenses up to __ days in advance"
+msgstr "Générer des dépenses jusqu'à __ jours à l'avance"
+
+#: models.py:130
+msgid "in advance of"
+msgstr "en avance de"
+
+#: models.py:137
+msgid "Generate expenses up to __ days in the past"
+msgstr "Générer des dépenses jusqu'à __ jours dans le passé"
+
+#: models.py:138
+msgid "Leave blank for no limit."
+msgstr "Laissez vide pour aucune limite."
+
+#: models.py:145
+msgid "prior to"
+msgstr "antérieur à"
+
+#: models.py:152
+msgid "Disable autogeneration of expenses under this rule"
+msgstr "Désactiver la génération automatique des dépenses selon cette règle"
+
+#: models.py:155
+msgid ""
+"It is recommended to disable expense rules rather than delete them for "
+"temporary purposes, to avoid the creation of duplicate expense items."
+msgstr ""
+"Il est recommandé de désactiver les règles de dépenses plutôt que de les "
+"supprimer à des” “fins temporaires, afin d'éviter la création d'éléments de "
+"dépenses en double."
+
+#: models.py:160
+msgid "Last run time"
+msgstr "Dernière exécution"
+
+#: models.py:286
+#, python-format
+msgid "%(start)s to %(end)s"
+msgstr ""
+
+#: models.py:303
+#, python-format
+msgid "week of %(start)s to %(end)s"
+msgstr ""
+
+#: models.py:318
+#, python-format
+msgid "month of %(start)s to %(end)s"
+msgstr ""
+
+#: models.py:330 models.py:348 models.py:375 models.py:408 models.py:441
+#: models.py:488
+msgid "Rule name"
+msgstr "Nom de la règle"
+
+#: models.py:334 models.py:504
+#, python-format
+msgid "Repeated expense rule: %s"
+msgstr "Règle de dépenses répétées:% s"
+
+#: models.py:342
+msgid "Location"
+msgstr "Emplacement"
+
+#: models.py:355
+#, python-format
+msgid "Rental expense information for: %s"
+msgstr "Informations sur les dépenses de location pour:% s"
+
+#: models.py:358
+msgid "Location rental information"
+msgstr "Informations sur la location d'emplacement"
+
+#: models.py:359
+msgid "Locations' rental information"
+msgstr "Informations sur la location des emplacements"
+
+#: models.py:369
+msgid "Room"
+msgstr "Pièce"
+
+#: models.py:374
+#, python-format
+msgid "%s at %s"
+msgstr "% s à% s"
+
+#: models.py:382
+#, python-format
+msgid "Rental expense information for: %s at %s"
+msgstr "Informations sur les dépenses de location pour:% s à % s"
+
+#: models.py:385
+msgid "Room rental information"
+msgstr "Informations sur la location de salle"
+
+#: models.py:386
+msgid "Rooms' rental information"
+msgstr "Informations sur la location des salles"
+
+#: models.py:398 models.py:431 models.py:466 models.py:524 models.py:749
+#: templates/financial/staffmember_payments.html:41
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:89
+msgid "Category"
+msgstr "Catégorie"
+
+#: models.py:399 models.py:433
+msgid ""
+"If left blank, then this expense rule will be used for all categories.  If a "
+"category-specific rate is specified, then that will be used instead.  If "
+"nothing is specified for a staff member, then the default hourly rate for "
+"each category will be used."
+msgstr ""
+
+#: models.py:415
+#, python-brace-format
+msgid "Default wage information: {category}"
+msgstr ""
+
+#: models.py:419
+msgid "Default staff wage"
+msgstr "Taux de défaut"
+
+#: models.py:420
+msgid "Default staff wages"
+msgstr "Taux de défaut"
+
+#: models.py:428
+msgid "Staff member"
+msgstr "Membre du personnel"
+
+#: models.py:440
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: models.py:448
+#, python-format
+msgid "%s wage/salary information for: %s"
+msgstr "% s Informations sur les salaires / traitements pour:% s"
+
+#: models.py:453
+msgid "Staff member salary information"
+msgstr "Informations sur le salaire du membre du personnel"
+
+#: models.py:454
+msgid "Staff members' wage/salary information"
+msgstr "Informations sur les salaires / traitements des membres du personnel"
+
+#: models.py:464
+msgid "Give this expense generation rule a name"
+msgstr "Donnez à cette règle de génération de dépenses un nom"
+
+#: models.py:472 models.py:578
+msgid "Pay to user"
+msgstr "Payer à l'utilisateur"
+
+#: models.py:473 models.py:579
+msgid "Pay to location"
+msgstr "Payer à l'emplacement"
+
+#: models.py:474 models.py:580
+msgid "Pay to (enter name)"
+msgstr "Payer à (entrer le nom)"
+
+#: models.py:476
+msgid "Automatically mark this expense as approved"
+msgstr "Marquer automatiquement cette dépense comme approuvée"
+
+#: models.py:477
+msgid "Automatically mark this expense as paid"
+msgstr "Marquer automatiquement cette dépense comme payée"
+
+#: models.py:481
+msgid ""
+"This field is ignored unless you have chosen to automatically mark expenses "
+"as paid."
+msgstr ""
+"Ce champ est ignoré sauf si vous avez choisi de marquer automatiquement les "
+"dépenses” “comme payées."
+
+#: models.py:494
+msgid ""
+"Either a start date or an \"up to __ days in the past\" limit is required "
+"for repeated expense rules that are not associated with a venue or a staff "
+"member."
+msgstr ""
+"Une date de début ou une limite de\" jusqu'à __ jours dans le passé \"est "
+"requise pour les” “règles de dépenses répétées qui ne sont pas associées à "
+"un lieu ou à un membre du” “personnel."
+
+#: models.py:508
+msgid "Other repeated expense"
+msgstr "Autres dépenses répétées"
+
+#: models.py:509
+msgid "Other repeated expenses"
+msgstr "Autres dépenses répétées"
+
+#: models.py:519 models.py:746
+msgid "Submission user"
+msgstr "Utilisateur de soumission"
+
+#: models.py:522 models.py:747
+msgid "Submission date"
+msgstr "Date de soumission"
+
+#: models.py:530
+msgid "Please indicate the number of hours to be paid for."
+msgstr "Veuillez indiquer le nombre d'heures à payer."
+
+#: models.py:533
+msgid "Wage rate"
+msgstr "Taux de salaire"
+
+#: models.py:534
+msgid "This should be filled automatically, but can be changed as needed."
+msgstr ""
+"Cela devrait être rempli automatiquement, mais peut être modifié au besoin."
+
+#: models.py:536
+msgid "Total amount"
+msgstr "Montant total"
+
+#: models.py:538
+msgid "Adjustments/refunds"
+msgstr "Ajustements / remboursements"
+
+#: models.py:539
+msgid ""
+"Record any ex-post adjustments to the amount (e.g. refunds) in this field. A "
+"positive amount increases the netExpense, a negative amount reduces the "
+"netExpense."
+msgstr ""
+"Enregistrez tous les ajustements ex-post du montant (par exemple les "
+"remboursements) dans ce champ.Un montant positif augmente le netExpense, un "
+"montant négatif réduit le netExpense."
+
+#: models.py:542 models.py:754
+msgid "Fees"
+msgstr "Honoraires"
+
+#: models.py:543
+msgid ""
+"The sum of any transaction fees (e.g. Paypal fees) that were paid <strong>by "
+"us</strong>, and should therefore be added to net expense."
+msgstr ""
+"La somme de tous les frais de transaction (par exemple, les frais Paypal) "
+"qui ont été payés <strong> par nous </ strong>, et devrait donc être ajouté "
+"à la dépense nette."
+
+#: models.py:548 models.py:761
+msgid "Comments/Notes"
+msgstr "Commentaires/Notes"
+
+#: models.py:549 models.py:762
+msgid "Attach File (optional)"
+msgstr "Joindre un fichier (facultatif)"
+
+#: models.py:559 models.py:767
+msgid "If this item is associated with an Event, enter it here."
+msgstr "Si cet article est associé à un événement, entrez-le ici."
+
+#: models.py:566
+msgid "Expense generation rule"
+msgstr "Règle de génération de dépenses"
+
+#: models.py:571
+msgid "Expense period start"
+msgstr "Début de la période de dépenses"
+
+#: models.py:572
+msgid "Expense period end"
+msgstr "Fin de période de dépense"
+
+#: models.py:583 templates/financial/staffmember_payments.html:41
+msgid "Reimbursement"
+msgstr "Remboursement"
+
+#: models.py:584
+msgid ""
+"Check to indicate that this is a reimbursement expense (i.e. not "
+"compensation)."
+msgstr ""
+"Cocher pour indiquer qu'il s'agit d'une dépense de remboursement (c.-à-d. "
+"Pas de” “compensation)."
+
+#: models.py:589
+msgid "Check to indicate that expense is approved for payment."
+msgstr "Cocher pour indiquer que la dépense est approuvée pour le paiement."
+
+#: models.py:593
+msgid "Check to indicate that payment has been made."
+msgstr "Cocher pour indiquer que le paiement a été effectué."
+
+#: models.py:596
+msgid "Approval date"
+msgstr "Date d'approbation"
+
+#: models.py:597
+msgid "Payment date"
+msgstr "Date de paiement"
+
+#: models.py:604 models.py:779
+msgid "Accrual date"
+msgstr "Date d'échéance"
+
+#: models.py:609
+msgid "Net expense"
+msgstr "Dépense nette"
+
+#: models.py:619
+msgid "Start Date"
+msgstr "Date de début"
+
+#: models.py:629
+msgid "End Date"
+msgstr "Date de fin"
+
+#: models.py:643
+msgid "Pay to"
+msgstr "Payer à"
+
+#: models.py:706
+msgid "Expense Receipts"
+msgstr "Recettes de dépenses"
+
+#: models.py:731
+msgid "Expense item"
+msgstr "Article de dépense"
+
+#: models.py:732
+msgid "Expense items"
+msgstr "Articles de dépense"
+
+#: models.py:735
+msgid "Mark expenses as paid at the time of submission"
+msgstr "Marquer les dépenses telles que payées au moment de la soumission"
+
+#: models.py:751 templates/financial/finances_byevent.html:46
+#: templates/financial/finances_bymonth.html:67
+msgid "Total"
+msgstr "Total"
+
+#: models.py:751
+msgid ""
+"The total revenue received, net of any discounts or voucher uses.  This is "
+"what we actually receive."
+msgstr ""
+
+#: models.py:752
+msgid "Gross Total"
+msgstr "Total brut"
+
+#: models.py:752
+msgid ""
+"The gross total billed before the application of any discounts, or the use "
+"of any vouchers."
+msgstr ""
+"Le total brut facturé avant l'application des réductions, ou l'utilisation "
+"de tous les bons."
+
+#: models.py:753
+msgid "Adjustments"
+msgstr "Ajustements"
+
+#: models.py:753
+msgid ""
+"Record any ex-post adjustments to the amount (e.g. refunds) in this field.  "
+"A positive amount increases the netRevenue, a negative amount reduces the "
+"netRevenue."
+msgstr ""
+"Enregistrez tous les ajustements ex-post du montant (par exemple les "
+"remboursements) dans ce champ.Un montant positif augmente le netRevenu, un "
+"montant négatif réduit le netRevenu."
+
+#: models.py:754
+msgid ""
+"The sum of any transaction fees (e.g. Paypal fees) that were paid <strong>by "
+"us</strong>, and should therefore be subtracted from net revenue."
+msgstr ""
+
+#: models.py:755
+msgid "Taxes"
+msgstr "Taxes"
+
+#: models.py:756
+msgid "Buyer pays sales tax"
+msgstr "L'acheteur paie la taxe de vente"
+
+#: models.py:759
+msgid "Invoice Number"
+msgstr "Numéro de facture"
+
+#: models.py:759
+msgid ""
+"For Paypal payments, this will be the txn_id.  For cash payments, this will "
+"be automatically generated by the submission form.  More than one revenue "
+"item may have the same invoice number, because multiple events are paid for "
+"in one Paypal transaction."
+msgstr ""
+"Pour les paiements Paypal, ce sera le txn_id.Pour les paiements en espèces, "
+"cela sera” “automatiquement généré par le formulaire de soumission.De plus "
+"d'un élément de revenu” “peut avoir le même numéro de facture, car plusieurs "
+"événements sont payés dans une” “transaction Paypal."
+
+#: models.py:765
+msgid "Associated invoice item"
+msgstr "Poste de facture associé"
+
+#: models.py:768
+msgid ""
+"Enter who this revenue item was received from, if it is not associated with "
+"an existing registration."
+msgstr ""
+"Entrez à qui cet élément de revenu a été reçu, s'il n'est pas associé à un "
+"enregistrement” “existant."
+
+#: models.py:770
+msgid ""
+"If cash has not yet been deposited, this indicates who to contact in order "
+"to collect the cash for deposit."
+msgstr ""
+"Si l'argent n'a pas encore été déposé, cela indique qui contacter dans "
+"l'ordrepour collecter l'argent pour le dépôt."
+
+#: models.py:771
+msgid ""
+"Check to indicate that payment has been received. Non-received payments are "
+"considered pending."
+msgstr ""
+"Cocher pour indiquer que le paiement a été reçu. Les paiements non reçus "
+"sont considérés” “comme en attente."
+
+#: models.py:772
+msgid "Date received"
+msgstr "Date de réception"
+
+#: models.py:789
+msgid "Related items"
+msgstr "Articles connexes"
+
+#: models.py:797
+msgid "Net revenue"
+msgstr "Revenu net"
+
+#: models.py:853
+msgid "Revenue Receipts"
+msgstr "Revenus de recettes"
+
+#: models.py:876
+msgid "Revenue item"
+msgstr "Élément de revenu"
+
+#: models.py:877
+msgid "Revenue items"
+msgstr "Éléments de revenu"
+
+#: models.py:880
+msgid "Export detailed financial transaction information to CSV"
+msgstr ""
+"Exporter des informations détaillées sur les transactions financières au "
+"format CSV"
+
+#: models.py:881
+msgid "View school finances month-by-month"
+msgstr "Voir les finances de l'école mois par mois"
+
+#: models.py:882
+msgid "View school finances by Event"
+msgstr "Voir les finances de l'école par événement"
+
+#: models.py:883
+msgid "View school finances as detailed statement"
+msgstr "Voir les finances de l'école en tant que déclaration détaillée"
+
+#: templates/financial/finances_byevent.html:8
+msgid "School Revenues (YTD):"
+msgstr "Revenus scolaires (YTD)"
+
+#: templates/financial/finances_byevent.html:9
+#: templates/financial/finances_bymonth.html:19
+msgid "School Expenses (YTD)"
+msgstr "Dépenses scolaires (YTD)"
+
+#: templates/financial/finances_byevent.html:10
+#: templates/financial/finances_bymonth.html:20
+msgid "Pending Expenses"
+msgstr "Dépenses en attente"
+
+#: templates/financial/finances_byevent.html:11
+#: templates/financial/finances_bymonth.html:21
+msgid "Awaiting Approval and Payment"
+msgstr "En attente d'approbation et de paiement"
+
+#: templates/financial/finances_byevent.html:13
+#: templates/financial/finances_bymonth.html:23
+msgid "Approved, Awaiting Payment"
+msgstr "Approuvé, en attente de paiement"
+
+#: templates/financial/finances_byevent.html:16
+#: templates/financial/finances_bymonth.html:26
+msgid "Paid, Not Approved"
+msgstr "Payé, non approuvé"
+
+#: templates/financial/finances_byevent.html:18
+#: templates/financial/finances_bymonth.html:28
+msgid "Current Balance"
+msgstr "Solde actuel"
+
+#: templates/financial/finances_byevent.html:24
+#: templates/financial/finances_bymonth.html:34
+msgid "Export Financial Data (CSV)"
+msgstr "Données financières d'exportation (CSV)"
+
+#: templates/financial/finances_byevent.html:26
+#: templates/financial/finances_bymonth.html:36
+msgid "This View"
+msgstr "Cette vue"
+
+#: templates/financial/finances_byevent.html:27
+#: templates/financial/finances_bymonth.html:37
+msgid "All Expenses"
+msgstr "Toutes dépenses"
+
+#: templates/financial/finances_byevent.html:28
+#: templates/financial/finances_bymonth.html:38
+msgid "All Revenues"
+msgstr "Tous les revenus"
+
+#: templates/financial/finances_byevent.html:35
+msgid "Details By Event"
+msgstr "Détails par événement"
+
+#: templates/financial/finances_byevent.html:40
+msgid "Series"
+msgstr "Séries"
+
+#: templates/financial/finances_byevent.html:40
+#: templates/financial/finances_bymonth.html:64
+msgid "# Registrations"
+msgstr "# Inscriptions"
+
+#: templates/financial/finances_byevent.html:40
+msgid "Series Revenue"
+msgstr "Revenu de la série"
+
+#: templates/financial/finances_byevent.html:40
+msgid "Series Expenses"
+msgstr "Dépenses de la série"
+
+#: templates/financial/finances_byevent.html:40
+#: templates/financial/finances_bymonth.html:64
+#: templates/financial/finances_detail.html:41 views.py:253 views.py:368
+msgid "Net Profit"
+msgstr "Bénéfice net"
+
+#: templates/financial/finances_byevent.html:46
+msgid "Gross"
+msgstr "Brut"
+
+#: templates/financial/finances_byevent.html:46
+msgid "Net of Discounts"
+msgstr "Net des remises"
+
+#: templates/financial/finances_byevent.html:46
+#: templates/financial/finances_bymonth.html:67
+#: templates/financial/finances_detail.html:125
+msgid "Instruction"
+msgstr "Instruction"
+
+#: templates/financial/finances_byevent.html:73
+#: templates/financial/finances_bymonth.html:90
+msgid "previous"
+msgstr "précédent"
+
+#: templates/financial/finances_byevent.html:76
+#, python-format
+msgid ""
+"\n"
+"                Page %(thisPage)s of %(numPages)s.\n"
+"                "
+msgstr ""
+
+#: templates/financial/finances_bymonth.html:7
+#: templates/financial/finances_detail.html:13
+msgid "Choose Financial Basis"
+msgstr "Choisissez la base financière"
+
+#: templates/financial/finances_bymonth.html:10
+#: templates/financial/finances_detail.html:16
+msgid "Accrual Date (Default)"
+msgstr "Date d'accumulation (par défaut)"
+
+#: templates/financial/finances_bymonth.html:11
+#: templates/financial/finances_detail.html:17
+msgid "Payment/Receipt Date"
+msgstr "Date de paiement / réception"
+
+#: templates/financial/finances_bymonth.html:18
+msgid "School Revenues (YTD)"
+msgstr "Revenus scolaires (YTD)"
+
+#: templates/financial/finances_bymonth.html:45
+msgid "School Performance Over Time"
+msgstr "Performance scolaire au fil du temps"
+
+#: templates/financial/finances_bymonth.html:49
+msgid "Profits"
+msgstr "Bénéfices"
+
+#: templates/financial/finances_bymonth.html:51
+#: templates/financial/finances_detail.html:45
+msgid "Revenues"
+msgstr "Revenus"
+
+#: templates/financial/finances_bymonth.html:52
+#: templates/financial/finances_detail.html:119
+msgid "Expenses"
+msgstr "Dépenses"
+
+#: templates/financial/finances_bymonth.html:59
+msgid "Details By Month"
+msgstr "Détails par mois"
+
+#: templates/financial/finances_bymonth.html:64
+msgid "Total Revenue"
+msgstr "Revenu total"
+
+#: templates/financial/finances_bymonth.html:64
+#: templates/financial/finances_detail.html:38
+msgid "Total Expenses"
+msgstr "Dépenses totales"
+
+#: templates/financial/finances_bymonth.html:93
+#, python-format
+msgid ""
+"\n"
+"\t                Page %(thisPage)s of %(numPages)s.\n"
+"\t                "
+msgstr ""
+
+#: templates/financial/finances_bymonth.html:98
+msgid "next"
+msgstr "prochain"
+
+#: templates/financial/finances_bymonth.html:134
+msgid "School Performance By Month"
+msgstr "Performance scolaire par mois"
+
+#: templates/financial/finances_bymonth.html:135
+msgid "Monthly Profits, Revenues, Expenses, and Total Registrations"
+msgstr "Bénéfices mensuels, revenus, dépenses et inscriptions totales"
+
+#: templates/financial/finances_detail.html:6
+msgid "Other/Not Specified"
+msgstr "Autre / non spécifié"
+
+#: templates/financial/finances_detail.html:11
+msgid "Return to Monthly Summary"
+msgstr "Retour au sommaire mensuel"
+
+#: templates/financial/finances_detail.html:29
+msgid "Detailed Financial Statement"
+msgstr "État financier détaillé"
+
+#: templates/financial/finances_detail.html:31
+msgid "Period Summary"
+msgstr "Résumé de la période"
+
+#: templates/financial/finances_detail.html:35
+msgid "Total Revenues"
+msgstr "Revenus totaux"
+
+#: templates/financial/finances_detail.html:50
+msgid "Registrations:"
+msgstr "# Inscriptions"
+
+#: templates/financial/finances_detail.html:66
+#: templates/financial/finances_detail.html:101
+#: templates/financial/finances_detail.html:146
+#: templates/financial/finances_detail.html:184
+#: templates/financial/finances_detail.html:221
+msgid "Date"
+msgstr "Date"
+
+#: templates/financial/finances_detail.html:68
+#: templates/financial/finances_detail.html:103
+#: templates/financial/finances_detail.html:148
+#: templates/financial/finances_detail.html:186
+#: templates/financial/finances_detail.html:223
+msgid "Amount"
+msgstr "Montant"
+
+#: templates/financial/finances_detail.html:85
+msgid "Other Revenues"
+msgstr "Autres revenus"
+
+#: templates/financial/finances_detail.html:205
+msgid "Other Expenses"
+msgstr "Autres dépenses"
+
+#: templates/financial/reset_staff_compensation_rules.html:6
+msgid "Reset Staff Compensation Rules"
+msgstr "Mettre à jour les règles d'indemnisation du personnel"
+
+#: templates/financial/reset_staff_compensation_rules.html:8
+#: templates/financial/update_staff_compensation_rules.html:8
+msgid ""
+"You have selected the following staff members for whom to update "
+"compensation information.  Current compensation rules for these individuals "
+"are also listed for reference."
+msgstr ""
+
+#: templates/financial/reset_staff_compensation_rules.html:19
+#: templates/financial/update_staff_compensation_rules.html:19
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t%(currencySymbol)s%(rate)s %(rateRule)s for %(category)s\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: templates/financial/reset_staff_compensation_rules.html:30
+msgid ""
+"\n"
+"Please select the categories for which you wish to reset compensation "
+"information. Custom compensation rules may either\n"
+"be deleted entirely, or the category defaults may be copied to the selected "
+"staff members, if category defaults exist.\n"
+"To enable/disable generation of staff expense items using category defaults "
+"only, check/uncheck the \"Use staff category\n"
+"default wages to generate expenses\" box in Financial global settings.\n"
+msgstr ""
+
+#: templates/financial/reset_staff_compensation_rules.html:39
+msgid ""
+"\n"
+"<strong>Note:</strong> Deleting existing compensation rules will result in "
+"the deletion of any expenses generated\n"
+"under those rules, and is not recommended unless you know what you are "
+"doing.\n"
+msgstr ""
+
+#: templates/financial/staffmember_payments.html:6
+#, python-format
+msgid "Payment History for %(name)s"
+msgstr ""
+
+#: templates/financial/staffmember_payments.html:8
+msgid "Download Expense History"
+msgstr "Télécharger l'historique des dépenses"
+
+#: templates/financial/staffmember_payments.html:8
+msgid "for this year"
+msgstr "pour cette annee"
+
+#: templates/financial/staffmember_payments.html:13
+msgid "Total Pending Payments"
+msgstr "Total des paiements en attente"
+
+#: templates/financial/staffmember_payments.html:14
+msgid "Total Paid (All Time, excludes reimbursements)"
+msgstr "Total payé (tous les temps, exclut les remboursements)"
+
+#: templates/financial/staffmember_payments.html:15
+msgid "Total Paid (This Year, excludes reimbursements)"
+msgstr "Total payé (cette année, exclut les remboursements)"
+
+#: templates/financial/staffmember_payments.html:16
+msgid "Total Costs Reimbursements (This Year)"
+msgstr "Remboursements des coûts totaux (cette année)"
+
+#: templates/financial/staffmember_payments.html:19
+msgid "Filter By Year"
+msgstr "Filtrer par année"
+
+#: templates/financial/staffmember_payments.html:21
+msgid "All"
+msgstr "Tout"
+
+#: templates/financial/staffmember_payments.html:28
+msgid "Reporting Basis"
+msgstr "Base de calcul"
+
+#: templates/financial/staffmember_payments.html:30
+msgid "Accrual Date"
+msgstr "Date d'accumulation"
+
+#: templates/financial/staffmember_payments.html:36
+msgid "Pending Payments"
+msgstr "Paiements en attente"
+
+#: templates/financial/staffmember_payments.html:41
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:89
+msgid "Total Amount"
+msgstr "Montant total"
+
+#: templates/financial/staffmember_payments.html:41
+#: templates/financial/staffmember_payments.html:55
+#: templates/financial/staffmember_payments.html:66
+#: templates/financial/staffmember_payments.html:78
+#: templates/financial/staffmember_payments.html:89
+#: templates/financial/staffmember_payments.html:101
+msgid "Edit"
+msgstr "Modifier"
+
+#: templates/financial/staffmember_payments.html:61
+msgid "Prior Payments"
+msgstr "Paiements antérieurs"
+
+#: templates/financial/staffmember_payments.html:84
+msgid "Reimbursements"
+msgstr "Remboursements"
+
+#: templates/financial/update_staff_compensation_rules.html:6
+msgid "Update Staff Compensation Rules"
+msgstr "Mettre à jour les règles d'indemnisation du personnel"
+
+#: templates/financial/update_staff_compensation_rules.html:30
+msgid ""
+"\n"
+"Please select the category and rate information to be applied to all staff "
+"members listed.  If you do not specify a category,\n"
+"then this compensation rule will be a \"catch-all\" that is applied to all "
+"work that is not otherwise covered by another compensation rule.\n"
+msgstr ""
+
+#: views.py:34
+msgid "Expense item successfully submitted."
+msgstr "L'élément de dépense a été envoyé avec succès."
+
+#: views.py:40
+msgid "Report Expenses"
+msgstr "Rapport des dépenses"
+
+#: views.py:41
+msgid "Use this form to report expenses."
+msgstr "Utilisez ce formulaire pour déclarer les dépenses."
+
+#: views.py:49
+msgid "Revenue item successfully submitted."
+msgstr "L'élément de revenu a été soumis avec succès."
+
+#: views.py:55
+msgid "Report Revenues"
+msgstr "Revenus du rapport"
+
+#: views.py:56
+msgid "Use this form to report revenues."
+msgstr "Utilisez ce formulaire pour déclarer les revenus."
+
+#: views.py:87 views.py:90 views.py:195 views.py:197 views.py:319
+msgid "Invalid year."
+msgstr "Année invalide"
+
+#: views.py:243
+msgid "Month"
+msgstr "Mois"
+
+#: views.py:244
+msgid "Registrations: Total"
+msgstr "Inscriptions: Total"
+
+#: views.py:245
+msgid "Registrations: Leads"
+msgstr "Inscriptions: Leads"
+
+#: views.py:246
+msgid "Registrations: Follows"
+msgstr "Inscriptions: Follows"
+
+#: views.py:247
+msgid "Revenues: Gross"
+msgstr "Revenus: Brut"
+
+#: views.py:248 views.py:362
+msgid "Revenues: Net"
+msgstr "Revenus: Net"
+
+#: views.py:249 views.py:363
+msgid "Expenses: Instruction"
+msgstr "Dépenses: Instruction"
+
+#: views.py:250 views.py:364
+msgid "Expenses: Venue"
+msgstr "Dépenses: Lieu"
+
+#: views.py:251 views.py:365
+msgid "Expenses: Other"
+msgstr "Dépenses: Autre"
+
+#: views.py:252 views.py:366
+msgid "Expenses: Total"
+msgstr "Dépenses: Total"
+
+#: views.py:361
+msgid "Month Name"
+msgstr "Nom du mois"
+
+#: views.py:447
+#, python-format
+msgid "From %s"
+msgstr "De% s"
+
+#: views.py:451
+#, python-format
+msgid "To %s"
+msgstr "À% s"
+
+#: views.py:478
+msgid "Calendar Year To Date"
+msgstr "Année civile à ce jour"
+
+#: views.py:558 views.py:562
+msgid "Invalid content type passed."
+msgstr "type de contenu non valide passé."
+
+#: views.py:567
+msgid "Invalid ids passed"
+msgstr "ID Invalides passés"
+
+#: views.py:593
+msgid "Staff member compensation rules updated successfully."
+msgstr ""
+"Règles de rémunération des membres du personnel mises à jour avec succès."
+
+#: views.py:614
+msgid "Staff member compensation rules reset successfully."
+msgstr ""
+"Règles de rémunération des membres du personnel mises à jour avec succès."

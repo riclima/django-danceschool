@@ -1,0 +1,137 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Django Danceschool package.
+# Ricardo Lima <ricardo.lima@catscorner.ca>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 22:04-0500\n"
+"PO-Revision-Date: 2018-12-09 22:25-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin.py:27
+msgid "Publish selected FAQs"
+msgstr "Publier FAQ sélectionné"
+
+#: admin.py:36
+msgid "Unpublish selected FAQs"
+msgstr "Annuler la publication des FAQ selectionées"
+
+#: apps.py:7 cms_plugins.py:15 cms_plugins.py:23 cms_plugins.py:39
+#: cms_plugins.py:55 models.py:45
+msgid "FAQs"
+msgstr "FAQ"
+
+#: cms_plugins.py:12
+msgid "FAQ Table of Contents (auto-generated from FAQs on page)"
+msgstr ""
+"FAQ Table des matières (générée automatiquement à partir des FAQ sur la page)"
+
+#: cms_plugins.py:20
+msgid "List of All FAQs"
+msgstr "Liste de toutes les FAQs"
+
+#: cms_plugins.py:36
+msgid "List of FAQs by Category"
+msgstr "Liste des FAQ par catégorie"
+
+#: cms_plugins.py:52
+msgid "Individual FAQ Item"
+msgstr "FAQ individuelle"
+
+#: cms_toolbars.py:14
+msgid "Content"
+msgstr "Contenu"
+
+#: cms_toolbars.py:15
+msgid "Manage FAQs"
+msgstr "Gérer les FAQ"
+
+#: models.py:11
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:14 models.py:33
+msgid "Order number"
+msgstr "Numéro de commande"
+
+#: models.py:14
+msgid "This number specifies the order in which categories will be shown."
+msgstr ""
+"Ce numéro spécifie l'ordre dans lequel les catégories seront affichées."
+
+#: models.py:17
+msgid "FAQ Category"
+msgstr "Catégorie FAQ"
+
+#: models.py:21
+msgid "FAQ category"
+msgstr "Catégorie FAQ"
+
+#: models.py:22
+msgid "FAQ categories"
+msgstr "Catégories FAQ"
+
+#: models.py:27 models.py:50
+msgid "Category"
+msgstr "Catégorie"
+
+#: models.py:29 models.py:58
+msgid "Question"
+msgstr "Question"
+
+#: models.py:30
+msgid "Answer"
+msgstr "Réponse"
+
+#: models.py:30
+msgid "Answer the question."
+msgstr "Répondre à la question."
+
+#: models.py:33
+msgid ""
+"This number specifies the order in which the questions will be shown on the "
+"FAQ page."
+msgstr ""
+"Ce numéro spécifie l'ordre dans lequel les questions seront affichées sur la "
+"page FAQ."
+
+#: models.py:35
+msgid "Draft status"
+msgstr "état de projet"
+
+#: models.py:35
+msgid "Check this box to prevent publication."
+msgstr "Cochez cette case pour empêcher la publication."
+
+#: models.py:37
+msgid "Creation date"
+msgstr "Date de création"
+
+#: models.py:38
+msgid "Last modified date"
+msgstr "Date de dernière modification"
+
+#: models.py:41 models.py:44
+msgid "FAQ"
+msgstr "FAQ"
+
+#: models.py:51
+msgid "Show Category Title"
+msgstr "Afficher le titre de la catégorie"
+
+#: templates/faq/FAQ_TOC.html:4
+msgid "Table of Contents"
+msgstr "Table des matières"
+
+#: templates/faq/FAQs.html:4
+msgid "Add/Edit FAQs"
+msgstr "Ajouter / modifier des FAQ"
