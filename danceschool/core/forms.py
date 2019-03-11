@@ -213,7 +213,7 @@ class ClassChoiceForm(forms.Form):
             # Add one choice per role
             for role in roles:
                 this_label = {
-                    'label': '%s (%s registered)' % (role.pluralName,event.numRegisteredForRole(role))
+                    'label': '%s' % (role.name)
                 }
                 if event.soldOutForRole(role):
                     this_label = {'label': _('%s sold out!') % role.pluralName, 'disabled': True}
@@ -228,7 +228,7 @@ class ClassChoiceForm(forms.Form):
                 )
             # If no choices, then add a general Register choice
             if not roles:
-                this_label = {'label': _('Register (%s registered)') % event.numRegistered}
+                this_label = {'label': _('Register')}
                 if event.soldOut:
                     this_label = {'label': _('Sold out!'), 'disabled': True}
                     if user.has_perm('core.override_register_soldout'):
