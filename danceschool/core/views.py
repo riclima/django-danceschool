@@ -99,7 +99,7 @@ class EventRegistrationSummaryView(PermissionRequiredMixin, SiteHistoryMixin, De
             'registrations': EventRegistration.objects.filter(
                 event=self.object,
                 cancelled=False
-            ).order_by('registration__customer__user__first_name', 'registration__customer__user__last_name'),
+            ).order_by('customer__last_name', 'customer__first_name'),
         }
         context.update(kwargs)
         return super(EventRegistrationSummaryView, self).get_context_data(**context)
