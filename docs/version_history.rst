@@ -1,6 +1,24 @@
 Version History
 ===============
 
+0.8.4 - March 22, 2019
+-------------------------
+
+- Added EventAutocompleteForm for easier selecting of events in Expense/Revenue reporting forms (#134)
+- Improved Revenue Reporting form by adding adjustments/fees and adding ability to mark revenue as received (#135)
+- Fixed PublicEvent model showing UTC instead of local time (#136)
+- Added direct registration link to PublicEventAdmin (#125)
+- Fixed bug that excluded prior-year expenses from financial detail view for events (#137)
+- Misc. bug fixes
+
+0.8.3 - March 19, 2019
+-------------------------
+
+- Added event-specific financial detail view
+- Fixed issue with financial detail view with explicit start/end dates
+- Fixed issue with reverse() call when prior site history is missing (e.g. viewing an invoice directly from an email link)
+- Fixed extra column with total registrations in finances by event view
+
 0.8.2 - February 24, 2019
 -------------------------
 
