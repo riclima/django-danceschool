@@ -1,11 +1,10 @@
 {% extends "cms/admin_home.html" %}
-{% load danceschool_tags i18n crispy_forms_tags %}
+{% load danceschool_tags i18n %}
 
 {% block content %}
 <div class="selectclass">
-    <h1>{% trans "Select an Event to View Registrations" %}</h1>
-
-    <h2 class="mt-4">{% trans "Recent Events" %}</h2>
+    <h2>{% trans "Select an Event to View Registrations" %}</h2>
+ 
     {% regroup event_list|dictsort:"organizer.nameFirst.sorter" by organizer.nameFirst.name as group_list %}
     {% for groupFirst in group_list %}
         <h4>{{ groupFirst.grouper }}</h4>
@@ -26,10 +25,7 @@
             </ul>
         {% endfor %}
     {% empty %}
-        <p>{% trans "No recent classes or events. Check back soon!" %}</p>
+        <p>{% trans "No classes or events yet. Check back soon!" %}</p>
     {% endfor %}
-
-    <h4 class="mt-4">{% trans "Search for An Event" %}</h4>
-    {% crispy form %}
 </div>
 {% endblock %}

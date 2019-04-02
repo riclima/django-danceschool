@@ -1,12 +1,7 @@
 $(document).ready(function(){
+	$('#div_id_event').hide();
+	$('#div_id_invoiceItem').hide();
 	$('#id_invoiceItem').attr('disabled',true);
-
-	// Make received date field a datepicker
-	$('#id_receivedDate').datepicker();
-
-	// Keep track of previous value of grossTotal
-	var grossField = $('#id_grossTotal');
-	grossField.data('previous', grossField.val());
 
 	// Use Jquery to get the cookie value of the CSRF token
 	function getCookie(name) {
@@ -40,21 +35,20 @@ $(document).ready(function(){
 	    }
 	});
 
-	grossField.change(function(event) {
-		event.preventDefault();
+	$('input[name=associateWith]').change(function(){
+		var this_associateWith = $('#div_id_associateWith input:checked').val();
 
-		var priorGross = $(this).data("previous");
-		var currentTotal = $('#id_total').val();
-		var currentGross = $(this).val();
-
-		if ((currentTotal == priorGross) || (currentTotal == "")) {
-			$('#id_total').val(currentGross);
+		if (this_associateWith == "2") {
+			$('#div_id_invoiceItem').show();
+			$('#div_id_event').show();
 		}
-
-		$(this).data("previous", currentGross);
+		if (this_associateWith == "3") {
+			$('#div_id_event').hide();
+			$('#div_id_invoiceItem').hide();
+		}
 	});
 
-	$('#id_event').change(function(event) {
+	$('#id_event').change(function(event){
 		event.preventDefault();
 
 		var formData = {event: $('#id_event').val()}
