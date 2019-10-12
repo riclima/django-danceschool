@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.forms import ModelForm, SplitDateTimeField, HiddenInput, RadioSelect, ModelMultipleChoiceField, ModelChoiceField
 from django.utils.safestring import mark_safe
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.translation import ugettext_lazy as _
 from django.template.response import SimpleTemplateResponse
 from django.contrib.contenttypes.models import ContentType
@@ -864,6 +864,10 @@ class SeriesAdmin(FrontendEditableAdminMixin, EventChildAdmin):
             'classes': ('collapse',),
             'fields': ('status','closeAfterDays','capacity',),
         }),
+        (_('Additional data'), {
+            'classes': ('collapse',),
+            'fields': ('data',),
+        }),
     )
 
     # This allows us to save the obj reference in order to process related objects in an inline (substitute teachers)
@@ -934,7 +938,11 @@ class PublicEventAdmin(FrontendEditableAdminMixin, EventChildAdmin):
         (_('Registration/Visibility'), {
             'fields': ('status',('pricingTier','capacity'),),
         }),
-        (_('Description/Link'), {'fields': ('descriptionField','shortDescriptionField','link','uuidLink',)})
+        (_('Description/Link'), {'fields': ('descriptionField','shortDescriptionField','link','uuidLink',)}),
+        (_('Additional data'), {
+            'classes': ('collapse',),
+            'fields': ('data',),
+        }),
     )
 
     # This allows us to save the obj reference in order to process related objects in an inline (substitute teachers)

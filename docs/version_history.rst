@@ -1,6 +1,25 @@
 Version History
 ===============
 
+
+0.8.6 - April 22, 2019
+-------------------------
+
+- **NEW:** Financial performance by date (uses same view as financial performance by month)
+- Added ability to submit class registrations via Ajax and receive a JSON response
+- Fixed RevenueItem paymentMethod not editable in admin
+- Documentation improvements re: emails
+- Miscellaneous bug fixes
+
+0.8.5 - April 3, 2019
+-------------------------
+
+- Added view for manual generation of repeated financial items, customizable by rule. 
+- Fixed event not editable on RevenueItem admin.
+- Improved reference links in admin between revenue/expense items, events, and event financial detail views.
+- Fixed #139, instance_of reference in EventAutocompleteForm creating issues with initial migration because of content_type reference.
+- Re: #140, pinned Huey to version <2.0 to avoid compatibility issues.
+
 0.8.4 - March 22, 2019
 -------------------------
 
@@ -95,7 +114,7 @@ version 0.8.0.
 - Updated use of Square API to reflect new method of loading access token.
 
 0.6.0 - September 9, 2018
--------------------
+-------------------------
 
 - **New:** Themes app for easier customization of your initial site
   templates.  The project
@@ -147,7 +166,7 @@ version 0.8.0.
 - Fixed duplicate listing of venue expense items in FinancialDetailView.
 
 0.5.2 - February 21, 2018
------------------------
+-------------------------
 
 - Discounts now show up on the registration cart page, not just the final page (#79)
 - Fixed issue with change in name of CKEditor theme (#83)
@@ -156,7 +175,7 @@ version 0.8.0.
 
 
 0.5.1 - February 7, 2018
------------------------
+------------------------
 
 - Updated to use Django 1.11 and Django CMS 3.5
 - Overhaul and simplification of event templates

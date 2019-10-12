@@ -76,7 +76,7 @@ class EventAutoComplete(autocomplete.Select2QuerySetView):
                 month_dict = {v: k for k,v in enumerate(month_name)}
                 month_value = next(value for key, value in month_dict.items() if key.startswith(self.q.title()))
             except StopIteration:
-                month_value = ''
+                month_value = 0
 
             qs = qs.filter(
                 Q(series__classDescription__title__icontains=self.q) | 
@@ -89,9 +89,9 @@ class EventAutoComplete(autocomplete.Select2QuerySetView):
 
     def get_result_label(self, result):
         return format_html(
-            '{}: {} {} <br /><small>{}</small>',
-            result.name, result.getMonthName, result.year,
-            ', '.join([x.startTime.strftime('%b. %d') for x in result.eventoccurrence_set.all()])
+            '<span data-start-date="{}">{}: {} {} <br /><small>{}</small></span>',
+            result.localStartTime.strftime('%Y-%m-%d'), result.name, result.getMonthName, result.year,
+            ', '.join([x.localStartTime.strftime('%b. %d') for x in result.eventoccurrence_set.all()])
         )
 
     def get_selected_result_label(self, result):

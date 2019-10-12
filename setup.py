@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-danceschool',
-    version='0.8.4',
+    version='0.8.6',
     packages=['danceschool'],
     include_package_data=True,
     license='BSD License',
@@ -30,13 +30,13 @@ setup(
         'django-choices>=1.5.0',
         'django-ckeditor>=5.4.0',
         'django-ckeditor-filebrowser-filer>=0.2.4',
-        'django-cms>=3.5.0,<3.6.0',
+        'django-cms>=3.6.0',
         'django-colorful>=1.2',
         'django-crispy-forms>=1.6.0',
         'django-daterange-filter>=1.2.0',
         'django-dynamic-preferences>=1.4.2',
         'django-easy-pdf>=0.1.1',
-        'django-filer>=1.2.7',
+        'django-filer>=1.4.4',
         'django-ical>=1.4',
         'django-imagekit>=3.3',
         'django-multiselectfield>=0.1.5',
@@ -46,11 +46,11 @@ setup(
         'djangocms-bootstrap4>=1.1.1',
         'djangocms-forms>=0.2.5',
         'djangocms-icon>=1.0.0',
-        'djangocms-link>=2.1.2',
-        'djangocms-picture>=2.0.6',
-        'djangocms-text-ckeditor>=3.6.0',
+        'djangocms-link>=2.3.1',
+        'djangocms-picture>=2.1.3',
+        'djangocms-text-ckeditor>=3.7.0',
         'easy-thumbnails>=2.3',
-        'huey>=1.3.1',
+        'huey>=1.3.1,<2.0',
         'icalendar>=3.9.0',
         'intervaltree>=2.1.0',
         'paypalrestsdk>=1.12.0',
@@ -77,5 +77,5 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content'
-    ]
+    ],
 )

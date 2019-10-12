@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import User
 from django.contrib.contenttypes.models import ContentType
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.db.models import Q
 from django.utils.html import format_html
 from django.forms import ModelForm, ModelChoiceField
@@ -17,6 +17,52 @@ from danceschool.core.models import Location, Room, StaffMember, EventStaffCateg
 from .models import ExpenseItem, ExpenseCategory, RevenueItem, RevenueCategory, RepeatedExpenseRule, LocationRentalInfo, RoomRentalInfo, StaffDefaultWage, StaffMemberWageInfo, GenericRepeatedExpense, TransactionParty
 from .forms import ExpenseCategoryWidget
 from .autocomplete_light_registry import get_method_list
+
+
+class EventLinkMixin(object):
+    '''
+    Links to related items for expense and revenue items associated with events.
+    '''
+
+    def get_admin_change_link(self,app_label, model_name, obj_id, name):
+        url = reverse('admin:%s_%s_change' % (app_label, model_name),
+                      args=(obj_id,))
+        return format_html('<a href="%s">%s</a>' % (
+            url, str(name)
+        ))
+
+    def eventLink(self, obj):
+        if obj.event:
+            s = obj.event
+            links = [
+                '<a href="%s">%s</a>' % (
+                    s.url,
+                    str(_('Event page'))
+                ),
+                str(self.get_admin_change_link('core', 'event', s.id, str(_('Edit Event')))),
+                '<a href="%s">%s</a>' % (
+                    reverse('financialEventDetailView', args=(s.id,)),
+                    str(_('Financial Summary'))
+                ),
+            ]
+
+            if getattr(obj.invoiceItem, 'finalEventRegistration', None):
+                reg = obj.invoiceItem.finalEventRegistration.registration
+                links += [
+                    'Registration: ' + str(self.get_admin_change_link(
+                        'core', 'registration', reg.id, reg.__str__()
+                    )),
+                ]
+
+            return format_html(
+                '<dl><dt>%s</dd>%s</dl>' % (
+                    s.__str__(),
+                    format_html(''.join(['<dd>{}</dd>'.format(x) for x in links])),
+                )
+            )
+
+    eventLink.allow_tags = True
+    eventLink.short_description = _('Series/Event')
 
 
 class ExpenseItemAdminForm(ModelForm):
@@ -61,33 +107,47 @@ class ExpenseItemAdminChangelistForm(ExpenseItemAdminForm):
 
 
 @admin.register(ExpenseItem)
-class ExpenseItemAdmin(admin.ModelAdmin):
+class ExpenseItemAdmin(EventLinkMixin, admin.ModelAdmin):
     form = ExpenseItemAdminForm
 
     list_display = ('category','expenseStartDate','expenseEndDate','description','hours','total','approved','paid','reimbursement','payToName','paymentMethod')
     list_editable = ('approved','paid','paymentMethod')
     search_fields = ('description','comments','=category__name','=payTo__name')
     list_filter = ('category','approved','paid','paymentMethod','reimbursement','payTo',('accrualDate',DateRangeFilter),('paymentDate',DateRangeFilter),('submissionDate',DateRangeFilter),'expenseRule')
-    readonly_fields = ('submissionUser','expenseRule','expenseStartDate','expenseEndDate')
+    readonly_fields = ('eventLink', 'submissionUser','expenseRule','expenseStartDate','expenseEndDate')
     actions = ('approveExpense','unapproveExpense')
 
     fieldsets = (
         (_('Basic Info'), {
             'fields': ('category','description','payTo','hours','wageRate','total','adjustments','fees','reimbursement','comments')
         }),
+        (_('Series/Event'), {
+            'classes': ('collapse',),
+            'fields': ('event', 'eventLink',)
+        }),
         (_('File Attachment (optional)'), {
             'fields': ('attachment',)
         }),
         (_('Approval/Payment Status'), {
             'classes': ('collapse',),
-            'fields': ('periodStart','periodEnd','approved','approvalDate','paid','paymentDate','paymentMethod','accrualDate','expenseRule','event')
+            'fields': ('periodStart','periodEnd','approved','approvalDate','paid','paymentDate','paymentMethod','accrualDate','expenseRule')
+        }),
+        (_('Additional data'), {
+            'classes': ('collapse',),
+            'fields': ('data',),
         }),
     )
 
     def payToName(self,obj):
         ''' Avoids widget issues with list_display '''
-        return obj.payTo.name
+        return getattr(obj.payTo,'name','')
     payToName.short_description = _('Pay to')
+
+    # for inherited eventLink() method
+    def eventLink(self, obj):
+        return super(ExpenseItemAdmin, self).eventLink(obj)
+    eventLink.allow_tags = True
+    eventLink.short_description = _('Related Links')
 
     def approveExpense(self, request, queryset):
         rows_updated = queryset.update(approved=True)
@@ -166,28 +226,49 @@ class RevenueItemAdminForm(ModelForm):
 
 
 @admin.register(RevenueItem)
-class RevenueItemAdmin(admin.ModelAdmin):
+class RevenueItemAdmin(EventLinkMixin, admin.ModelAdmin):
     form = RevenueItemAdminForm
 
-    list_display = ('description','category','grossTotal','total','adjustments','netRevenue','received','receivedDate','invoiceLink')
+    list_display = (
+        'description', 'category', 'grossTotal', 'total', 'adjustments',
+        'netRevenue', 'received', 'receivedDate', 'invoiceLink'
+    )
     list_editable = ('received',)
-    search_fields = ('description','comments','invoiceItem__id','invoiceItem__invoice__id')
-    list_filter = ('category','received','paymentMethod',('receivedDate',DateRangeFilter),('accrualDate',DateRangeFilter),('submissionDate',DateRangeFilter))
-    readonly_fields = ('netRevenue','submissionUserLink','relatedRevItemsLink','eventLink','paymentMethod','invoiceNumber','invoiceLink')
-    actions = ('markReceived','markNotReceived')
+    search_fields = ('description', 'comments', 'invoiceItem__id', 'invoiceItem__invoice__id')
+    list_filter = (
+        'category', 'received', 'paymentMethod',
+        ('receivedDate', DateRangeFilter),
+        ('accrualDate', DateRangeFilter),
+        ('submissionDate', DateRangeFilter)
+    )
+    readonly_fields = (
+        'netRevenue', 'submissionUserLink', 'relatedRevItemsLink', 'eventLink',
+        'invoiceNumber', 'invoiceLink'
+    )
+    actions = ('markReceived', 'markNotReceived')
 
     fieldsets = (
         (_('Basic Info'), {
-            'fields': ('category','description','grossTotal','total','adjustments','fees','netRevenue','paymentMethod','receivedFrom','invoiceNumber','comments')
+            'fields': (
+                'category', 'description', 'grossTotal', 'total', 'adjustments',
+                'fees', 'netRevenue', 'paymentMethod', 'receivedFrom',
+                'invoiceNumber', 'comments'
+            )
         }),
         (_('Related Items'),{
-            'fields': ('relatedRevItemsLink','eventLink','invoiceLink'),
+            'classes': ('collapse',),
+            'fields': ('event', 'relatedRevItemsLink', 'eventLink', 'invoiceLink'),
         }),
         (_('File Attachment (optional)'), {
             'fields': ('attachment',)
         }),
         (_('Approval/Payment Status'), {
-            'fields': ('submissionUserLink','currentlyHeldBy','received','receivedDate','accrualDate')
+            'classes': ('collapse',),
+            'fields': ('submissionUserLink', 'currentlyHeldBy', 'received', 'receivedDate', 'accrualDate')
+        }),
+        (_('Additional data'), {
+            'classes': ('collapse',),
+            'fields': ('data',),
         }),
     )
 
@@ -196,35 +277,18 @@ class RevenueItemAdmin(admin.ModelAdmin):
             return obj.submissionUser.first_name + ' ' + obj.submissionUser.last_name
         return ''
 
-    def get_admin_change_link(self,app_label, model_name, obj_id, name):
-        url = reverse('admin:%s_%s_change' % (app_label, model_name),
-                      args=(obj_id,))
-        return format_html('<a href="%s">%s</a>' % (
-            url, str(name)
-        ))
-
     def relatedRevItemsLink(self,obj):
         link = []
         for item in obj.relatedItems or []:
-            link.append(self.get_admin_change_link('financial','revenueitem',item.id,item.__str__()))
+            link.append(self.get_admin_change_link('financial', 'revenueitem', item.id, item.__str__()))
             return ', '.join(link)
     relatedRevItemsLink.allow_tags = True
     relatedRevItemsLink.short_description = _('Revenue Items')
 
-    def eventLink(self,obj):
-        if obj.eventregistration:
-            sr = obj.eventregistration
-            return 'Registration: ' + self.get_admin_change_link('core','registration',sr.registration.id,sr.registration.__str__())
-        elif obj.event:
-            s = obj.event
-            return self.get_admin_change_link('core','event',s.id,s.__str__())
-    eventLink.allow_tags = True
-    eventLink.short_description = _('Series/Event')
-
     def invoiceLink(self,obj):
         ''' If vouchers app is enabled and there is a voucher, this will link to it. '''
-        if hasattr(obj,'invoiceItem') and obj.invoiceItem:
-            return self.get_admin_change_link('core','invoice',obj.invoiceItem.invoice.id,_('Invoice'))
+        if hasattr(obj, 'invoiceItem') and obj.invoiceItem:
+            return self.get_admin_change_link('core', 'invoice', obj.invoiceItem.invoice.id, _('Invoice'))
     invoiceLink.allow_tags = True
     invoiceLink.short_description = _('Invoice')
 

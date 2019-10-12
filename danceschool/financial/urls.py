@@ -1,6 +1,11 @@
 from django.conf.urls import url
 
-from .views import StaffMemberPaymentsView, OtherStaffMemberPaymentsView, FinancesByMonthView, FinancesByEventView, AllExpensesViewCSV, AllRevenuesViewCSV, FinancialDetailView, ExpenseReportingView, RevenueReportingView, CompensationRuleUpdateView, CompensationRuleResetView
+from .views import (
+    StaffMemberPaymentsView, OtherStaffMemberPaymentsView, FinancesByMonthView,
+    FinancesByDateView, FinancesByEventView, AllExpensesViewCSV, AllRevenuesViewCSV,
+    FinancialDetailView, ExpenseReportingView, RevenueReportingView,
+    CompensationRuleUpdateView, CompensationRuleResetView, ExpenseRuleGenerationView
+)
 from .ajax import updateEventRegistrations
 from .autocomplete_light_registry import PaymentMethodAutoComplete, TransactionPartyAutoComplete
 
@@ -14,6 +19,7 @@ urlpatterns = [
 
     url(r'^submit-expenses/$', ExpenseReportingView.as_view(), name='submitExpenses'),
     url(r'^submit-revenues/$', RevenueReportingView.as_view(), name='submitRevenues'),
+    url(r'^finances/generate-items/$', ExpenseRuleGenerationView.as_view(), name='generateFinancialItems'),
 
     # These URLs are for Ajax/autocomplete functionality
     url(r'^submit-revenues/eventfilter/$', updateEventRegistrations, name='ajaxhandler_updateEventRegistrations'),
@@ -21,10 +27,16 @@ urlpatterns = [
     url(r'^autocomplete/transactionparty/$', TransactionPartyAutoComplete.as_view(create_field='name'), name='transactionParty-list-autocomplete'),
 
     # These URLs are for the financial views
-    url(r'^finances/detail/(?P<year>[\w\+]+)/(?P<month>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialDetailView'),
-    url(r'^finances/detail/(?P<year>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialDetailView'),
+    url(r'^finances/detail/(?P<year>[\w\+]+)/(?P<month>[\w\+]+)/(?P<day>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialDateDetailView'),
+    url(r'^finances/detail/(?P<year>[\w\+]+)/(?P<month>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialMonthDetailView'),
+    url(r'^finances/detail/(?P<year>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialYearDetailView'),
     url(r'^finances/detail/$', FinancialDetailView.as_view(), name='financialDetailView'),
-    url(r'^finances/event/(?P<event>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialEventView'),
+    url(r'^finances/event/(?P<event>[\w\+]+)/$', FinancialDetailView.as_view(), name='financialEventDetailView'),
+
+    url(r'^finances/daily/csv/$', FinancesByDateView.as_view(as_csv=True), name='financesByDateCSV'),
+    url(r'^finances/daily/(?P<year>[\w\+]+)/$', FinancesByDateView.as_view(), name='financesByDate'),
+    url(r'^finances/daily/(?P<year>[\w\+]+)/csv/$', FinancesByDateView.as_view(as_csv=True), name='financesByDateCSV'),
+    url(r'^finances/daily/$', FinancesByDateView.as_view(), name='financesByDate'),
 
     url(r'^finances/csv/$', FinancesByMonthView.as_view(as_csv=True), name='financesByMonthCSV'),
     url(r'^finances/(?P<year>[\w\+]+)/$', FinancesByMonthView.as_view(), name='financesByMonth'),

@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User, Group
 from django.contrib.sites.models import Site
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.core.exceptions import ValidationError, ObjectDoesNotExist
 from django.db.models import Q, Sum
 from django.core.validators import MinValueValidator, MaxValueValidator
@@ -486,6 +486,14 @@ class EventSession(models.Model):
         null=True,blank=True,
     )
 
+    @property
+    def localStartTime(self):
+        return ensure_localtime(self.startTime)
+
+    @property
+    def localEndTime(self):
+        return ensure_localtime(self.endTime)
+
     def save(self, *args, **kwargs):
         logger.debug('Save method for EventSession called. Updating start and end times')
 
@@ -601,6 +609,18 @@ class Event(EmailRecipientMixin, PolymorphicModel):
     startTime = models.DateTimeField(_('Start time (first occurrence)'),null=True,blank=True)
     endTime = models.DateTimeField(_('End time (last occurrence)'),null=True,blank=True)
     duration = models.FloatField(_('Duration in hours'),null=True,blank=True,validators=[MinValueValidator(0)])
+
+    # PostgreSQL can store arbitrary additional information associated with this customer
+    # in a JSONfield, but to remain database agnostic we are using django-jsonfield
+    data = JSONField(_('Additional data'),default={},blank=True)
+
+    @property
+    def localStartTime(self):
+        return ensure_localtime(self.startTime)
+
+    @property
+    def localEndTime(self):
+        return ensure_localtime(self.endTime)
 
     @property
     def getMonthName(self):
@@ -838,7 +858,7 @@ class Event(EmailRecipientMixin, PolymorphicModel):
     @property
     def firstOccurrenceTime(self):
         if self.firstOccurrence:
-            return ensure_localtime(self.firstOccurrence.startTime)
+            return self.firstOccurrence.localStartTime
         return None
     firstOccurrenceTime.fget.short_description = _('Begins')
 
@@ -850,7 +870,7 @@ class Event(EmailRecipientMixin, PolymorphicModel):
     @property
     def nextOccurrenceTime(self):
         if self.nextOccurrence:
-            return ensure_localtime(self.nextOccurrence.startTime)
+            return self.nextOccurrence.localStartTime
         return None
     nextOccurrenceTime.fget.short_description = _('Next occurs')
 
@@ -862,7 +882,7 @@ class Event(EmailRecipientMixin, PolymorphicModel):
     @property
     def lastOccurrenceTime(self):
         if self.lastOccurrence:
-            return ensure_localtime(self.lastOccurrence.endTime)
+            return self.lastOccurrence.localEndTime
         return None
     lastOccurrenceTime.fget.short_description = _('Ends')
 
@@ -1043,8 +1063,8 @@ class Event(EmailRecipientMixin, PolymorphicModel):
         modified = False
         open = self.registrationOpen
 
-        startTime = self.startTime or getattr(self.eventoccurrence_set.order_by('startTime').first(),'startTime',None)
-        endTime = self.endTime or getattr(self.eventoccurrence_set.order_by('-endTime').first(),'endTime',None)
+        startTime = ensure_localtime(self.startTime) or getattr(self.eventoccurrence_set.order_by('startTime').first(),'startTime',None)
+        endTime = ensure_localtime(self.endTime) or getattr(self.eventoccurrence_set.order_by('-endTime').first(),'endTime',None)
 
         # If set to these codes, then registration will be held closed
         force_closed_codes = [
@@ -1157,6 +1177,14 @@ class EventOccurrence(models.Model):
     cancelled = models.BooleanField(_('Cancelled'),help_text=_('Check this box to mark that the class or event was cancelled.'), default=False)
 
     @property
+    def localStartTime(self):
+        return ensure_localtime(self.startTime)
+
+    @property
+    def localEndTime(self):
+        return ensure_localtime(self.endTime)
+
+    @property
     def duration(self):
         '''
         Returns the duration, in hours, for this occurrence
@@ -1188,23 +1216,23 @@ class EventOccurrence(models.Model):
 
     @property
     def timeDescription(self):
-        startDate = self.startTime.date()
-        endDate = self.endTime.date()
+        startDate = self.localStartTime.date()
+        endDate = self.localEndTime.date()
 
         # If all of one date, then just describe it as such
         if self.allDayForDate(startDate) and startDate == endDate:
-            return _('On %s' % self.startTime.strftime('%A, %B %d'))
+            return _('On %s' % self.localStartTime.strftime('%A, %B %d'))
 
         # Otherwise, describe appropriately
         sameYear = (startDate.year == endDate.year)
         textStrings = []
-        for d in [self.startTime,self.endTime]:
+        for d in [self.localStartTime,self.localEndTime]:
             if self.allDayForDate(d) and sameYear:
                 textStrings.append(d.strftime('%A, %B %d'))
             elif self.allDayForDate(d):
                 textStrings.append(d.strftime('%B %d %Y'))
             else:
-                textStrings.append(d.strftime('%B %d, %Y, %l:%M %p'))
+                textStrings.append(d.strftime('%B %d, %Y, %-I:%M %p'))
 
         return _('From {startTime} to {endTime}'.format(startTime=textStrings[0], endTime=textStrings[1]))
     timeDescription.fget.short_description = _('Occurs')

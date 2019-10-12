@@ -13,6 +13,7 @@ from djchoices import DjangoChoices, ChoiceItem
 from calendar import day_name
 from datetime import time, timedelta
 from dateutil.relativedelta import relativedelta
+from jsonfield import JSONField
 from intervaltree import IntervalTree
 
 from danceschool.core.models import StaffMember, EventStaffCategory, Event, InvoiceItem, Location, Room
@@ -422,6 +423,14 @@ class RepeatedExpenseRule(PolymorphicModel):
         ''' Should be overridden by child classes with something more descriptive. '''
         return str(_('Repeated expense rule: %s' % self.name))
 
+    class Meta:
+        verbose_name = _('Repeated expense rule')
+        verbose_name_plural = _('Repeated expense rules')
+
+        permissions = (
+            ('can_generate_repeated_expenses',_('Able to generate rule-based repeated expenses using the admin view')),
+        )
+
 
 class LocationRentalInfo(RepeatedExpenseRule):
     '''
@@ -688,6 +697,11 @@ class ExpenseItem(models.Model):
     # is used.
     accrualDate = models.DateTimeField(_('Accrual date'))
 
+    # PostgreSQL can store arbitrary additional information associated with this customer
+    # in a JSONfield, but to remain database agnostic we are using django-jsonfield
+    data = JSONField(_('Additional data'),default={},blank=True)
+
+
     @property
     def netExpense(self):
         return self.total + self.adjustments + self.fees
@@ -862,6 +876,10 @@ class RevenueItem(models.Model):
     # is used.
     accrualDate = models.DateTimeField(_('Accrual date'))
 
+    # PostgreSQL can store arbitrary additional information associated with this customer
+    # in a JSONfield, but to remain database agnostic we are using django-jsonfield
+    data = JSONField(_('Additional data'),default={},blank=True)
+
     @property
     def relatedItems(self):
         '''
@@ -903,8 +921,12 @@ class RevenueItem(models.Model):
                 min_event_time = self.invoiceItem.finalEventRegistration.event.eventoccurrence_set.filter(**{'startTime__month':self.invoiceItem.finalEventRegistration.event.month}).first().startTime
                 self.accrualDate = min_event_time
             elif self.event:
-                self.accrualDate = self.event.eventoccurrence_set.order_by('startTime').filter(**{'startTime__month': self.event.month}).last().startTime
-            elif self.invoiceItem:
+                self.accrualDate = getattr(
+                    self.event.eventoccurrence_set.order_by('startTime').filter(
+                        startTime__month=self.event.month
+                    ).last(),'startTime',None)
+
+            if not self.accrualDate and self.invoiceItem:
                 self.accrualDate = self.invoiceItem.invoice.creationDate
             elif self.receivedDate:
                 self.accrualDate = self.receivedDate
@@ -964,6 +986,7 @@ class RevenueItem(models.Model):
             ('mark_revenues_received',_('Mark revenues as received at the time of submission')),
             ('export_financial_data',_('Export detailed financial transaction information to CSV')),
             ('view_finances_bymonth',_('View school finances month-by-month')),
+            ('view_finances_bydate',_('View school finances day-by-day')),
             ('view_finances_byevent',_('View school finances by Event')),
             ('view_finances_detail',_('View school finances as detailed statement')),
         )
