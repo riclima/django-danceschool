@@ -37,7 +37,10 @@ class RevenueTest(DefaultSchoolTestCase):
 
         # Create a Revenue item that is not associated with a Series/Event for $10
         response = self.client.post(reverse('submitRevenues'),{
+            'grossTotal': 10,
             'total': 10,
+            'adjustments': 0,
+            'fees': 0,
             'category': default_rev_cat.id,
             'description': 'Test Revenue Item',
             'paymentMethod': 'Cash',
@@ -59,7 +62,10 @@ class RevenueTest(DefaultSchoolTestCase):
 
         # Create a second Revenue item that is associated with Series s for $20
         response = self.client.post(reverse('submitRevenues'),{
+            'grossTotal': 20,
             'total': 20,
+            'adjustments': 0,
+            'fees': 0,
             'category': default_rev_cat.id,
             'event': s.id,
             'description': 'Test Associated Revenue Item',
