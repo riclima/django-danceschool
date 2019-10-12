@@ -79,7 +79,7 @@
           {# else show the number of registrants#}
           <ul class="list-unstyled">
             {% for role in event.availableRoles %}
-              <li>{{ role.name }}</li>
+              <li>{{ role.pluralName }} ({% numRegisteredForRole event role %} {% trans "registered" %})</li>
             {% empty %}
               <li>({{ event.numRegistered }} {% trans "registered" %})</li>
             {% endfor %}
