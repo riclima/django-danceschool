@@ -94,15 +94,26 @@ class EventRegistrationSummaryView(PermissionRequiredMixin, SiteHistoryMixin, De
         # the view class registrations page.  set_return_page() is in SiteHistoryMixin.
         self.set_return_page('viewregistrations',_('View Registrations'),event_id=self.object.id)
 
+        registrations = EventRegistration.objects.filter(
+            event=self.object,
+            cancelled=False
+        ).order_by('customer__first_name', 'customer__last_name')
+
+        registrations = list(registrations)
+
         context = {
             'event': self.object,
-            'registrations': EventRegistration.objects.filter(
-                event=self.object,
-                cancelled=False
-            ).order_by('customer__first_name', 'customer__last_name'),
+            'registrations': registrations,
+            'numRegisteredByRole': self._numRegisteredByRole(),
         }
         context.update(kwargs)
         return super(EventRegistrationSummaryView, self).get_context_data(**context)
+
+
+    def _numRegisteredByRole(self):
+        byRole = self.object.numRegisteredByRole
+        del byRole[None]
+        return byRole
 
 
 #################################

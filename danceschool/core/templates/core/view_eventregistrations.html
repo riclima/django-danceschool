@@ -5,11 +5,19 @@
 
 <h3>{{ event.name }}</h3>
 
-<dl>
-	<dt>{% trans "Total Students" %}:</dt><dd>{{ event.numRegistered }}</dd>
-	<dt>{% trans "Location" %}:</dt><dd>{{ event.location.name }}{% if event.room.name %} - {{ event.room.name }}{% endif %}</dd>
-	<dt>{% trans "Time" %}:</dt><dd>{{ event.startTime|date:'l, h:i A' }}</dd>
-	<dt>{% trans "Drop-Ins Permitted" %}:</dt><dd>{{ event.allowDropins|yesno }}</dd>
+<dl class="row">
+	<dt class="col-sm-3">{% trans "Total Students" %}:</dt>
+	<dd class="col-sm-9">{{ event.numRegistered }}</dd>
+	{% if event.availableRoles %}
+		{% for role, total in numRegisteredByRole.items %}
+			<dt class="col-sm-3">{{role}}:</dt>
+			<dd class="col-sm-9">{{total}}</dd>
+		{% endfor %}
+	{% endif %}
+	</dd>
+	<dt class="col-sm-3">{% trans "Location" %}:</dt><dd class="col-sm-9">{{ event.location.name }}{% if event.room.name %} - {{ event.room.name }}{% endif %}</dd>
+	<dt class="col-sm-3">{% trans "Time" %}:</dt><dd class="col-sm-9">{{ event.startTime|date:'l, h:i A' }}</dd>
+	<dt class="col-sm-3">{% trans "Drop-Ins Permitted" %}:</dt><dd class="col-sm-9">{{ event.allowDropins|yesno }}</dd>
 </dl>
 
 {% if 'core.checkin_customers' in perms %}
